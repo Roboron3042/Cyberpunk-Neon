@@ -21,7 +21,6 @@ Since my monitors have different resolutions the background looks weird when i t
 * **Dock**: Latte Dock
 * **Shell**: zsh with [powerlevel9K](https://github.com/bhilburn/powerlevel9k) modified
 * **Telegram**: Custom Theme in dotfiles.
-* **Dotfiles**: [https://github.com/Roboron3042/Cyberpunk-Neon](https://github.com/Roboron3042/Cyberpunk-Neon)
 
 Color Scheme base on [this palette](https://www.color-hex.com/color-palette/61235). Special thanks to all those who created the themes, pictures and tools i used to make this. Any comments or suggestions are appreciated.
 
@@ -55,12 +54,14 @@ Now change the color scheme in Settings -> Appearance -> Color. Don't forget to 
 
 ### Icons
 
-Simply extract Papirus-Cyberpunk-Neon.tar.gz into ~/.icons/ and ~/.local/share/icons/
+Run papirus-kolorizer.sh script included in this repository **WARNING**: It will replace your existing Papirus icons, if any. Refer to [Papirus Kolorizer repo](https://github.com/DarthWound/papirus-kolorizer) for more info.
 
-`tar xzf Papirus-Cyberpunk-Neon.tar.gz -C ~/.icons/`
-`tar xzf Papirus-Cyberpunk-Neon.tar.gz -C ~/.local/share/icons/`
+```
+chmod +x papirus-kolorizer.sh
+./papirus-kolorizer.sh
+```
 
-Apply the icons in system settings (KDE = Settings -> Appearance- Icons. Apply icons for GTK applications too in Settings -> Appearance - Application Style))
+Apply the icons (Papirus-Dark) in system settings (KDE = Settings -> Appearance- Icons. Apply icons for GTK applications too in Settings -> Appearance - Application Style))
 
 ### Tilix Theme
 
@@ -86,4 +87,4 @@ Just drop the cyberpunk-neon.tdesktop-theme into the chat and open it.
 
 ## License
 
-Everything in this repository is licensed under the GPL.
+Everything in this repository is licensed under the GPL, except papirus-kolorizer script licensed under MIT.
