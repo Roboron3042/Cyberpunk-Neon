@@ -1,5 +1,5 @@
 # Cyberpunk-Neon
-Cyberpunk Neon Themes and icons for KDE Plasma, GTK, Telegram, Tilix and Zim
+Cyberpunk Neon Themes and icons for KDE Plasma, GTK, Telegram, Discord Tilix and Zim
 
 ![Cyberpunk Neon theme in action](https://i.redd.it/lw08k55mkv921.png)
 
@@ -84,6 +84,14 @@ If you use Zim you can copy my style.conf into ~./config/zim
 ### Telegram
 
 Just drop the cyberpunk-neon.tdesktop-theme into the chat and open it.
+
+## Discord
+
+Apply CyberpunkNeon.theme.css to [BetterDiscord](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172)
+
+`cp CyberpunkNeon.theme.css /home/rober/.config/BetterDiscord/themes/`
+
+Apply in Discord Settings
 
 ## License
 
