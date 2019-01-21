@@ -1,0 +1,242 @@
+@-moz-document url-prefix("https://im-in.space/") {
+/* Main */
+html {
+    scrollbar-color: #09bcc6 transparent;
+}
+::selection {
+  background: #711c91; /* WebKit/Blink Browsers */
+  color: #09bcc6;
+}
+::-moz-selection {
+  background: #711c91; /* Gecko Browsers */
+  color: #09bcc6;
+}
+/* Background */
+.ui {
+    background: #000b1e;
+}
+/* Top letters */
+body {
+    color: #09bcc6;
+}
+/* Left header */
+.drawer__header {
+    background: #123e7c;
+}
+.drawer__tab {
+    color: #09bcc6;
+}
+.drawer__tab:hold {
+    color: #091833;
+}
+/* Search bar */
+.search__input {
+    background: #091833;
+    color: #09bcc6;
+    font-size: 14px;
+    margin: 0;
+}
+.search__input:focus {
+    background: #123e7c;
+}
+.search__icon .fa {
+    color: #09bcc6;
+}
+/* Profile colum */
+.drawer__inner {
+    background: #091833;
+}
+.navigation-bar {
+    color: #d300c4;
+}
+.navigation-bar strong {
+    color: #d300c4;
+}
+.icon-button {
+    color: #09bcc6;
+}
+.icon-button:active , .icon-button:focus, .icon-button:hover {
+    color: #123e7c;
+}
+/* Dropdown Menu */
+.dropdown-menu {
+    background: #123e7c;
+}
+.dropdown-menu__arrow.bottom {
+    border-bottom-color: #123e7c;
+}
+.dropdown-menu__item a {
+    background: #123e7c;
+    color: #09bcc6;
+}
+.dropdown-menu__item a:focus {
+    background: #123e7c;
+    color: #d300c4;
+}
+.dropdown-menu__separator {
+    border-bottom: 1px solid #091833;
+}
+/* Text Area */
+.compose-form .autosuggest-textarea__textarea, .compose-form .spoiler-input__input {
+    color: #09bcc6;
+    background: #123e7c;
+}
+.compose-form .compose-form__modifiers {
+    color: #09bcc6;
+    background: #123e7c;
+}
+.compose-form .compose-form__buttons-wrapper {
+    background: #123e7c;
+}
+.icon-button.inverted {
+    color: #09bcc6;
+}
+.text-icon-button {
+    color: #09bcc6;
+}
+.compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter {
+    color: #09bcc6;
+}
+/* Emoji Picker */
+.emoji-picker-dropdown__menu {
+    background: #091833;
+}
+.emoji-mart-bar:first-child {
+    background: #091833;
+}
+.emoji-mart-bar {
+    border: 0 solid #000b1e;
+}
+.emoji-mart-anchors {
+    color: #d300c4;
+}
+.emoji-mart-anchor-selected {
+    color: #09bcc6;
+}
+.emoji-mart-search {
+    background: #091833;
+}
+.emoji-mart-search input {
+    background: #123e7c;
+    color: #09bcc6;
+    border: 1px solid #711c91;
+}
+.emoji-mart-scroll {
+    background: #091833;
+}
+.emoji-mart {
+    color: #d300c4;
+}
+.emoji-mart-category-label span {
+    background: #123e7c
+}
+/* Botones */
+.button {
+    background-color: #123e7c;
+    color: #09bcc6;
+}
+.button:hover {
+    background-color: #711c91;
+    color: #09bcc6;
+}
+.drawer__inner__mastodon {
+    background: #091833 
+}
+/* Columns Headers*/
+.column-header {
+    background: #091833;   
+}
+.column-header__button {
+    background: #091833;
+    color: #09bcc6;
+}
+.column-header__button:hover {
+    background: #123e7c;
+    color: #091833;
+}
+.column-header__button.active {
+    background: #123e7c;
+    color: #09bcc6;
+}
+.column-header__button.active:hover {
+    background: #123e7c;
+    color: #091833;
+}
+.column-header__collapsible {
+    color: #09bcc6;
+}
+.column-header__collapsible-inner {
+    background: #123e7c;
+}
+.setting-toggle__label {
+    color: #09bcc6;
+}
+.react-toggle-track {
+    background-color: #000b1e;
+}
+.column-settings__section {
+    color: #09bcc6;
+}
+/* Colums */
+.column > .scrollable {
+    background: #091833;
+}
+.status {
+    border-bottom: 1px solid #000b1e;
+}
+.notification__relative_time, .status__relative-time {
+    color: #711c91;
+}
+.status__display-name {
+    color: #711c91;
+}
+.account__display-name strong, .status__display-name strong {
+    color: #d300c4;
+}
+.reply-indicator__content, .status__content {
+    color: #09bcc6;
+}
+.reply-indicator__content a, .status__content a {
+    color: #d300c4;
+}
+.icon-button.disabled {
+    color: #711c91;
+    cursor: default;
+}
+.star-icon.active {
+    color: yellow;
+}
+.status__content__read-more-button {
+    color: #d300c4;
+}
+.status__action-bar__counter__label {
+    color: #09bcc6;
+}
+button.icon-button i.fa-retweet {
+    background-image: #09bcc6;
+}
+
+/* Vistas detalladas */
+.detailed-status {
+    background: #000b1e;
+}
+.detailed-status:hold {
+    background: #000b1e;
+    padding: 14px 10px;
+}
+.detailed-status__display-name {
+    color: #711c91;
+}
+.detailed-status__display-name strong {
+    color: #d300c4;
+}
+.detailed-status__action-bar {
+    background: #000b1e;
+    border-top: 1px solid #091833;
+    border-bottom: 1px solid #091833;
+}
+
+.detailed-status__wrapper {
+    background: #000b1e;
+}
+}
