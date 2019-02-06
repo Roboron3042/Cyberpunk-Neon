@@ -44,7 +44,7 @@ An apply the theme via settings (in KDE = Settings -> Appearance - Application S
 
 ### KDE Color Scheme
 
-Since this color scheme is based on [Materia-Dark](https://github.com/PapirusDevelopmentTeam/materia-k) you will have to install and use materia-dark theme to fit with gtk theme.
+Since this color scheme is based on [Materia-Dark](https://github.com/PapirusDevelopmentTeam/materia-kde) you will have to install and use materia-dark theme to fit with gtk theme.
 
 Next you have to copy CyberpunkNeon.colors to ~/.local/share/color-schemes
 
@@ -67,7 +67,7 @@ Apply the icons (Papirus-Dark) in system settings (KDE = Settings -> Appearance-
 
 The terminal i'm using is called Tilix. You can import my color scheme copying Cyberpunk-Neon.json into ~/.config/tilix/schemes
 
-`cp Cyberpunk-Neon.json /home/rober/.config/tilix/schemes`
+`cp Cyberpunk-Neon.json ~/.config/tilix/schemes`
 
 Select it in Settings -> Profile -> Color
 
@@ -89,7 +89,7 @@ Just drop the cyberpunk-neon.tdesktop-theme into the chat and open it.
 
 Apply CyberpunkNeon.theme.css to [BetterDiscord](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172)
 
-`cp CyberpunkNeon.theme.css /home/rober/.config/BetterDiscord/themes/`
+`cp CyberpunkNeon.theme.css ~/.config/BetterDiscord/themes/`
 
 Apply in Discord Settings
 
