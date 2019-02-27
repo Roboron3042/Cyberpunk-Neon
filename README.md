@@ -1,12 +1,7 @@
 # Cyberpunk-Neon
-Cyberpunk Neon Themes and icons for KDE Plasma, GTK, Telegram, Discord Tilix and Zim
+Cyberpunk Neon Themes and icons for KDE Plasma, GTK, Telegram, Tilix, Zim and more.
 
 ![Cyberpunk Neon theme in action](https://i.redd.it/lw08k55mkv921.png)
-
-**WARNING**: The next themes are modified version of other themes and/or have not been tested enough, so they still contain color inconsistencies.
-
-
-Since my monitors have different resolutions the background looks weird when i take a screenshot, but it looks nice in RL :-P
 
 ## Description
 
@@ -85,13 +80,25 @@ If you use Zim you can copy my style.conf into ~./config/zim
 
 Just drop the cyberpunk-neon.tdesktop-theme into the chat and open it.
 
-## Discord
+## CSS Themes
 
-Apply CyberpunkNeon.theme.css to [BetterDiscord](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172)
+I've applied the Cyberpunk-Neon color scheme to some websites. You cand found the CSS files to be used with Stylus in the CSS folder. Currently available websites are:
+* Mastodon (classic)
+* Discord: Apply Discord-Cyberpunk-Neon.theme.css to [BetterDiscord](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172)
 
-`cp CyberpunkNeon.theme.css ~/.config/BetterDiscord/themes/`
+`cp Discord-Cyberpunk-Neon.theme.css ~/.config/BetterDiscord/themes/`
 
-Apply in Discord Settings
+And apply in Discord Settings
+
+## TODO
+
+Feel free to propose your own todo things and contribute to this repository.
+
+- [ ] Kate color scheme
+- [ ] Vi(m,) color scheme
+- [ ] Firefox theme
+- [ ] Plasma theme
+- [ ] Improve QT color scheme
 
 ## License
 
