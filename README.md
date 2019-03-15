@@ -31,15 +31,19 @@ And cd into the directory
 
 ### GTK Theme
 
-Extract Cyberpunk-Neon-GTK.tar.gz into ~/.themes/
+There are 3 GTK variants inside the gtk folder. The one originally made for this theme was the Materia variant, but you can also install the Numix variant or the Arc Variant.
 
-`tar xzf Cyberpunk-Neon-GTK.tar.gz -C ~/.themes/`
+Extract Materia-Cyberpunk-Neon.tar.gz into ~/.themes/
+
+`tar xzf gtk/Matria-Cyberpunk-Neon.tar.gz -C ~/.themes/`
 
 An apply the theme via settings (in KDE = Settings -> Appearance - Application Style)
 
+Note: You can also edit the theme with oomox with the oomox configuration file provided in this repository.
+
 ### KDE Color Scheme
 
-Since this color scheme is based on [Materia-Dark](https://github.com/PapirusDevelopmentTeam/materia-kde) you will have to install and use materia-dark theme to fit with gtk theme.
+You can use the KDE color scheme with any theme, as long as they are not kvantum themes. But for consistency is better to install [Materia-Dark for KDE](https://github.com/PapirusDevelopmentTeam/materia-kde) (or any of the QT versions of the GTK variants) to fit with gtk theme.
 
 Next you have to copy CyberpunkNeon.colors to ~/.local/share/color-schemes
 
@@ -99,6 +103,8 @@ Feel free to propose your own todo things and contribute to this repository.
 - [ ] Firefox theme
 - [ ] Plasma theme
 - [ ] Improve QT color scheme
+- [ ] Steam theme
+- [ ] Cursor theme
 
 ## License
 
