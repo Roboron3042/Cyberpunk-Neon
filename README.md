@@ -35,7 +35,7 @@ There are 3 GTK variants inside the gtk folder. The one originally made for this
 
 Extract Materia-Cyberpunk-Neon.tar.gz into ~/.themes/
 
-`tar xzf gtk/Matria-Cyberpunk-Neon.tar.gz -C ~/.themes/`
+`tar xzf gtk/Materia-Cyberpunk-Neon.tar.gz -C ~/.themes/`
 
 An apply the theme via settings (in KDE = Settings -> Appearance - Application Style)
 
