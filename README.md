@@ -62,6 +62,8 @@ chmod +x papirus-kolorizer.sh
 
 Apply the icons (Papirus-Dark) in system settings (KDE = Settings -> Appearance- Icons. Apply icons for GTK applications too in Settings -> Appearance - Application Style))
 
+Alternatively, you can take a look to @gusbemacbe [Suru++ icons](https://github.com/gusbemacbe/suru-plus), which includes a Cyberpunk-Neon variant.
+
 ### Tilix Theme
 
 The terminal i'm using is called Tilix. You can import my color scheme copying Cyberpunk-Neon.json into ~/.config/tilix/schemes
