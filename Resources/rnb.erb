@@ -1,0 +1,307 @@
+<%
+    # RNB, A VIM COLORSCHEME TEMPLATE
+    # Author:        Romain Lafourcade (https://github.com/romainl)
+    # Canonical URL: https://github.com/romainl/vim-rnb
+
+    # This template is designed to help vimmers create their own colorschemes
+    # without much effort.
+    #
+    # You will need Ruby to generate your colorscheme but Ruby knowledge is
+    # not needed at all.
+    #
+    # The process is divided in five steps:
+    #   1. rename `colors/rnb.erb` to `colors/name_of_your_colorscheme.erb`,
+    #   2. start by editing your colorscheme's information,
+    #   3. define your colors,
+    #   4. define your highlight groups and links,
+    #   5. and generate your colorscheme.
+
+    # Step 2: information
+    #
+    # Make sure the name of your colorscheme is unique and attractive.
+    # The description should fit in a single line with no linefeed.
+    # 'background' can be "light" or "dark".
+    information = {
+        author:      "Roberto Michán Sánchez",
+        email:       "robertoms258@gmail.com",
+        name:        "cyberpunkneon",
+        description: "A dark theme with a cyberpunk/outrun feeling",
+        background:  "dark",
+        webpage:     "https://github.com/Roboron3042/Cyberpunk-Neon"
+    }
+
+    # Step 3: colors
+    #
+    # black = [       give each color a distinctive name
+    #   "#000000",    hexadecimal color used in GVim/MacVim or "NONE"
+    #   0,            integer between 0 and 255 used by terminals supporting 256 colors
+    #                 or "NONE"
+    #   "black"       color name used by less capable color terminals, can be "darkred",
+    #                 "red", "darkgreen", "green", "darkyellow", "yellow", "darkblue",
+    #                 "blue", "darkmagenta", "magenta", "black", "darkgrey", "grey",
+    #                 "white", or "NONE"
+    # ]
+    #
+    # If your colors are defined correctly, the resulting colorscheme is guaranteed
+    # to work in GVim (Windows/Linux), MacVim, and any properly set up terminal emulator.
+    #
+    # The colors below are the first 16 colors of the xterm palette. They
+    # are only here as an example, though. You can get rid of them, I won't be mad.
+    fondo       = ["#000b1e", 233, "black"]
+    darkred     = ["#800000", 1, "darkred"]
+    darkgreen   = ["#008000", 2, "darkgreen"]
+    naranja  = ["#f57800", 208, "darkyellow"]
+    darkblue    = ["#000080", 4, "darkblue"]
+    seleccion = ["#711c91", 13, "darkmagenta"]
+    darkcyan    = ["#008080", 6, "darkcyan"]
+    gray        = ["#c0c0c0", 7, "gray"]
+    darkgray    = ["#808080", 8, "darkgray"]
+    rojo         = ["#ff0000", 9, "red"]
+    verde       = ["#00ff00", 10, "green"]
+    amarillo      = ["#ffff00", 11, "yellow"]
+    boton        = ["#005faf", 25, "blue"]
+    detalle     = ["#ea00d9", 201, "magenta"]
+    texto        = ["#0abdc6", 44, "cyan"]
+    blanco       = ["#d7d7d5", 255, "white"]
+
+    # Step 4: highlights
+    #
+    # You can define highlight groups like this:
+    #
+    #   [ "Normal",       name of the highlight group
+    #     white,          the color used for background color, or use "NONE", "fg" or "bg"
+    #     darkgray,       the color used for foreground color, or use "NONE", "fg" or "bg"
+    #     "NONE"          style, can be "bold", "underline", "reverse", "italic",
+    #                     "standout", "NONE" or "undercurl"
+    #   ]
+    #
+    # The sample above tells Vim to render normal text in dark gray against a white
+    # background, without any styling.
+    #
+    # or link an highlight group to another:
+    #
+    #   [ "Title", "Normal" ]
+    #
+    # In GUI Vim, there is an additional color for the undercurl used to
+    # highlight spelling mistakes:
+    #
+    #   [ "SpellBad",     name of the highlight group
+    #     "NONE",         the color used for background color, or use "NONE", "fg" or "bg"
+    #     red,            the color used for foreground color, or use "NONE", "fg" or "bg"
+    #     "undercurl",    style
+    #     red             color used for the undercurl
+    #   ]
+    #
+    # The sample above tells Vim to render badly spelled words in red against the current
+    # background, with a red undercurl.
+    #
+    # You can add any custom highlight group to the standard list below but you shouldn't
+    # remove any if you want a working colorscheme.
+    highlights = [
+        [ "Normal", fondo, texto, "NONE" ],
+        [ "NonText", "NONE", detalle, "NONE" ],
+        [ "Comment", "NONE", boton, "bold" ],
+        [ "Constant", "NONE", naranja, "NONE" ],
+        [ "Error", "NONE", rojo, "NONE" ],
+        [ "Identifier", "NONE", seleccion, "bold" ],
+        [ "PreProc", "NONE", seleccion, "bold" ],
+        [ "Special", "NONE", seleccion, "NONE" ],
+        [ "Statement", "NONE", verde, "bold" ],
+        [ "String", "NONE", naranja, "NONE" ],
+        [ "Number", "Constant" ],
+        [ "Todo", detalle, "NONE", "NONE" ],
+        [ "Type", "NONE", detalle, "bold" ],
+        [ "Underlined", "NONE", texto, "underline" ],
+        [ "StatusLine", boton, texto, "bold" ],
+        [ "StatusLineNC", seleccion, detalle, "NONE" ],
+        [ "StatusLineTerm", "StatusLine" ],
+        [ "StatusLineTermNC", "StatusLineNC" ],
+        [ "VertSplit", boton, "NONE", "NONE" ],
+        [ "TabLine", boton, texto, "bold" ],
+        [ "TabLineFill", boton, texto, "bold" ],
+        [ "TabLineSel", seleccion, texto, "bold" ],
+        [ "Title", "NONE", naranja, "NONE" ],
+        [ "CursorLine", detalle, detalle, "NONE" ],
+        [ "LineNr", "NONE", texto, "NONE" ],
+        [ "CursorLineNr", detalle, detalle, "NONE" ],
+		[ "CursorColumn", "NONE", detalle, "NONE" ],
+        [ "Pmenu", boton, texto, "NONE" ],
+        [ "PmenuSbar", boton, "NONE", "NONE" ],
+        [ "PmenuSel", seleccion, texto, "bold" ],
+        [ "PmenuThumb", texto, "NONE", "NONE" ],
+        [ "DiffAdd", seleccion, verde, "NONE" ],
+        [ "DiffChange", seleccion, blanco, "NONE" ],
+        [ "DiffDelete", seleccion , rojo, "NONE" ],
+        [ "DiffText", seleccion, texto, "NONE" ],
+        [ "IncSearch", detalle, "NONE", "NONE" ],
+        [ "Search", detalle, "NONE", "bold" ],
+        [ "ErrorMsg", rojo, "NONE", "bold" ],
+        [ "ModeMsg", "NONE", texto, "bold" ],
+        [ "MoreMsg", "NONE", texto, "bold" ],
+        [ "Question", "NONE", texto, "NONE" ],
+        [ "WarningMsg", "Error" ],
+        [ "Cursor", "NONE", detalle, "NONE" ],
+        [ "Function", "NONE", detalle, "bold" ],
+        [ "Exception", "NONE", rojo, "bold" ],
+        [ "htmlTagName", "NONE", seleccion, "bold" ],
+        [ "Operator", "NONE", detalle, "bold" ],
+		[ "Visual", seleccion, texto, "bold" ],
+        [ "Keyword", "NONE", detalle, "bold" ]
+    ]
+
+    # Define the color palette used by :terminal when in GUI Vim
+    # or in TUI Vim when 'termguicolors' is enabled. If this list
+    # is empty or if it doesn't contain exactly 16 items, the corresponding
+    # Vim variable won't be set.
+    #
+    # The expected values are colors defined in step 2.
+    terminal_ansi_colors = [
+        fondo,
+        darkred,
+        darkgreen,
+        naranja,
+        darkblue,
+        seleccion,
+        darkcyan,
+        darkgray,
+        darkgray,
+        rojo,
+        verde,
+        amarillo,
+        boton,
+        detalle,
+        texto,
+        blanco
+    ]
+
+    # Step 5: generation
+    #
+    # From a separate shell:
+    #
+    #     $ erb -T - bar.erb > bar.vim
+    #
+    # From a separate shell, with the make program:
+    #
+    #     $ make
+    #
+    # From Vim:
+    #
+    #     :!erb -T - % > %<.vim
+
+    # These online resources can help you design your colorscheme:
+    #
+    #   * http://upload.wikimedia.org/wikipedia/en/1/15/Xterm_256color_chart.svg
+    #         the xterm palette
+    #   * http://whatcolor.herokuapp.com/
+    #         play with hexadecimal colors right in the address bar (currently down)
+    #   * http://color.hailpixel.com/
+    #         similar concept, fuzzier implementation
+    #   * http://colourco.de/
+    #         similar concept, fancier implementation
+    #   * http://www.colr.org/
+    #         extract a palette from an image
+    #   * http://colores.manugarri.com/
+    #         search for 'word', get images and color palettes
+    #   * http://www.colourlovers.com/palettes
+    #         user-created palettes
+    #   * http://www.perbang.dk/color+scheme/
+    #         a no-nonsense colorscheme generator
+    #   * https://color.adobe.com/
+    #         Adobe's fancy colorscheme generator
+    #   * http://paletton.com/
+    #         The classic 'Color Scheme Designer', rebranded
+    #   * http://vrl.cs.brown.edu/color
+    #         A very smart palette generator
+    #   * https://cmcenroe.me/2018/04/03/colour-scheme.html
+    #         "I Made My Own Colour Scheme and You Can Too!"
+
+    # A few general advices:
+    #
+    #   * The Windows console is limited to the 16 so-called "ANSI" colors but it has
+    #     a few of them interverted which makes numbers impractical. Use color names
+    #     instead of numbers: :help cterm-colors
+    #   * The Windows console (yeah…) doesn't do italics, underlines or bolded text;
+    #     it is limited to normal and reverse. Keep that in mind if you want
+    #     your colorscheme to be usable in as many environments as possible by as many
+    #     people as possible.
+    #   * All of the terminal emulators in use these days allow their users to
+    #     change the 16 so-called "ANSI" colors. It is also possible on some platforms
+    #     to change some or all of the 256 colors in the xterm palette. Don't take
+    #     anything for granted.
+    #   * When used against a light background, strong colors work better than muted
+    #     ones. Light or dark doesn't really matters. Also, it is harder to discriminate
+    #     between two similar colors on a light background.
+    #   * Both strong and muted colors work well against a dark background. It is also
+    #     easier to work with similar colors, but dark colors don't work at all.
+    #   * Use as many text samples as possible. String-heavy languages may look completely
+    #     different than keyword-heavy ones. This can have an impact on the usability
+    #     of your colorscheme.
+    #   * Most terminal emulators and terminal multiplexers currently in use on unix-like
+    #     systems support 256 colors but they almost always default to a '$TERM' that tells
+    #     Vim otherwise. Your users will need to make sure their terminal emulator/multiplexer
+    #     is correctly set up if they want to enjoy the best possible experience.
+
+    # Many thanks to Barry Arthur (https://github.com/dahu) for the original idea.
+
+    # You don't need to edit anything beyond this line.
+-%>
+" <%= information[:name] %>.vim -- Vim color scheme.
+" Author:      <%= information[:author] %> (<%= information[:email] %>)
+" Webpage:     <%= information[:webpage] %>
+" Description: <%= information[:description] %>
+
+hi clear
+
+if exists("syntax_on")
+  syntax reset
+endif
+
+let colors_name = "<%= information[:name].downcase %>"
+
+if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
+<% for highlight in highlights -%>
+<% if highlight.length == 4 -%>
+    hi <%= highlight[0] %> ctermbg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][1] %> ctermfg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][1] %> cterm=<%= highlight[3] %> guibg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][0] %> guifg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][0] %> gui=<%= highlight[3] %>
+<% if highlight[0] == "Normal" -%>
+<%= '' %>
+    set background=<%= information[:background] %>
+<%= '' %>
+<% end -%>
+<% elsif highlight.length > 4 -%>
+    hi <%= highlight[0] %> ctermbg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][1] %> ctermfg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][1] %> cterm=<%= highlight[3] %> guibg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][0] %> guifg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][0] %> gui=<%= highlight[3] %> guisp=<%= highlight[4].kind_of?(String) ? highlight[4] : highlight[4][0] %>
+<% end -%>
+<% end -%>
+
+elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
+    set t_Co=16
+<%= '' %>
+<% for highlight in highlights -%>
+<% if highlight.length > 2 -%>
+    hi <%= highlight[0] %> ctermbg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][2] %> ctermfg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][2] %> cterm=<%= highlight[3] %>
+<% if highlight[0] == "Normal" -%>
+<%= '' %>
+    set background=<%= information[:background] %>
+<%= '' %>
+<% end -%>
+<% end -%>
+<% end -%>
+endif
+<% links = highlights.select do |highlight| -%>
+<% highlight.length == 2 -%>
+<% end -%>
+<% if links.length > 0 -%>
+<%= '' %>
+<% for link in links -%>
+hi link <%= link[0] %> <%= link[1] %>
+<% end -%>
+<% end -%>
+<% if terminal_ansi_colors.length == 16 -%>
+<%= '' %>
+let g:terminal_ansi_colors = [
+<% for color in terminal_ansi_colors -%>
+        \ '<%= color[0] %>',
+<% end -%>
+        \ ]
+<% end -%>
+
+" Generated with RNB (https://github.com/romainl/vim-rnb)

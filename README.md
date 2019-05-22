@@ -1,5 +1,5 @@
 # Cyberpunk-Neon
-Cyberpunk Neon Themes and icons for KDE Plasma, GTK, Telegram, Tilix, Zim and more.
+Cyberpunk Neon Themes and icons for KDE Plasma, GTK, Telegram, Tilix, Vim, Zim and more.
 
 ![Cyberpunk Neon theme in action](https://i.redd.it/lw08k55mkv921.png)
 
@@ -29,7 +29,7 @@ And cd into the directory
 
 `cd Cyberpunk-Neon`
 
-### GTK Theme
+### GTK
 
 There are 3 GTK variants inside the gtk folder. The one originally made for this theme was the Materia variant, but you can also install the Numix variant or the Arc Variant.
 
@@ -41,7 +41,7 @@ An apply the theme via settings (in KDE = Settings -> Appearance - Application S
 
 Note: You can also edit the theme with oomox with the oomox configuration file provided in this repository.
 
-### KDE Color Scheme
+### KDE
 
 You can use the KDE color scheme with any theme, as long as they are not kvantum themes. But for consistency is better to install [Materia-Dark for KDE](https://github.com/PapirusDevelopmentTeam/materia-kde) (or any of the QT versions of the GTK variants) to fit with gtk theme.
 
@@ -64,7 +64,7 @@ Apply the icons (Papirus-Dark) in system settings (KDE = Settings -> Appearance-
 
 Alternatively, you can take a look to @gusbemacbe [Suru++ icons](https://github.com/gusbemacbe/suru-plus), which includes a Cyberpunk-Neon variant.
 
-### Tilix Theme
+### Tilix
 
 The terminal i'm using is called Tilix. You can import my color scheme copying Cyberpunk-Neon.json into ~/.config/tilix/schemes
 
@@ -72,7 +72,19 @@ The terminal i'm using is called Tilix. You can import my color scheme copying C
 
 Select it in Settings -> Profile -> Color
 
-### ZSH Theme
+### Vim
+
+Although you can use Vim with the default terminal colors, I've created a Vim theme to better fits my needs. You need to copy cyberpunkneon.vim to ~/.vim/colors
+
+`cp cyberpunkneon.vim ~/.vim/colors`
+
+And then apply the theme in your .vimrc 
+
+`colorscheme cyberpunkneon`
+
+You can also modify and generate the theme easily with the [rnb.erb](https://github.com/romainl/vim-rnb/) file in the Resources folder.
+
+### ZSH
 
 Those cool prompts I have are a ZSH theme. Assuming you already installed ZSH and the powerlevel9k theme for it, you only have to copy the contents of my powerlevel9k file into your ~/.zsh
 
@@ -101,7 +113,6 @@ And apply in Discord Settings
 Feel free to propose your own todo things and contribute to this repository.
 
 - [ ] Kate color scheme
-- [ ] Vi(m,) color scheme
 - [ ] Firefox theme
 - [ ] Plasma theme
 - [ ] Improve QT color scheme
