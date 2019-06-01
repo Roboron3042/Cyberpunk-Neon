@@ -1,13 +1,17 @@
 # Cyberpunk-Neon
 Cyberpunk Neon Themes and icons for KDE Plasma, GTK, Telegram, Tilix, Vim, Zim and more.
 
-![Cyberpunk Neon theme in action](https://i.redd.it/lw08k55mkv921.png)
+![Cyberpunk Neon theme in action 1](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/Resources/Screenshots/screenshot-1.png)
+![Cyberpunk Neon theme in action 2](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/Resources/Screenshots/screenshot-2.png)
+![Cyberpunk Neon theme in action 3](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/Resources/Screenshots/screenshot-3.png)
 
 ## Description
 
+Cyberpunk Neon color scheme is a cyberpunk/outrun color scheme based on the [Cyberpunk Neon Color Palette](https://www.color-hex.com/color-palette/61235)
+
 * **Wallpaper:** [Highway 4k by AxiomDesign](https://www.deviantart.com/axiomdesign/art/Highway-4k-696620104)
 * **GTK**: [Materia-Dark](https://github.com/nana-4/materia-theme) modified with [oomox](https://github.com/themix-project/oomox)
-* **QT**: [Materia-Dark](https://github.com/PapirusDevelopmentTeam/materia-kde) modified with Plasma Color Settings
+* **QT**: This colorscheme applied on [Materia-Dark](https://github.com/PapirusDevelopmentTeam/materia-kde)
 * **Icons**: [Papirus-Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) modified with [papirus-kolorizer](https://github.com/DarthWound/papirus-kolorizer)
 * **Plasma Theme**: Breeze (it autoadjusts itself to fit system theme).
 * **Special Plasmoids**: [Media Controller Compact](https://store.kde.org/p/998887/), [Event Calendar](https://store.kde.org/p/998901/)
@@ -17,7 +21,7 @@ Cyberpunk Neon Themes and icons for KDE Plasma, GTK, Telegram, Tilix, Vim, Zim a
 * **Shell**: zsh with [powerlevel9K](https://github.com/bhilburn/powerlevel9k) modified
 * **Telegram**: Custom Theme in dotfiles.
 
-Color Scheme base on [this palette](https://www.color-hex.com/color-palette/61235). Special thanks to all those who created the themes, pictures and tools i used to make this. Any comments or suggestions are appreciated.
+Special thanks to all those who created the base themes, pictures and tools I used to make this. Any comments or suggestions are appreciated.
 
 ## How to apply
 
@@ -43,7 +47,7 @@ Note: You can also edit the theme with oomox with the oomox configuration file p
 
 ### KDE
 
-You can use the KDE color scheme with any theme, as long as they are not kvantum themes. But for consistency is better to install [Materia-Dark for KDE](https://github.com/PapirusDevelopmentTeam/materia-kde) (or any of the QT versions of the GTK variants) to fit with gtk theme.
+You can use the KDE color scheme with any theme, as long as they are not kvantum themes. For consistency is better to install [Materia-Dark for KDE](https://github.com/PapirusDevelopmentTeam/materia-kde) (or any of the QT versions of the GTK variants) to fit with gtk theme.
 
 Next you have to copy CyberpunkNeon.colors to ~/.local/share/color-schemes
 
