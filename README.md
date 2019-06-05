@@ -57,16 +57,20 @@ Now change the color scheme in Settings -> Appearance -> Color. Don't forget to 
 
 ### Icons
 
-Run papirus-kolorizer.sh script included in this repository **WARNING**: It will replace your existing Papirus icons, if any. Refer to [Papirus Kolorizer repo](https://github.com/DarthWound/papirus-kolorizer) for more info.
+I recommend to use gusbemacbe's [Suru++ icons](https://github.com/gusbemacbe/suru-plus) (papirus-like) or [Suru++ Asprómauros](https://github.com/gusbemacbe/suru-plus-aspromauros) (monochrome, gradient if wished) which includes a Cyberpunk-Neon variant. Refer to the [Suru++ Wiki](https://github.com/gusbemacbe/suru-plus/wiki) for more info.
+
+Alternatively you can use the papirus-kolorizer.sh script included in this repository **WARNING**: It will replace your existing Papirus icons, if any. Refer to [Papirus Kolorizer repo](https://github.com/DarthWound/papirus-kolorizer) for more info.
 
 ```
 chmod +x papirus-kolorizer.sh
 ./papirus-kolorizer.sh
 ```
 
-Apply the icons (Papirus-Dark) in system settings (KDE = Settings -> Appearance- Icons. Apply icons for GTK applications too in Settings -> Appearance - Application Style))
+Apply the icons (Papirus-Dark) in system settings (KDE = Settings -> Appearance- Icons. Apply icons for GTK applications too in Settings -> Appearance - Application Style).
 
-Alternatively, you can take a look to @gusbemacbe [Suru++ icons](https://github.com/gusbemacbe/suru-plus), which includes a Cyberpunk-Neon variant.
+### Firefox
+
+The official theme of Cyberpunk Neon is available in [Firefox Addons](https://addons.mozilla.org/es/firefox/addon/cyberpunk-neon/) (created by Thomas Leon Highbaugh).
 
 ### Tilix
 
@@ -117,8 +121,7 @@ And apply in Discord Settings
 Feel free to propose your own todo things and contribute to this repository.
 
 - [ ] Kate color scheme
-- [ ] Firefox theme
-- [ ] Plasma theme
+- [ ] Redo Discord theme
 - [ ] Improve QT color scheme
 - [ ] Steam theme
 - [ ] Cursor theme
