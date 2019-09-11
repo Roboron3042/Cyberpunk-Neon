@@ -1,8 +1,27 @@
 # Cyberpunk-Neon
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z1139QA)
+[![Donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/roboron/donate)
 
 ![Cyberpunk Neon theme in action 1](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/Resources/Screenshots/screenshot-1.png)
 ![Cyberpunk Neon theme in action 2](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/Resources/Screenshots/screenshot-2.png)
 ![Cyberpunk Neon theme in action 3](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/Resources/Screenshots/screenshot-3.png)
+
+## Table of contents
+- [Description](#description)
+- [How to apply](#how-to-apply)
+  - [Firefox](#firefox)
+  - [GTK](#gtk)
+  - [KDE PLasma](#kde)
+  - [Icons](#icons)
+  - [Telegram](#telegram)
+  - [Tilix](#tilix)
+  - [Vim](#vim)
+  - [Zim](#zim)
+  - [ZSH](#zsh)
+- [CSS Themes](#css-themes)
+  - [Mastodon](#css-themes)
+  - [Discord](#discord)
+- [License](#license)
 
 ## Description
 
@@ -19,6 +38,10 @@ First, clone this repository with git
 And cd into the directory
 
 `cd Cyberpunk-Neon`
+
+### Firefox
+
+The official theme of Cyberpunk Neon is available in [Firefox Addons](https://addons.mozilla.org/es/firefox/addon/cyberpunk-neon/) (by Thomas Leon Highbaugh).
 
 ### GTK
 
@@ -55,9 +78,9 @@ chmod +x papirus-kolorizer.sh
 
 Apply the icons (Papirus-Dark) in system settings (KDE = Settings -> Appearance- Icons. Apply icons for GTK applications too in Settings -> Appearance - Application Style).
 
-### Firefox
+### Telegram
 
-The official theme of Cyberpunk Neon is available in [Firefox Addons](https://addons.mozilla.org/es/firefox/addon/cyberpunk-neon/) (by Thomas Leon Highbaugh).
+Just drop the cyberpunk-neon.tdesktop-theme into the chat and open it.
 
 ### Tilix
 
@@ -79,30 +102,33 @@ And then apply the theme in your .vimrc
 
 You can also modify and generate the theme easily with the [rnb.erb](https://github.com/romainl/vim-rnb/) file in the Resources folder.
 
-### ZSH
-
-Those cool prompts I have are a ZSH theme. Assuming you already installed ZSH and the [powerlevel9K](https://github.com/bhilburn/powerlevel9k) theme for it, you only have to copy the contents of my powerlevel9k file into your ~/.zsh
-
 ### Zim
 
 If you use Zim you can copy my style.conf into ~./config/zim
 
 `cp style.conf ~./config/zim/`
 
-### Telegram
+### ZSH
 
-Just drop the cyberpunk-neon.tdesktop-theme into the chat and open it.
+Those cool prompts I have are a ZSH theme. Assuming you already installed ZSH and the [powerlevel9K](https://github.com/bhilburn/powerlevel9k) theme for it, you only have to copy the contents of my powerlevel9k file into your ~/.zsh
 
 ## CSS Themes
 
 I've applied the Cyberpunk-Neon color scheme to some websites. You cand find the CSS files to be used with Stylus in the CSS folder. Currently available websites are:
 * Mastodon (classic) - [userstyles.org page](https://userstyles.org/styles/174594/mastodon-cyberpunk-neon)
-* Discord: Apply Discord-Cyberpunk-Neon.theme.css to [BetterDiscord](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172)
 
-`cp Discord-Cyberpunk-Neon.theme.css ~/.config/BetterDiscord/themes/`
+### Discord
 
-And apply in Discord Settings
+More info and screenshots can be found [here](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/CSS/discord).
+
+* [BetterDiscord](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172) 
+
+`cp CSS/discord/Discord-Cyberpunk-Neon.theme.css ~/.config/BetterDiscord/themes/`
+
+And don't forget to apply in BetterDiscord Theme Settings!
+
+* Discord in a web browser: use the [userstyles version](https://userstyles.org/styles/174712/discord-cyberpunk-neon)):
 
 ## License
 
-Everything in this repository is licensed under the GPL, except papirus-kolorizer script licensed under MIT.
+Everything in this repository is licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html), except papirus-kolorizer script licensed under MIT.
