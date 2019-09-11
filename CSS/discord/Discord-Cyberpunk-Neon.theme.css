@@ -505,8 +505,8 @@
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
     color: #ea00d9;
 }
-.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI::after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI::before {
-    border-color: #ea00d9;
+.dividerRed-MKoLlr .dividerContent-2L12VI:after, .dividerRed-MKoLlr .dividerContent-2L12VI:before {
+    background-color: #ea00d9;
 }
 .theme-dark .messagesWrapper-3lZDfY {
     background-color: #091833;
