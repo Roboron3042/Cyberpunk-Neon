@@ -119,15 +119,7 @@ I've applied the Cyberpunk-Neon color scheme to some websites. You cand find the
 
 ### Discord
 
-More info and screenshots can be found [here](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/CSS/discord).
-
-* [BetterDiscord](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172) 
-
-`cp CSS/discord/Discord-Cyberpunk-Neon.theme.css ~/.config/BetterDiscord/themes/`
-
-And don't forget to apply in BetterDiscord Theme Settings!
-
-* Discord in a web browser: use the [userstyles version](https://userstyles.org/styles/174712/discord-cyberpunk-neon)):
+Please go to [CSS/discord](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/CSS/discord) for more info and screenshots.
 
 ## License
 

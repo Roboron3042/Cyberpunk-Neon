@@ -1,0 +1,64 @@
+//META{"name":"Discord Cyberpunk Neon Transparent","description":"An outrun/cyberpunk theme, based on Cyberpunk Neon color scheme","author":"Roboron","version":"1"}*//
+
+@import url("https://roboron3042.github.io/Cyberpunk-Neon/CSS/discord/base.css");
+
+/* Cyberpunk Neon color scheme is a cyberpunk/outrun color scheme based on the Cyberpunk Neon Color Palette. Want more of it? Check out the Cyberpunk Neon GitHub: https://github.com/Roboron3042/Cyberpunk-Neon 
+ 
+You are free to modify, share, and even propose changes to this theme if you want.
+*/
+
+/* Custom background and transparency 
+    To change the background replace the URL in background-image in .appMount-3lHmkl with your prefered one 
+    
+    Example: 
+    
+    background-image: url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/blade-runner-2049.jpg);
+    
+    Result: https://cdn.discordapp.com/attachments/634038467696787463/634474813838065664/Screenshot_20191017_213616.png
+*/
+
+.appMount-3lHmkl {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bee6c9a9-78f2-4294-ad27-6ca52060f5a5/dbiqzig-0abf178a-d1a1-4d28-b784-7227b9270002.jpg/v1/fill/w_1024,h_576,q_75,strp/highway_4k_by_axiomdesign_dbiqzig-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvYmVlNmM5YTktNzhmMi00Mjk0LWFkMjctNmNhNTIwNjBmNWE1XC9kYmlxemlnLTBhYmYxNzhhLWQxYTEtNGQyOC1iNzg0LTcyMjdiOTI3MDAwMi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.EFKyfne0y_wgNcl7HVhkGUaqLzparRw36YGw8MPmZmA);
+    background-color: rgba(9, 24, 51, 0);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+.theme-dark {
+    --background-primary: rgba(9, 24, 51, .4);
+    --background-secondary: rgba(0, 11, 30, .4);
+    --background-tertiary: rgba(0, 11, 30, .4);
+    --deprecated-panel-background: rgba(9, 24, 51, .4);
+    --channeltextarea-background: rgba(19, 62, 124, .7);
+
+}
+.app-2rEoOp {
+    background-color: rgba(9, 24, 51, 0);
+}
+.bg-h5JY_x {
+    background-color: rgba(9, 24, 51, 0);
+}
+
+/* Web scrollbars 
+    This section is only necessary if you are going to use Discord in a web browser (with Stylus)   */
+
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scrollbar-2rkZSL .thumb-2JwNFC {
+    background-color: #0abdc6;
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL, .scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL .pad-29zQak, .theme-dark .scrollerWrap-2lJEkd .scrollbar-2rkZSL, .theme-dark .scrollerWrap-2lJEkd .scrollbar-2rkZSL .pad-29zQak, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL .pad-29zQak {
+    background-color: #000b1e !important;
+}
+.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scrollbar-2rkZSL .thumb-2JwNFC {
+    background-color: #0abdc6;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scrollbar-2rkZSL .track-1JN30G {
+    background-color: #000b1e;
+    border: none;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scrollbar-2rkZSL .thumb-2JwNFC {
+    background-color: #0abdc6;
+    border: 3px solid #000b1e;
+}
+
+/* Custom CSS goes here */
+
