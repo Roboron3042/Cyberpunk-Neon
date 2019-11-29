@@ -1,0 +1,91 @@
+name Cyberpunk-Neon
+
+button_normal             #091833
+button_hover              #711C91
+button_pressed            #EA00D9
+button_disabled           #7F7F7F
+button_highlight_a        #00FF00
+button_highlight_b        #711C91
+button_neutral            #0ABDC6
+
+window_background         #000B1E
+control_background        #091833
+transparent_background    #133E7C37
+divider                   #133E7C
+
+tab_normal                #133E7C
+tab_active                #711C91
+tab_strip                 #711C91
+
+motif                     #133E7C
+motif_highlight_a         #133E7C
+motif_highlight_b         #133E7C
+splash                    #00FF00
+splash_highlight          #33FF33
+glow                      #000000
+
+context_menu_background   #000B1E
+context_menu_hover        #1C97FF
+context_menu_text         #0ABDC6
+context_menu_highlight    #33FF33
+
+label                     #0ABDC6
+input_text_inactive       #0ABDC6
+input_text_active         #0ABDC6
+floating_text             #0ABDC6
+note_edit_text            #0ABDC6
+caret                     #0ABDC6
+selection                 #711C91
+
+tooltip_background        #000B1E
+tooltip_border            #0ABDC6
+tooltip_text              #EA00D9
+tooltip_motif             #00FF00
+
+radio_button_background   #000B1E
+radio_button_pressed      #000B1E
+
+check_box_background      #133E7C
+check_box_pressed         #EA00D9
+
+slider_normal             #133E7C
+slider_pressed            #EA00D9
+slider_label              #0ABDC6
+
+chat_tab_background       #0ABDC67F
+chat_tab_highlight        #00FF00
+
+chat_output_background    #000B1EC3
+chat_output_controls      #0ABDC6
+chat_input_background     #000B1EC3
+chat_input_controls       #0ABDC6
+chat_input_text           #0ABDC6
+
+console_output_background #000B1E
+console_output_controls   #0ABDC6
+console_input_background  #000B1E
+console_input_controls    #0ABDC6
+console_input_text        #0ABDC6
+
+lua_background            #091833
+lua_text                  #0ABDC6
+lua_caret                 #133E7C
+lua_selection             #711C91
+
+high                      #000B1E
+low                       #0ABDC6
+hover_highlight           #0ABDC6
+background_tint           #00081ED3
+
+player_white              #FFFFFF
+player_brown              #703A16
+player_red                #DA1917
+player_orange             #F3631C
+player_yellow             #E6E42B
+player_green              #30B22A
+player_teal               #20B09A
+player_blue               #1E87FF
+player_purple             #9F1FEF
+player_pink               #F46FCD
+player_grey               #7F7F7F
+player_black              #3F3F3F
