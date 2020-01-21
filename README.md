@@ -9,14 +9,19 @@
 ## Table of contents
 - [Description](#description)
 - [How to apply](#how-to-apply)
+- [Desktop](#desktop)
   - [Firefox](#firefox)
   - [GTK](#gtk)
-  - [KDE PLasma](#kde)
+  - [KDE Plasma](#kde)
   - [Icons](#icons)
+  - [Tabletop Simulator](#tabletop-simulator)
   - [Telegram](#telegram)
-  - [Tilix](#tilix)
-  - [Vim](#vim)
   - [Zim](#zim)
+- [Terminal]
+  - [Konsole](#konsole)
+  - [Tilix](#tilix)
+  - [Other](#other)
+  - [Vim](#vim)
   - [ZSH](#zsh)
 - [CSS Themes](#css-themes)
   - [Mastodon](#css-themes)
@@ -38,6 +43,8 @@ First, clone this repository with git
 And cd into the directory
 
 `cd Cyberpunk-Neon`
+
+## Desktop
 
 ### Firefox
 
@@ -78,21 +85,47 @@ chmod +x papirus-kolorizer.sh
 
 Apply the icons (Papirus-Dark) in system settings (KDE = Settings -> Appearance- Icons. Apply icons for GTK applications too in Settings -> Appearance - Application Style).
 
+### Tabletop Simulator
+
+Open the game. Got con Configuration -> Interface -> Theme Editor and click "Import/Export". Now copy the content of TabletopSimulator_Cyberpunk-Neon.txt
+
 ### Telegram
 
 Just drop the cyberpunk-neon.tdesktop-theme into the chat and open it.
 
+### Zim
+
+If you use Zim you can copy my style.conf into ~./config/zim
+
+`cp style.conf ~./config/zim/`
+
+## Terminal
+
+In the terminal folder you will find colorschemes for different terminal emulators and applications.
+
+`cd terminal`
+
+### Konsole
+
+Copy Cyberpunk-Neon.colorscheme into ~~/.local/share/konsole/
+
+`cp Cyberpunk-Neon.colorscheme ~/.local/share/konsole/`
+
 ### Tilix
 
-The terminal i'm using is called Tilix. You can import my color scheme copying Cyberpunk-Neon.json into ~/.config/tilix/schemes
+Copy Cyberpunk-Neon.json into ~/.config/tilix/schemes
 
 `cp Cyberpunk-Neon.json ~/.config/tilix/schemes`
 
 Select it in Settings -> Profile -> Color
 
+### Other
+
+See terminal-palette file
+
 ### Vim
 
-Although you can use Vim with the default terminal colors, I've created a Vim theme to better fits my needs. You need to copy cyberpunkneon.vim to ~/.vim/colors
+Although you can use Vim with the default terminal colors, I've created a Vim theme to better fit my needs. You need to copy cyberpunkneon.vim to ~/.vim/colors
 
 `cp cyberpunkneon.vim ~/.vim/colors`
 
@@ -102,15 +135,9 @@ And then apply the theme in your .vimrc
 
 You can also modify and generate the theme easily with the [rnb.erb](https://github.com/romainl/vim-rnb/) file in the Resources folder.
 
-### Zim
-
-If you use Zim you can copy my style.conf into ~./config/zim
-
-`cp style.conf ~./config/zim/`
-
 ### ZSH
 
-Those cool prompts I have are a ZSH theme. Assuming you already installed ZSH and the [powerlevel9K](https://github.com/bhilburn/powerlevel9k) theme for it, you only have to copy the contents of my powerlevel9k file into your ~/.zsh
+Those cool prompts I have are a ZSH theme. Assuming you already installed ZSH and the [powerlevel9K](https://github.com/bhilburn/powerlevel9k) theme for it, you only have to copy the contents of the powerlevel9k file into your ~/.zsh
 
 ## CSS Themes
 
