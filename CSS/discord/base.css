@@ -30,6 +30,7 @@
     --interactive-muted: rgba(10, 189, 198, .6);
     --background-primary: #091833;
     --background-secondary: #000b1e;
+    --background-secondary-alt: #091833;
     --background-tertiary: #000b1e;
     --background-accent: #133e7c;
     --background-floating: #091833;
@@ -851,6 +852,20 @@
 .dividerRed-MKoLlr .dividerContent-2L12VI:after, .dividerRed-MKoLlr .dividerContent-2L12VI:before {
     background-color: #ea00d9;
 }
+.isUnread-3Ef-o9 {
+    border-color: #ea00d9;
+}
+.isUnread-3Ef-o9 .content-1o0f9g {
+    color: #ea00d9;
+}
+.unreadPill-2HyYtt {
+    color: #091833;
+    background-color: #ea00d9;
+}
+.unreadPillCapStroke-7rkHbg {
+    color: #ea00d9;
+    fill: #ea00d9;
+}
 .theme-dark .wrapper-3WhCwL {
     color: #ea00d9;
     background-color: rgba(113, 28, 145, .1);
@@ -912,6 +927,9 @@
 }
 .theme-dark .guildDetail-1nRKNE {
     color: rgba(10, 189, 198, .6);
+}
+.theme-dark .guildIconImage-3qTk45 {
+    background-color: #133e7c;
 }
 .guildNameExpired-2Hp80V {
     color: #ff0000;
@@ -1147,6 +1165,20 @@
 .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
     background-color: #000b1e;
 }
+#bda-qem button.active, #bda-qem button.active:hover {
+    background-color: #711c91;
+}
+#bda-qem button {
+    border-left: 1px solid #000b1e;
+    background: #133e7c;
+    color: #0abdc6;
+}
+#bda-qem button:hover {
+    background: rgba(19, 62, 124, .6);
+}
+#bda-qem-twitch-container, #bda-qem-favourite-container {
+    background-color: #000b1e;
+}
 
 /* 6. Top bar */
 
@@ -1379,48 +1411,9 @@
     color: rgba(10, 189, 198, .8);
 }
 
-/* 8. Activity */
-.theme-dark .wrapper-9ppXpy {
-    -webkit-box-shadow: inset 0 1px 0 rgba(19, 62, 124, .6);
-    box-shadow: inset 0 1px 0 rgba(19, 62, 124, .6);
-}
-.theme-dark .outer-2IVh5n.interactive-1BeKSi:hover {
-    background-color: rgba(113, 28, 145, .6);
-}
-.buttonColor-1agP3J {
-    background-color: #133e7c;
-    color: #0abdc6;
-}
-.buttonColor-1agP3J:hover {
-    background-color: #711c91;
-}
-.theme-dark .inset-GQDQYw {
-    background-color: rgba(113, 28, 145, .3);
-}
-.theme-dark .separator-2c4hi3 {
-    background-color: rgba(19, 62, 124, .6);
-}
-.theme-dark .popoutContainer-3WC9HR:hover {
-    background-color: #091833;
-}
-.theme-dark .popout-3G62UL {
-    background-color: #091833;
-    -webkit-box-shadow: 0 8px 16px rgba(0,0,0,.24);
-    box-shadow: 0 8px 16px rgba(0,0,0,.24);
-}
-.theme-dark .enabled-5QKLzu:hover {
-    background-color: rgba(19, 62, 124, .6);
-}
-.theme-dark .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover {
-    background-color: rgba(19, 62, 124, .6);
-}
-.theme-dark .recentlyPlayedContainer-2F3MqS {
-    background-color: #000b1e;
-}
+/* 8. Library */
 
-/* 9. Library */
-
-/* 9.1. Gifts Inventory */
+/* 8.1. Gifts Inventory */
 .theme-dark .header-3YT7-d {
     color: #0abdc6;
 }
@@ -1434,161 +1427,9 @@
     color: #0abdc6;
 }
 
-/* 10. Nitro */
-.theme-dark .title-2a5mvx {
-    color: #ea00d9;
-}
-.theme-dark .subtitle-UfhpvR, .theme-dark .subtitleRepositioned-11uB9- {
-    color: #0abdc6;
-}
-.yearlyButtonDiscount-2K7GZZ {
-    border: 1px solid rgba(0, 255, 0, .3);
-}
-.theme-dark .categoryHeader-1D7Tqy, .theme-dark .premiumApplicationsHeader-Zmkm5e {
-    color: #0abdc6;
-    border-color: rgba(10, 189, 198, .6);
-}
-.theme-dark .tagline-EIH5-W, .theme-dark .title-2XwaXv {
-    color: #0abdc6;
-}
-.theme-dark .tile-QA_yMc {
-    background-color: #000b1e;
-    -webkit-box-shadow: 0 0 0 rgba(10, 189, 198,.15);
-    box-shadow: 0 0 0 rgba(10, 189, 198,.15);
-}
-.theme-dark .perkTag-2O4dx4, .theme-light .perkTag-2O4dx4 {
-    color: #0abdc6;
-}
-.perkTag-2O4dx4 {
-    background: -webkit-gradient(linear,left top,right top,from(#133e7c),to(#711c91));
-    background: linear-gradient(90deg,#133e7c,#711c91);
-}
-.mute-3sDXC3 {
-    color: #0abdc6;
-}
-.mute-3sDXC3:hover{
-    color: #ea00d9;
-}
-.theme-dark .tile-QA_yMc:hover {
-    background-color: rgba(113, 28, 145, .6);
-}
 
-/* 10.1. Nitro Store */
-.theme-dark .link-2T7oYD {
-    color: #0abdc6;
-}
-.theme-dark .link-2T7oYD :hover{
-    color: #ea00d9;
-}
-.arrow-vOpU7R {
-    color: #0abdc6;
-}
-.dot-2Q_mMZ {
-    background-color: #0abdc6;
-}
-.theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP {
-    background-color: #000b1e;
-    border-top-color: rgba(19, 62, 124, .6);
-}
-.theme-dark .actionText-3EKWER, .theme-light .actionText-3EKWER {
-    color: #0abdc6;
-}
-.theme-dark .purchaseUnitOperatingSystem-cnbJPz, .theme-light .purchaseUnitOperatingSystem-cnbJPz {
-    color: #0abdc6;
-}
-.theme-dark .listingPrice-2GiDSc {
-    color: #ea00d9;
-}
-.theme-dark .yellow-2DRjXu, .theme-light .yellow-2DRjXu {
-    border-color: #ffff00;
-}
-.theme-dark .yellow-2DRjXu .title-3zfWaO, .theme-light .yellow-2DRjXu .title-3zfWaO {
-    color: #ffff00;
-}
-.description-Gcecy9 {
-    color: #0abdc6;
-}
-.theme-dark h3.title-3KTIjF {
-    color: #0abdc6;
-}
-.theme-dark .label-13UUcd, .theme-light .label-13UUcd {
-    color: rgba(10, 189, 198, .6);
-}
-.theme-dark .info-1Emy1X, .theme-light .info-1Emy1X {
-    color: #0abdc6;
-}
-.theme-dark h1.title-3KTIjF, .theme-dark h2.title-3KTIjF {
-    color: #0abdc6;
-}
-.theme-dark .divider-21LyPb {
-    border-color: rgba(19, 62, 124, .6);
-}
-.theme-dark .blurb-1iBKJy {
-    color: #0abdc6;
-}
-.theme-dark .description-1AwRKJ {
-    color: #0abdc6;
-}
-.theme-dark .content-35aVm0 {
-    background-color: #000b1e;
-}
-.theme-dark .name-3TBxUq {
-    color: #ea00d9;
-}
-.theme-dark .memberInfo-1TAaKC {
-    color: #0abdc6;
-}
-.dotOnline-3qrf96 {
-    background-color: #00ff00;
-}
-.theme-dark .dotOffline-1PVTuj {
-    background-color: #133e7c;
-}
-.theme-dark .row-1bU71H {
-    background-color: #133e7c;
-    color: #0abdc6;
-}
-.theme-dark .featureIcon-1f78KU {
-    color: #0abdc6;
-}
-.checkmarkIcon-2EnYwn {
-    color: #00ff00;
-}
-.theme-dark .item-2yFVoY {
-    background-color: #000b1e;
-    -webkit-box-shadow: 0 0 0 rgba(19, 62, 124, .1);
-    box-shadow: 0 0 0 rgba(19, 62, 124, .1);
-}
-.theme-dark .item-2yFVoY:hover {
-    background-color: rgba(113, 28, 145, .6);
-}
-.theme-dark .collapsedTimestamp-2gjDIM, .theme-dark .openTimestamp-sTgPmn {
-    color: #0abdc6;
-}
-.theme-dark .title-i-qCkH {
-    color: #ea00d9;
-}
-.theme-dark .openDescription-2XUOH3 {
-    color: #0abdc6;
-}
-.theme-dark h4.title-3KTIjF, .theme-dark h5.title-3KTIjF, .theme-dark h6.title-3KTIjF {
-    color: #0abdc6;
-}
-.theme-dark .requirementKey-14DT2D {
-    color: rgba(10, 189, 198, .6);
-}
-.theme-dark .requirements-dEriwm {
-    color: #0abdc6;
-}
-.theme-dark .content-1zhNsr {
-    color: #0abdc6;
-}
-.theme-dark .content-3FEARf {
-    color: #0abdc6;
-}
-
-/* 11. Friends */
-.theme-dark .container-3gCOGc {
+/* 9. Friends */
+.theme-dark .container-1D34oG {
     background-color: #091833;
 }
 #app-mount > div.app-19_DXt.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div.base-3dtUhz.da-base > div > div.container-3gCOGc.da-container > div.container-1r6BKw.da-container.themed-ANHk51.da-themed > div.children-19S4PO.da-children > div.tabBar-1E2ExX.da-tabBar.topPill-30KHOu > div:nth-child(5) {
@@ -1602,8 +1443,14 @@
     background-color: #ff0000!important;
     color: #d7d7d5;
 }
+.theme-dark .inset-3sAvek {
+    background-color: rgba(19, 62, 124, .6);
+}
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: #091833;
+}
 
-/* 11.1. Groups */
+/* 9.1. Groups */
 .theme-dark .subtitle-2P4u9v {
     color: #0abdc6;
 }
@@ -1617,7 +1464,7 @@
     background-color: rgba(19, 62, 124, .6);
 }
 
-/* 11.2. Friend PLaying Modal */
+/* 9.2. Friend PLaying Modal */
 .topSectionPlaying-1J5E4n {
     background: #711c91;
 }
@@ -1634,7 +1481,7 @@
     color: #0abdc6 !important;
 }
 
-/* 11.3. Call */
+/* 9.3. Call */
 .theme-dark .transparent-2ZlE3R.container-1r6BKw, .theme-light .transparent-2ZlE3R.container-1r6BKw {
     background: #000b1e;
 }
@@ -1695,7 +1542,7 @@
     color: #ea00d9;
 }
 
-/* 12. Quickswitcher */
+/* 10. Quickswitcher */
 .theme-dark .keybindShortcut-1BD6Z1 span .bindArrow-2X3Aom g {
     fill: #0abdc6;
 }
@@ -1703,7 +1550,7 @@
     color: #0abdc6;
 }
 
-/* 13. Settings */
+/* 11. Settings */
 .theme-dark #bd-settings-sidebar .ui-tab-bar-header {
     color: #0abdc6;
 }
@@ -1729,7 +1576,7 @@
     color: #ff0000 !important;
 }
 
-/* 13.1. Apps */
+/* 11.1. Apps */
 .lookOutlined-3sRXeN.colorRed-1TFJan:hover {
     border-color: #ff0000;
 }
@@ -1738,7 +1585,7 @@
     border-color: rgba(255,0,0,.4);
 }
 
-/* 13.2. Connections */
+/* 11.2. Connections */
 .connectionHeader-2MDqhu {
     background: rgba(0, 11, 30, 1);
     border-bottom: 1px solid rgba(19, 62, 124, .15);
@@ -1750,7 +1597,7 @@
     color: #ea00d9;
 }
 
-/* 13.3. Payments */
+/* 11.3. Payments */
 .theme-dark .codeRedemptionRedirect-1wVR4b {
     color: #0abdc6;
     background-color: #000b1e;
@@ -1760,7 +1607,7 @@
     color: rgba(10, 189, 198, .6);
 }
 
-/* 13.4. Nitro */
+/* 11.4. Nitro */
 .theme-dark .tier1Banner-1B_WXY {
     background-color: #000b1e;
     color: #0abdc6;
@@ -1769,7 +1616,7 @@
     color: #00ff00;
 }
 
-/* 13.4. Voice */
+/* 11.4. Voice */
 .barFill-23-gu- {
     background: #ea00d9;
 }
@@ -1797,7 +1644,7 @@
     border-color: #133e7c;
 }
 
-/* 13.5. Game Activity */
+/* 11.5. Game Activity */
 .theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s {
     background-color: #133e7c;
 }
@@ -1821,7 +1668,10 @@
     box-shadow: 0 1px 0 0 rgba(19, 62, 124, .6);
 }
 
-/* 13.6. Change history */
+/* 11.6. Change history */
+.theme-dark .root-1gCeng {
+    background-color: #091833;
+}
 .theme-dark .date-2WJGyu {
     color: #0abdc6;
 }
@@ -1843,8 +1693,20 @@
 .fixed-22Vcez:after {
     background-color: #ff0000;
 }
+.progress-1fjoBz {
+    color: #f57800;
+}
+.progress-1fjoBz:after {
+    background-color: #f57800;
+}
+.improved-1F5LIN {
+    color: #ea00d9;
+}
+.improved-1F5LIN:after {
+    background-color: #ea00d9;
+}
 
-/* 13.7. Other */
+/* 11.7. Other */
 .ghostPill-2-KUPM {
     color: #ffff00;
     background-color: rgba(19, 62, 124, .3);
@@ -1866,7 +1728,7 @@
     box-shadow: inset 0 -1px 0 0 rgba(19, 62, 124, .6);
 }
 
-/* 13.8. BetterDiscord Settings */
+/* 11.8. BetterDiscord Settings */
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
     background-color: rgba(113, 28, 145, .6);
     color: #0abdc6;
