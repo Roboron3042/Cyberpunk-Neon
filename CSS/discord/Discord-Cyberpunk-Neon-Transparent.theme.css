@@ -18,25 +18,11 @@ You are free to modify, share, and even propose changes to this theme if you wan
 */
 
 .appMount-3lHmkl {
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bee6c9a9-78f2-4294-ad27-6ca52060f5a5/dbiqzig-0abf178a-d1a1-4d28-b784-7227b9270002.jpg/v1/fill/w_1024,h_576,q_75,strp/highway_4k_by_axiomdesign_dbiqzig-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvYmVlNmM5YTktNzhmMi00Mjk0LWFkMjctNmNhNTIwNjBmNWE1XC9kYmlxemlnLTBhYmYxNzhhLWQxYTEtNGQyOC1iNzg0LTcyMjdiOTI3MDAwMi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.EFKyfne0y_wgNcl7HVhkGUaqLzparRw36YGw8MPmZmA);
+    background-image: url(https://i.imgur.com/jshwEyA.jpg);
     background-color: rgba(9, 24, 51, 0);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
-}
-.theme-dark {
-    --background-primary: rgba(9, 24, 51, .4);
-    --background-secondary: rgba(0, 11, 30, .4);
-    --background-tertiary: rgba(0, 11, 30, .4);
-    --deprecated-panel-background: rgba(9, 24, 51, .4);
-    --channeltextarea-background: rgba(19, 62, 124, .7);
-
-}
-.app-2rEoOp {
-    background-color: rgba(9, 24, 51, 0);
-}
-.bg-h5JY_x {
-    background-color: rgba(9, 24, 51, 0);
 }
 
 /* Web scrollbars 
@@ -58,6 +44,26 @@ You are free to modify, share, and even propose changes to this theme if you wan
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scrollbar-2rkZSL .thumb-2JwNFC {
     background-color: #0abdc6;
     border: 3px solid #000b1e;
+}
+
+/* 12. Transparency */
+.theme-dark {
+    --background-primary: rgba(9, 24, 51, .4);
+    --background-secondary: rgba(0, 11, 30, .4);
+    --background-tertiary: rgba(0, 11, 30, .4);
+    --deprecated-panel-background: rgba(9, 24, 51, .4);
+    --channeltextarea-background: rgba(19, 62, 124, .7);
+    --background-secondary-alt: rgba(9, 24, 51, .7)
+
+}
+.theme-dark .container-1D34oG {
+    background-color: rgba(9, 24, 51, .4)
+}
+.theme-dark .inset-3sAvek {
+    background-color: rgba(19, 62, 124, .2);
+}
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: rgba(9, 24, 51, .4)
 }
 
 /* Custom CSS goes here */
