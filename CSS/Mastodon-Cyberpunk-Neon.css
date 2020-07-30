@@ -404,6 +404,15 @@ body {
 a.status-card.compact:hover {
     background-color: rgba(19, 62, 124, .6);
 }
+.reactions-bar__item {
+    background: #091833;
+}
+.reactions-bar__item:hover {
+    background: #711c91;
+}
+.reactions-bar__item__count {
+    color: #0abdc6;
+}
 
 /* 5. Notification Column */
 .status.status-direct:not(.read) {
