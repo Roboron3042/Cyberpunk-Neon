@@ -1079,6 +1079,9 @@
 #app-mount > div:nth-child(4) > div:nth-child(2) > div.modal-3c3bKg.da-modal > div.inner-1ilYF7.da-inner > div > div.footer-3mqk7D.da-footer.hasSpoilers-1IRtQC.da-hasSpoilers > label > div.checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.da-checkbox.da-flexCenter.da-flex.da-justifyCenter.da-alignCenter.box-mmYMsp.checked-3_4uQ9.da-checked > svg > g > polyline {
     stroke: #00ff00;
 }
+.theme-dark .uploadModal-2ifh8j {
+    background-color: #091833;
+}
 
 
 /* 5.2. Nitro */

@@ -300,6 +300,15 @@ body {
 .reactions-bar__item.active {
     background-color: rgba(113, 28, 145, .7);
 }
+.reactions-bar__item {
+    background: #091833;
+}
+.reactions-bar__item:hover {
+    background: #711c91;
+}
+.reactions-bar__item__count {
+    color: #0abdc6;
+}
 
 /* 4. Main Columns */
 .column > .scrollable {
@@ -404,15 +413,6 @@ body {
 a.status-card.compact:hover {
     background-color: rgba(19, 62, 124, .6);
 }
-.reactions-bar__item {
-    background: #091833;
-}
-.reactions-bar__item:hover {
-    background: #711c91;
-}
-.reactions-bar__item__count {
-    color: #0abdc6;
-}
 
 /* 5. Notification Column */
 .status.status-direct:not(.read) {
@@ -476,6 +476,13 @@ a.status-card.compact:hover {
 }
 
 /* 6. Right bar */
+
+.empty-column-indicator, .error-column, .follow_requests-unlocked_explanation {
+    color: rgba(10, 189, 198, .6);
+}
+.follow_requests-unlocked_explanation {
+    background: #000b1e;
+}
 
 /* 6.1. Detailed views */
 .detailed-status {
