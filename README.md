@@ -10,12 +10,14 @@
 - [Description](#description)
 - [How to apply](#how-to-apply)
 - [Desktop](#desktop)
+  - [Cursors](#cursors)
   - [Firefox](#firefox)
   - [GTK](#gtk)
   - [KDE Plasma](#kde)
   - [Icons](#icons)
   - [Tabletop Simulator](#tabletop-simulator)
   - [Telegram](#telegram)
+  - [Welcome Screen](#welcome-screen)
   - [Zim](#zim)
 - [Terminal]
   - [Konsole](#konsole)
@@ -34,6 +36,8 @@ Cyberpunk Neon color scheme is a cyberpunk/outrun color scheme based on the [Cyb
 
 * **Wallpaper:** [Highway 4k by AxiomDesign](https://www.deviantart.com/axiomdesign/art/Highway-4k-696620104)
 
+For an extended colorscheme, please check the Wiki.
+
 ## How to apply
 
 First, clone this repository with git
@@ -45,6 +49,10 @@ And cd into the directory
 `cd Cyberpunk-Neon`
 
 ## Desktop
+
+### Cursors
+
+While I have not made those, I recommend using [Breeze Hacked Cursor Theme](https://github.com/codejamninja/breeze-hacked-cursor-theme) (also available via [AUR](https://aur.archlinux.org/packages/breeze-hacked-cursor-theme/))
 
 ### Firefox
 
@@ -74,7 +82,11 @@ Now change the color scheme in Settings -> Appearance -> Color. Don't forget to 
 
 ### Icons
 
-I recommend to use gusbemacbe's [Suru++ icons](https://github.com/gusbemacbe/suru-plus) (papirus-like) or [Suru++ Asprómauros](https://github.com/gusbemacbe/suru-plus-aspromauros) (monochrome, gradient if wished) which includes a Cyberpunk-Neon variant. Refer to the [Suru++ Wiki](https://github.com/gusbemacbe/suru-plus/wiki) for more info.
+#### Suru++
+
+Suru++ includes a Cyberpunk-Neon variant. You can use [Suru++ icons](https://github.com/gusbemacbe/suru-plus) (papirus-like) or [Suru++ Asprómauros](https://github.com/gusbemacbe/suru-plus-aspromauros) (monochrome, gradient if wished). Refer to the [Suru++ Wiki](https://github.com/gusbemacbe/suru-plus/wiki) for more info.
+
+#### Papirus Kolorizer
 
 Alternatively you can use the papirus-kolorizer.sh script included in this repository **WARNING**: It will replace your existing Papirus icons, if any. Refer to [Papirus Kolorizer repo](https://github.com/DarthWound/papirus-kolorizer) for more info.
 
@@ -85,6 +97,10 @@ chmod +x papirus-kolorizer.sh
 
 Apply the icons (Papirus-Dark) in system settings (KDE = Settings -> Appearance- Icons. Apply icons for GTK applications too in Settings -> Appearance - Application Style).
 
+#### Linebit
+
+Icons at the left of the screenshots are extracted from [Linebit Android Icon Pack](https://play.google.com/store/apps/details?id=com.edzondm.linebit) and then customized one-by-one via KDE Plasma "Edit applications". If you need help with those, you can contact me directly for more info at robertoms258@gmail.com 
+
 ### Tabletop Simulator
 
 Open the game. Got con Configuration -> Interface -> Theme Editor and click "Import/Export". Now copy the content of TabletopSimulator_Cyberpunk-Neon.txt
@@ -92,6 +108,10 @@ Open the game. Got con Configuration -> Interface -> Theme Editor and click "Imp
 ### Telegram
 
 Just drop the cyberpunk-neon.tdesktop-theme into the chat and open it.
+
+### Welcome Screen
+
+I have not make a Welcome Screen for KDE, but I recommend using [Charlie by l4k1](https://store.kde.org/p/1297744). The text you need to edit is at line 211 in `~/.local/share/plasma/look-and-feel/org.kde.Charlie.desktop/contents/splash/Splash.qml`
 
 ### Zim
 
@@ -137,7 +157,9 @@ You can also modify and generate the theme easily with the [rnb.erb](https://git
 
 ### ZSH
 
-Those cool prompts I have are a ZSH theme. Assuming you already installed ZSH and the [powerlevel9K](https://github.com/bhilburn/powerlevel9k) theme for it, you only have to copy the contents of the powerlevel9k file into your ~/.zsh
+Those cool prompts I have are a ZSH theme. Assuming you already installed ZSH and the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme for it, you only have to copy the contents of the powerlevel9k file into your ~/.zshrc 
+
+Note: powerlevel10k config is retrocompatible with powerlevel9k syntax. You just need to tell ZSH to use the powerlevel10k theme before adding the content of the powerlevel9k file. If you, like me, have installed the theme via [Archlinux User Repository](https://aur.archlinux.org/packages/zsh-theme-powerlevel10k-git/), that means you have to add `source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme` to your ~/.zshrc
 
 ## CSS Themes
 
