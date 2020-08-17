@@ -163,8 +163,9 @@ Note: powerlevel10k config is retrocompatible with powerlevel9k syntax. You just
 
 ## CSS Themes
 
-I've applied the Cyberpunk-Neon color scheme to some websites. You cand find the CSS files to be used with Stylus in the CSS folder. Currently available websites are:
+I've applied the Cyberpunk-Neon color scheme to some websites. You cand find the CSS files to be used with Stylus in the CSS folder, or you can install them directly via userstyles.org. Currently available websites are:
 * Mastodon (classic) - [userstyles.org page](https://userstyles.org/styles/174594/mastodon-cyberpunk-neon)
+* TweetDeck (dark) - [userstyles.org page](https://userstyles.org/styles/188135/tweetdeck-cyberpunk-neon) 
 
 ### Discord
 

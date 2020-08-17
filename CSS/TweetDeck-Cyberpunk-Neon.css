@@ -1,0 +1,732 @@
+/*
+    Autor: Roberto Michán Sánchez (Roboron)
+    Upstream URL / Report issues: https://github.com/Roboron3042/Cyberpunk-Neon
+*/
+
+/* 0. Miscellaneous */
+
+/* 0.1. Selection */
+::selection {
+  background: #711c91 !important; /* WebKit/Blink Browsers */
+  color: #0abdc6 !important;
+}
+::-moz-selection {
+  background: #711c91 !important; /* Gecko Browsers */
+  color: #0abdc6 !important;
+}
+.note-3kmerW textarea::-moz-selection {
+    background:#711c91 !important;
+    color:#0abdc6 !important;
+}
+.note-3kmerW  textarea::selection {
+    background:#711c91 !important;
+    color:#0abdc6 !important;
+}
+
+html.dark .scroll-styled-h, html.dark .scroll-styled-v {
+    scrollbar-color: #0abdc6 #091833 !important;
+}
+
+/* 0.2. Background */
+html.dark .app-columns-container, html.dark .app-content {
+    background-color: #000b1e;
+}
+
+/* 1. Left bar */
+
+/* 1.1. New Tweet Button */
+
+html.dark .Button.btn-fav.s-favorited:hover, html.dark .Button.Button--primary.is-hover, html.dark .Button.Button--primary:hover, html.dark .Button.is-hover.btn-fav.s-favorited, html.dark .ButtonGroup--primary > .Button.is-hover, html.dark .ButtonGroup--primary > .Button:hover, html.dark .ButtonGroup--primary > .ButtonGroup > .Button.is-hover, html.dark .ButtonGroup--primary > .ButtonGroup > .Button:hover, html.dark .ButtonGroup--primary > .ButtonGroup > button.is-hover, html.dark .ButtonGroup--primary > .ButtonGroup > button:hover, html.dark .ButtonGroup--primary > .ButtonGroup > input.is-hover[type="button"], html.dark .ButtonGroup--primary > .ButtonGroup > input:hover[type="button"], html.dark .ButtonGroup--primary > button.is-hover, html.dark .ButtonGroup--primary > button:hover, html.dark .ButtonGroup--primary > input.is-hover[type="button"], html.dark .ButtonGroup--primary > input:hover[type="button"], html.dark .s-following .follow-btn:hover .Button.following-text:hover, html.dark .s-following .follow-btn:hover .Button.is-hover.following-text, html.dark .s-following .follow-btn:hover button.following-text:hover, html.dark .s-following .follow-btn:hover button.is-hover.following-text, html.dark .s-following .follow-btn:hover input.following-text:hover[type="button"], html.dark .s-following .follow-btn:hover input.is-hover.following-text[type="button"], html.dark button.btn-fav.s-favorited:hover, html.dark button.Button--primary.is-hover, html.dark button.Button--primary:hover, html.dark button.is-hover.btn-fav.s-favorited, html.dark input.btn-fav.s-favorited:hover[type="button"], html.dark input.Button--primary.is-hover[type="button"], html.dark input.Button--primary:hover[type="button"], html.dark input.is-hover.btn-fav.s-favorited[type="button"] {
+    background-color: #711c91;
+    border-color: #711c91;
+    color: #0abdc6;
+}
+
+html.dark .Button.btn-fav.s-favorited, html.dark .Button.btn-fav.s-favorited:visited, html.dark .Button.Button--primary, html.dark .Button.Button--primary:visited, html.dark .ButtonGroup--primary > .Button, html.dark .ButtonGroup--primary > .Button:visited, html.dark .ButtonGroup--primary > .ButtonGroup > .Button, html.dark .ButtonGroup--primary > .ButtonGroup > .Button:visited, html.dark .ButtonGroup--primary > .ButtonGroup > button, html.dark .ButtonGroup--primary > .ButtonGroup > button:visited, html.dark .ButtonGroup--primary > .ButtonGroup > input:visited[type="button"], html.dark .ButtonGroup--primary > .ButtonGroup > input[type="button"], html.dark .ButtonGroup--primary > button, html.dark .ButtonGroup--primary > button:visited, html.dark .ButtonGroup--primary > input:visited[type="button"], html.dark .ButtonGroup--primary > input[type="button"], html.dark .s-following .follow-btn:hover .Button.following-text, html.dark .s-following .follow-btn:hover .Button.following-text:visited, html.dark .s-following .follow-btn:hover button.following-text, html.dark .s-following .follow-btn:hover button.following-text:visited, html.dark .s-following .follow-btn:hover input.following-text:visited[type="button"], html.dark .s-following .follow-btn:hover input.following-text[type="button"], html.dark button.btn-fav.s-favorited, html.dark button.btn-fav.s-favorited:visited, html.dark button.Button--primary, html.dark button.Button--primary:visited, html.dark input.btn-fav.s-favorited:visited[type="button"], html.dark input.btn-fav.s-favorited[type="button"], html.dark input.Button--primary:visited[type="button"], html.dark input.Button--primary[type="button"] {
+    background-color: #133e7c;
+    border: 1px solid #133e7c;
+        border-top-color: #133e7c;
+        border-right-color: #133e7c;
+        border-bottom-color: #133e7c;
+        border-left-color: #133e7c;
+    color: #0abdc6;
+}
+html.dark .attach-compose-buttons .Button.tweet-button, html.dark .attach-compose-buttons button.tweet-button, html.dark .attach-compose-buttons input.tweet-button[type="button"] {
+	background-color: #711c91;
+}
+html.dark .compose {
+	background-color: #091833;
+	color: #0abdc6;
+	height: 100vh;
+}
+html.dark .compose-header {
+	height: 55px;
+	border-bottom: 1px solid #0abdc6;
+	line-height: 38px;
+}
+html.dark .compose-text-title {
+	color: #0abdc6;
+	color: #0abdc6;
+}
+html.dark .compose-text-container {
+	background-color: #133e7c;
+}
+html.dark .compose-text {
+	color: #0abdc6;
+}
+html.dark .bg-color-twitter-white {
+	background-color: #133e7c !important;
+}
+html.dark .stroke-twitter-light-gray {
+	stroke: #0abdc6;
+}
+html.dark .stroke-twitter-blue {
+	stroke: #ea00d9;
+}
+html.dark .stroke-twitter-yellow {
+	stroke: #ffff00;
+}
+html.dark .btn-on-blue {
+	color: #0abdc6;
+	background-color: #133e7c;
+}
+html.dark .btn-on-blue:hover {
+	color: #0abdc6;
+	background-color: #711c91;
+}
+html.dark .btn-on-blue.is-selected, html.dark .btn-on-blue:active {
+	color: #0abdc6;
+	background-color: #711c91;
+}
+html.dark .btn-on-blue:focus {
+	color: #0abdc6;
+	background-color: #711c91;
+	box-shadow: 0 0 2px 3px #ea00d9;
+}
+html.dark .compose-media-bar-holder {
+	background-color: #133e7c;
+}
+html.dark .btn-on-blue.is-disabled, html.dark .btn-on-blue.is-disabled:active, html.dark .btn-on-blue.is-disabled:focus, html.dark .btn-on-blue.is-disabled:hover, html.dark .btn-on-blue[disabled], html.dark .btn-on-blue[disabled]:active, html.dark .btn-on-blue[disabled]:hover {
+	color: #0abdc6;
+	background-color: #133e7c;
+	border-color: transparent;
+}
+html.dark .Button.btn-fav.s-favorited[disabled], html.dark .Button.Button--primary.is-disabled, html.dark .Button.Button--primary[disabled], html.dark .Button.is-disabled.btn-fav.s-favorited, html.dark .ButtonGroup--primary > .Button.is-disabled, html.dark .ButtonGroup--primary > .Button[disabled], html.dark .ButtonGroup--primary > .ButtonGroup > .Button.is-disabled, html.dark .ButtonGroup--primary > .ButtonGroup > .Button[disabled], html.dark .ButtonGroup--primary > .ButtonGroup > button.is-disabled, html.dark .ButtonGroup--primary > .ButtonGroup > button.is-disabled:focus, html.dark .ButtonGroup--primary > .ButtonGroup > button[disabled], html.dark .ButtonGroup--primary > .ButtonGroup > input.is-disabled[type="button"], html.dark .ButtonGroup--primary > .ButtonGroup > input.is-disabled[type="button"]:focus, html.dark .ButtonGroup--primary > .ButtonGroup > input[disabled][type="button"], html.dark .ButtonGroup--primary > button.is-disabled, html.dark .ButtonGroup--primary > button.is-disabled:focus, html.dark .ButtonGroup--primary > button[disabled], html.dark .ButtonGroup--primary > input.is-disabled[type="button"], html.dark .ButtonGroup--primary > input.is-disabled[type="button"]:focus, html.dark .ButtonGroup--primary > input[disabled][type="button"], html.dark .follow-btn.is-disabled .ButtonGroup--primary > .ButtonGroup > button, html.dark .follow-btn.is-disabled .ButtonGroup--primary > button, html.dark .follow-btn.is-disabled .s-following .follow-btn:hover button.following-text, html.dark .follow-btn.is-disabled button.btn-fav.s-favorited, html.dark .follow-btn.is-disabled button.Button--primary, html.dark .s-following .follow-btn:hover .Button.following-text[disabled], html.dark .s-following .follow-btn:hover .Button.is-disabled.following-text, html.dark .s-following .follow-btn:hover .follow-btn.is-disabled button.following-text, html.dark .s-following .follow-btn:hover button.following-text[disabled], html.dark .s-following .follow-btn:hover button.is-disabled.following-text, html.dark .s-following .follow-btn:hover button.is-disabled.following-text:focus, html.dark .s-following .follow-btn:hover fieldset[disabled] .Button.following-text, html.dark .s-following .follow-btn:hover fieldset[disabled] button.following-text, html.dark .s-following .follow-btn:hover fieldset[disabled] input.following-text[type="button"], html.dark .s-following .follow-btn:hover input.following-text[disabled][type="button"], html.dark .s-following .follow-btn:hover input.is-disabled.following-text[type="button"], html.dark .s-following .follow-btn:hover input.is-disabled.following-text[type="button"]:focus, html.dark button.btn-fav.s-favorited[disabled], html.dark button.Button--primary.is-disabled, html.dark button.Button--primary.is-disabled:focus, html.dark button.Button--primary[disabled], html.dark button.is-disabled.btn-fav.s-favorited, html.dark button.is-disabled.btn-fav.s-favorited:focus, html.dark fieldset[disabled] .Button.btn-fav.s-favorited, html.dark fieldset[disabled] .Button.Button--primary, html.dark fieldset[disabled] .ButtonGroup--primary > .Button, html.dark fieldset[disabled] .ButtonGroup--primary > .ButtonGroup > .Button, html.dark fieldset[disabled] .ButtonGroup--primary > .ButtonGroup > button, html.dark fieldset[disabled] .ButtonGroup--primary > .ButtonGroup > input[type="button"], html.dark fieldset[disabled] .ButtonGroup--primary > button, html.dark fieldset[disabled] .ButtonGroup--primary > input[type="button"], html.dark fieldset[disabled] .s-following .follow-btn:hover .Button.following-text, html.dark fieldset[disabled] .s-following .follow-btn:hover button.following-text, html.dark fieldset[disabled] .s-following .follow-btn:hover input.following-text[type="button"], html.dark fieldset[disabled] button.btn-fav.s-favorited, html.dark fieldset[disabled] button.Button--primary, html.dark fieldset[disabled] input.btn-fav.s-favorited[type="button"], html.dark fieldset[disabled] input.Button--primary[type="button"], html.dark input.btn-fav.s-favorited[disabled][type="button"], html.dark input.Button--primary.is-disabled[type="button"], html.dark input.Button--primary.is-disabled[type="button"]:focus, html.dark input.Button--primary[disabled][type="button"], html.dark input.is-disabled.btn-fav.s-favorited[type="button"], html.dark input.is-disabled.btn-fav.s-favorited[type="button"]:focus {
+	background-color: #133e7c;
+	border-color: #133e7c;
+	box-shadow: none;
+}
+html.dark .old-composer-footer {
+	background-color: #091833;
+}
+html.dark .compose-remember-state {
+	color: #0abdc6;
+}
+html.dark .compose-send-button-success {
+	color: #0abdc6;
+}
+
+/* 1.1.1. Schedule */
+html.dark .Button.btn-fav-unfav-text, html.dark .Button.btn-fav-unfav-text:visited, html.dark .Button.Button--danger, html.dark .Button.Button--danger:visited, html.dark .s-following .follow-btn:hover .unfollow-text, html.dark .s-following .follow-btn:hover .unfollow-text:visited, html.dark button.btn-fav-unfav-text, html.dark button.btn-fav-unfav-text:visited, html.dark button.Button--danger, html.dark button.Button--danger:visited, html.dark input.btn-fav-unfav-text:visited[type="button"], html.dark input.btn-fav-unfav-text[type="button"], html.dark input.Button--danger:visited[type="button"], html.dark input.Button--danger[type="button"] {
+	background-color: #091833;
+	border: 1px solid #091833;
+	color: #0abdc6;
+}
+html.dark .Button.btn-fav-unfav-text:hover, html.dark .Button.Button--danger.is-hover, html.dark .Button.Button--danger:hover, html.dark .Button.is-hover.btn-fav-unfav-text, html.dark .s-following .follow-btn:hover .is-hover.unfollow-text, html.dark .s-following .follow-btn:hover .unfollow-text:hover, html.dark button.btn-fav-unfav-text:hover, html.dark button.Button--danger.is-hover, html.dark button.Button--danger:hover, html.dark button.is-hover.btn-fav-unfav-text, html.dark input.btn-fav-unfav-text:hover[type="button"], html.dark input.Button--danger.is-hover[type="button"], html.dark input.Button--danger:hover[type="button"], html.dark input.is-hover.btn-fav-unfav-text[type="button"] {
+	background-color: #ff0000;
+	border-color: #ff0000;
+	color: #fff;
+}
+html.dark input.light-on-dark, html.dark select.light-on-dark, html.dark textarea.light-on-dark {
+	color: #0abdc6;
+	background: #091833;
+	border-color: #000b1e;
+}
+html.dark .cal {
+	color: #0abdc6;
+}
+html.dark #calbody {
+	background: #091833;
+}
+html.dark #caldays {
+	height: 20px;
+	border-bottom: 1px solid #091833;
+}
+html.dark #caldays span {
+	color: #0abdc6;
+}
+html.dark a.caldisabled {
+	background-color: #000b1e !important;
+	color: rgba(10, 189, 198, .4) !important;
+	cursor: default;
+}
+html.dark #calweeks {
+	background-color: #091833;
+	margin-top: 4px;
+}
+html.dark #calcurrent {
+	background-color: #ea00d9;
+	color: #091833;
+}
+html.dark .calfocus, html.dark .calweek a:hover {
+	background-color: rgba(113, 28, 145, .6);
+}
+html.dark .calweek a {
+	color: #0abdc6;
+}
+html.dark a.caloff:hover {
+	color: #0abdc6;
+	background-color: rgba(113, 28, 145, .6);
+}
+html.dark #caltoday {
+	background-color: #0abdc6;
+	color: #091833;
+}
+html.dark .Button.is-hover, html.dark .Button:hover, html.dark button.is-hover, html.dark button:hover, html.dark input.is-hover[type="button"], html.dark input:hover[type="button"] {
+	background-color: rgba(113, 28, 145, .6);
+	color: #0abdc6;
+	text-decoration: none;
+}
+html.dark .Button.is-focus, html.dark .Button:focus, html.dark button.is-focus, html.dark button:focus, html.dark input.is-focus[type="button"], html.dark input:focus[type="button"] {
+	box-shadow: 0 0 0 2px rgba(113, 28, 145, .6),0 0 0 4px #0abdc6;
+	background: rgba(113, 28, 145, .6);
+	border-color: #0abdc6;
+	color: #0abdc6;
+	text-decoration: none;
+}
+html.dark .replyto-caret {
+	border-bottom-color: #133e7c;
+}
+html.dark .compose-reply-tweet {
+	background-color: #000b1e;
+	color: #0abdc6;
+}
+html.dark .compose-reply-tweet-remove {
+	color: #0abdc6;
+}
+html.dark .compose-reply-tweet .fullname {
+	color: #ea00d9;
+}
+
+
+/* 1.2. Search */
+
+html.dark .app-search-fake {
+    color: #0abdc6;
+    border: 1px solid #0abdc6;
+}
+html.dark .Button.is-hover, html.dark .Button:hover, html.dark button.is-hover, html.dark button:hover, html.dark input.is-hover[type="button"], html.dark input:hover[type="button"] {
+    color: #ea00d9;
+}
+html.dark .Button.is-active, html.dark .Button:active, html.dark button.is-active, html.dark button:active, html.dark input.is-active[type="button"], html.dark input:active[type="button"] {
+    box-shadow: 0 0 0 2px #0abdc6,0 0 0 4px #ea00d9;
+        background-color: #0abdc6;
+    border-color: #ea00d9;
+    color: #ea00d9;
+}
+
+html.dark input:focus, html.dark select:focus, html.dark textarea:focus {
+    border-color: rgba(234, 0, 217, .8);
+    box-shadow: inset 0 1px 3px rgba(20,23,26,.1),0 0 8px rgba(234, 0, 217, .6);
+}
+html.dark .popover {
+    background-color: #091833;
+    box-shadow: 0 0 10px #133e7c;
+}
+html.dark input, html.dark select, html.dark textarea {
+    background: #000b1e;
+    border: 1px solid #091833;
+}
+html.dark ::-webkit-input-placeholder, html.dark ::placeholder, html.dark input::placeholder, html.dark textarea::placeholder {
+    color: #0abdc6;
+}
+html.dark .search-input-clear-search, html.dark .search-input-perform-search, html.dark .search-input-spinner {
+    color: #0abdc6;
+}
+html.dark .search-input-clear-search:hover, html.dark .search-input-perform-search:hover, html.dark .search-input-spinner:hover {
+    color: #ea00d9;
+}
+html.dark .color-twitter-darker-gray {
+    color: rgba(10, 189, 198, .6);
+}
+html.dark .color-twitter-blue {
+    color: #ea00d9;
+}
+html.dark .list-item {
+    color: #0abdc6;
+}
+html.dark .list-item:hover:not(.is-selected) {
+    background-color: rgba(113, 28, 145, .6);
+    color: #0abdc6;
+}
+html.dark .list-item.is-selected, html.dark .list-item:active, html.dark .list-item:hover {
+    background-color: rgba(113, 28, 145, .6);
+    color: #0abdc6;
+}
+html.dark input, html.dark select, html.dark textarea {
+    color: #0abdc6;
+}
+html.dark .txt-mute {
+    color: rgba(10, 189, 198, .6);
+}
+html.dark .list-icon {
+    color: #0abdc6;
+}
+html.dark .app-search-fake, html.dark .app-search-input {
+	background-color: #000b1e;
+	color: #0abdc6;
+}
+
+/* 1.3. Add column */
+html.dark .column-nav-link::after {
+	color: #0abdc6;
+}
+html.dark .with-nav-border-t::before {
+	border-top: 1px solid #0abdc6;
+}
+html.dark .app-nav-link {
+	color: #0abdc6;
+}
+html.dark .app-nav-link:active, html.dark .app-nav-link:focus {
+	color: #0abdc6;
+}
+html.dark .app-nav-link.is-selected, html.dark .app-nav-link:hover {
+	color: #ea00d9;
+}
+html.dark .lst-launcher .btn .icon, html.dark .lst-launcher .btn .Icon {
+	color: #0abdc6;
+}
+html.dark  .lst-launcher .btn .icon:hover, html.dark .lst-launcher .btn.Icon {
+	color: #ea00d9;
+}
+html.dark  .lst-launcher .btn .icon:active, html.dark .lst-launcher .btn.Icon {
+	color: #ea00d9;
+}
+html.dark .app-nav-link-text {
+	color: #0abdc6;
+}
+html.dark .lst-launcher a span {
+	color: #0abdc6;
+}
+html.dark .lst-launcher a:active > span, html.dark .lst-launcher a:focus > span, html.dark .lst-launcher a:hover > span {
+	color: #ea00d9;
+}
+html.dark .mdl-column-med {
+	width: 260px;
+	background: #133e7c;
+	border-radius: 14px 0 0 14px;
+}
+html.dark .lst-group .selected .fullname, html.dark .lst-group .selected .inner strong, html.dark .lst-group .selected .list-account, html.dark .lst-group .selected .list-link, html.dark .lst-group .selected .list-listmember, html.dark .lst-group .selected .list-subtitle, html.dark .lst-group .selected .list-twitter-list, html.dark .lst-group .selected .txt-ellipsis {
+	color: #0abdc6;
+}
+html.dark .lst-group .selected .bytext, html.dark .lst-group .selected .icon-protected, html.dark .lst-group .selected .subtitle, html.dark .lst-group .selected .username {
+	color: #0abdc6;
+	text-shadow: none;
+}
+html.dark .lst-group .selected {
+	background: #711c91;
+	color: #0abdc6;
+}
+html.dark .lst-group .selected a:hover {
+	background: #ea00d9;
+}
+html.dark .list-account .fullname {
+	color: #0abdc6;
+}
+html.dark .list-account .username {
+	color: #0abdc6;
+}
+html.dark .list-account:hover:active, html.dark .list-account:hover:focus, html.dark .list-account:hover:hover, html.dark .list-link:hover:active, html.dark .list-link:hover:focus, html.dark .list-link:hover:hover, html.dark .list-listaccount:hover:active, html.dark .list-listaccount:hover:focus, html.dark .list-listaccount:hover:hover, html.dark .list-listmember:hover:active, html.dark .list-listmember:hover:focus, html.dark .list-listmember:hover:hover, html.dark .list-subtitle:hover:active, html.dark .list-subtitle:hover:focus, html.dark .list-subtitle:hover:hover, html.dark .list-twitter-list:hover:active, html.dark .list-twitter-list:hover:focus, html.dark .list-twitter-list:hover:hover {
+	background: rgba(113, 28, 145, .6);
+}
+
+/* 1.4. Other */
+html.dark .app-header {
+    background-color: #000b1e;
+}
+html.dark .column-nav-item {
+    color: #0abdc6;
+    background-color: #000b1e;
+}
+html.dark .column-nav-link {
+    color: #0abdc6;
+}
+html.dark .column-nav-link.is-selected, html.dark .column-nav-link:hover {
+    color: #ea00d9;
+}
+html.dark .column-nav-updates {
+	color: #ea00d9;
+}
+html.dark .app-navigator {
+	background-color: #000b1e;
+}
+html.dark .app-nav-tab {
+	color: #0abdc6;
+}
+html.dark .app-nav-tab:hover {
+	color: #ea00d9;
+}
+html.dark .app-nav-tab-text {
+	color: #0abdc6;
+}
+html.dark .nav-user-info .fullname {
+	color: #ea00d9;
+}
+html.dark .nav-user-info .username {
+	color: rgba(234, 0, 217, .6);
+}
+html.dark .app-title {
+	background-color: #000b1e;
+}
+
+
+/* 2 Columns */
+html.dark .account-link .username {
+    color: rgba(234, 0, 217, .6);
+}
+html.dark .account-link {
+    color: #ea00d9;
+}
+html.dark {
+    color: #0abdc6;
+}
+html.dark a {
+    color: #ea00d9;
+}
+html.dark .other-replies-link, html.dark .other-replies-link:hover {
+    color: #ea00d9;
+}
+html.dark .other-replies {
+    color: rgba(234, 0, 217, .6);
+}
+html.dark .txt-mute a:not(:hover):not(:focus) {
+    color: rgba(234, 0, 217, .6);
+}
+html.dark a:active, html.dark a:focus, html.dark a:hover {
+    color: #ea00d9;
+}
+html.dark .column-panel {
+    background: #091833;
+}
+html.dark .column {
+	background-color: #091833;
+}
+html.dark .column-nav-link .column-heading {
+    color: #0abdc6;
+}
+html.dark .column-nav-link .attribution {
+	color: rgba(234, 0, 217, .6);
+}
+html.dark .icon-retweet-color, html.dark .icon-submit-color {
+	color: #00ff00;
+}
+html.dark .is-retweet .icon-retweet-toggle {
+	color: #00ff00;
+}
+html.dark .stream-item {
+	border-bottom: 1px solid #000b1e;
+	background-color: #091833;
+}
+html.dark .quoted-tweet {
+	color: rgba(10, 189, 198, .8);
+}
+html.dark .quoted-tweet {
+	border: 1px solid rgba(10, 189, 198, .6);;
+	border-color: rgba(10, 189, 198, .6);
+}
+html.dark .dm-action:active .icon-retweet, html.dark .dm-action:active .retweet-count, html.dark .dm-action:focus .icon-retweet, html.dark .dm-action:focus .retweet-count, html.dark .dm-action:hover .icon-retweet, html.dark .dm-action:hover .retweet-count, html.dark .is-selected.dm-action .icon-retweet, html.dark .is-selected.dm-action .retweet-count, html.dark .is-selected.tweet-detail-action .icon-retweet, html.dark .is-selected.tweet-detail-action .retweet-count, html.dark .tweet-action.is-selected .icon-retweet, html.dark .tweet-action.is-selected .retweet-count, html.dark .tweet-action:active .icon-retweet, html.dark .tweet-action:active .retweet-count, html.dark .tweet-action:focus .icon-retweet, html.dark .tweet-action:focus .retweet-count, html.dark .tweet-action:hover .icon-retweet, html.dark .tweet-action:hover .retweet-count, html.dark .tweet-detail-action:active .icon-retweet, html.dark .tweet-detail-action:active .retweet-count, html.dark .tweet-detail-action:focus .icon-retweet, html.dark .tweet-detail-action:focus .retweet-count, html.dark .tweet-detail-action:hover .icon-retweet, html.dark .tweet-detail-action:hover .retweet-count {
+	color: #00ff00;
+}
+html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action, html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action, html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action {
+	color: #0abdc6;
+}
+html.dark .dm-action, html.dark .tweet-action, html.dark .tweet-detail-action {
+	color: #0abdc6;
+}
+html.dark .dm-action:active .icon-reply, html.dark .dm-action:active .reply-count, html.dark .dm-action:focus .icon-reply, html.dark .dm-action:focus .reply-count, html.dark .dm-action:hover .icon-reply, html.dark .dm-action:hover .reply-count, html.dark .is-selected.dm-action .icon-reply, html.dark .is-selected.dm-action .reply-count, html.dark .is-selected.tweet-detail-action .icon-reply, html.dark .is-selected.tweet-detail-action .reply-count, html.dark .tweet-action.is-selected .icon-reply, html.dark .tweet-action.is-selected .reply-count, html.dark .tweet-action:active .icon-reply, html.dark .tweet-action:active .reply-count, html.dark .tweet-action:focus .icon-reply, html.dark .tweet-action:focus .reply-count, html.dark .tweet-action:hover .icon-reply, html.dark .tweet-action:hover .reply-count, html.dark .tweet-detail-action:active .icon-reply, html.dark .tweet-detail-action:active .reply-count, html.dark .tweet-detail-action:focus .icon-reply, html.dark .tweet-detail-action:focus .reply-count, html.dark .tweet-detail-action:hover .icon-reply, html.dark .tweet-detail-action:hover .reply-count {
+	color: #ea00d9;
+}
+html.dark .dm-action:active .icon-favorite, html.dark .dm-action:active .like-count, html.dark .dm-action:focus .icon-favorite, html.dark .dm-action:focus .like-count, html.dark .dm-action:hover .icon-favorite, html.dark .dm-action:hover .like-count, html.dark .is-selected.dm-action .icon-favorite, html.dark .is-selected.dm-action .like-count, html.dark .is-selected.tweet-detail-action .icon-favorite, html.dark .is-selected.tweet-detail-action .like-count, html.dark .tweet-action.is-selected .icon-favorite, html.dark .tweet-action.is-selected .like-count, html.dark .tweet-action:active .icon-favorite, html.dark .tweet-action:active .like-count, html.dark .tweet-action:focus .icon-favorite, html.dark .tweet-action:focus .like-count, html.dark .tweet-action:hover .icon-favorite, html.dark .tweet-action:hover .like-count, html.dark .tweet-detail-action:active .icon-favorite, html.dark .tweet-detail-action:active .like-count, html.dark .tweet-detail-action:focus .icon-favorite, html.dark .tweet-detail-action:focus .like-count, html.dark .tweet-detail-action:hover .icon-favorite, html.dark .tweet-detail-action:hover .like-count {
+	color: #ff0000;
+}
+html.dark .is-favorite .icon-favorite-toggle {
+	color: #ff0000;
+}
+html.dark .icon-favorite-color {
+	color: #ff0000;
+}
+html.dark .scroll-conversation {
+	background: #000b1e;
+}
+html.dark .detail-view-inline {
+	margin-top: 8px;
+	background-color: #091833;
+	border-top: 1px solid #000b1e;
+	border-bottom: 1px solid #000b1e;
+}
+html.dark .bg-color-twitter-midnight-dark-gray {
+	background-color: #091833;
+}
+html.dark .dark-only--color-twitter-gray {
+	color: #0abdc6;
+}
+html.dark .column-background-fill {
+	background-color: #000b1e;
+}
+html.dark .list-placeholder {
+	color: #0abdc6;
+	text-shadow: 0 1px 0 rgba(10, 189, 198, .8);
+}
+html.dark .inline-reply {
+	background-color: #000b1e;
+	color: #0abdc6;
+}
+html.dark .reply-triangle {
+	border: 7px solid transparent;
+	border-bottom-color: #000b1e;
+}
+html.dark .compose .other-replies, html.dark .inline-reply .other-replies {
+	color: #0abdc6;
+}
+html.dark .compose .other-replies-link, html.dark .compose .other-replies-link:hover, html.dark .inline-reply .other-replies-link, html.dark .inline-reply .other-replies-link:hover {
+	color: #ea00d9;
+}
+html.dark .media-badge:hover {
+	background-color: #711c91;
+}
+html.dark .media-badge {
+	background-color: #133e7c;
+}
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--text span {
+	vertical-align: middle;
+	color: #ea00d9;
+}
+
+/* 2.1. Headers */
+
+html.dark .column-header, html.dark .column-header-temp {
+	background-color: #091833;
+}
+html.dark .column-header {
+	border-bottom: 1px solid #000b1e;
+}
+html.dark .column-number {
+	color: #0abdc6;
+}
+html.dark .sprite {
+	background-image: none;
+}
+html.dark .column-header .column-type-icon {
+	color: #0abdc6;
+}
+html.dark .column-header-link {
+	color: #0abdc6;
+}
+html.dark .column-header-link:active, html.dark .column-header-link:focus, html.dark .column-header-link:hover {
+	color: #ea00d9;
+}
+html.dark .accordion .is-active .accordion-header, html.dark .accordion .is-active .accordion-header:hover {
+	color: #0abdc6;
+}
+html.dark .accordion-header {
+	color: #0abdc6;
+}
+html.dark .accordion-header:hover {
+	color: #ea00d9;
+}
+html.dark .facet-type {
+	border-bottom: 1px solid #000b1e;
+}
+html.dark .facet-type.is-active {
+	background-color: #091833;
+}
+html.dark .facet-subtitle {
+	color: #ea00d9;
+}
+html.dark .accordion, html.dark .accordion-popover {
+	color: #0abdc6;
+}
+html.dark .with-column-divider-bottom {
+	border-bottom: 1px solid #000b1e;
+}
+html.dark .column-options {
+	background-color: #091833;
+}
+html.dark .column-options .button-tray {
+	background-color: #091833;
+}
+html.dark button.btn-options-tray, html.dark input[type="button"].btn-options-tray {
+	color: #0abdc6 !important;
+}
+html.dark button.btn-options-tray:focus, html.dark button.btn-options-tray:hover, html.dark input[type="button"].btn-options-tray:focus, html.dark input[type="button"].btn-options-tray:hover {
+	color: #ea00d9 !important;
+}
+html.dark .column-message {
+	background-color: #091833;
+}
+html.dark .detail-view-inline-text {
+	border: 1px solid #000b1e;
+	background-color: #133e7c;
+	color: #0abdc6;
+}
+html.dark .stat-word {
+	color: #0abdc6;
+}
+.is-actionable:hover .stat-word {
+	color: #ea00d9;
+}
+html.dark .tweet-stat {
+	color: #0abdc6;
+}
+html.dark .column-title-edit-box {
+	color: #0abdc6;
+	background-color: #000b1e;
+	border-color: #000b1e;
+}
+
+/* 3. Menu & Dialogs */
+
+/* 3.1. Dropdown */
+html.dark .dropdown-menu {
+	background-color: #133e7c;
+	color: #0abdc6;
+	box-shadow: 0 1px 4px #000b1e;
+}
+html.dark .dropdown-menu a:not(:hover):not(:focus) {
+	color: #0abdc6;
+}
+html.dark .dropdown-menu .release-notes-item, html.dark .dropdown-menu .typeahead-item, html.dark .dropdown-menu .is-selected [data-action] {
+	color: #0abdc6;
+}
+html.dark .dropdown-menu .is-selected {
+	color: #0abdc6;
+	background-color: rgba(113, 28, 145, .6);
+}
+html.dark .drp-h-divider {
+	border-bottom: 1px solid #091833;
+}
+
+/* 3.2. Embed */
+html.dark .mdl-header {
+	color: #0abdc6;
+}
+html.dark .mdl {
+	background-color: #091833;
+	box-shadow: 0 0 10px #000b1e;
+}
+html.dark .mdl-dismiss {
+	color: #0abdc6;
+}
+html.dark .mdl-dismiss:hover {
+	color: #ea00d9;
+}
+
+/* 3.3. RT */
+html.dark .mdl-accent {
+	background: #000b1e;
+}
+html.dark .compose-account-selected {
+	background-color: #711c91;
+}
+html.dark .color-twitter-white {
+	color: #0abdc6 !important;
+}
+html.dark button.btn-on-dark, html.dark input[type="button"].btn-on-dark {
+	background-color: #133e7c;
+}
+html.dark button.btn-on-dark.is-selected, html.dark button.btn-on-dark:active, html.dark button.btn-on-dark:focus, html.dark button.btn-on-dark:hover, html.dark input[type="button"].btn-on-dark.is-selected, html.dark input[type="button"].btn-on-dark:active, html.dark input[type="button"].btn-on-dark:focus, html.dark input[type="button"].btn-on-dark:hover {
+	background-color: #711c91;
+	color: #0abdc6;
+}
+html.dark .Button, html.dark .Button.is-visited, html.dark .Button:visited, html.dark button, html.dark button.is-visited, html.dark button:visited, html.dark input.is-visited[type="button"], html.dark input:visited[type="button"], html.dark input[type="button"] {
+	background-color: #133e7c;
+	border: none;
+	color: #0abdc6;
+}
+
+/* 3.4. Profile */
+html.dark .overlay, html.dark .ovl {
+	background: rgba(0, 11, 30, .8);
+}
+html.dark .prf-meta {
+	border-top: 1px solid #000b1e;
+	background: #091833;
+}
+html.dark .prf-stats a:hover, html.dark .prf-stats a:hover strong {
+	color: #ea00d9;
+}
+html.dark .prf-stats a {
+	color: #0abdc6;
+}
+html.dark .prf-stats a strong {
+	color: #0abdc6;
+}
+html.dark .prf .lst-profile i {
+	color: #0abdc6;
+}
+html.dark .prf .lst-profile a:hover i {
+	color: #ea00d9;
+}
+html.dark .prf .lst-profile span {
+	color: #0abdc6;
+}
+html.dark .prf .lst-profile a:hover span {
+	color: #ea00d9;
+}
+
+/* 3.X. Other */
+html.dark .frm {
+	color: #0abdc6;
+}
+html.dark .color-twitter-gray {
+	color: rgba(10, 189, 198, .8)
+}
+html.dark .color-twitter-dark-gray {
+	color: #0abdc6;
+}
+html.dark .lst li {
+	border-bottom: 1px solid #0abdc6;
+}
+
+/* 4. Media */
+html.dark .med-fullpanel {
+	background-color: #000b1e;
+}
+.is-inverted-light {
+	color: #0abdc6;
+}
+.is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action:active, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action:focus, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action:hover, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .is-selected.dm-action, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .is-selected.tweet-detail-action, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action.is-selected, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action:active, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action:focus, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action:hover, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action:active, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action:focus, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action:hover, .is-inverted-light .dm-action:active, .is-inverted-light .dm-action:focus, .is-inverted-light .dm-action:hover, .is-inverted-light .is-selected.dm-action, .is-inverted-light .is-selected.tweet-detail-action, .is-inverted-light .tweet-action.is-selected, .is-inverted-light .tweet-action:active, .is-inverted-light .tweet-action:focus, .is-inverted-light .tweet-action:hover, .is-inverted-light .tweet-detail-action:active, .is-inverted-light .tweet-detail-action:focus, .is-inverted-light .tweet-detail-action:hover {
+	color: #ea00d9;
+}
+html.dark .is-inverted-light .mdl-btn-media, html.dark .mdl-btn-media {
+	color: #0abdc6;
+}
+html.dark .is-inverted-light .mdl-btn-media:active, html.dark .is-inverted-light .mdl-btn-media:hover, html.dark .mdl-btn-media:active, html.dark .mdl-btn-media:focus, html.dark .mdl-btn-media:hover {
+	color: #ea00d9;
+}
+html.dark .med-flaglink, html.dark .med-origlink {
+	color: #ea00d9;
+}
+html.dark .med-flaglink:hover, html.dark .med-origlink:hover {
+	color: #ea00d9;
+}
+
+/* 5. Notifications */
+html.dark .Notification-content {
+	border: 1px solid #0abdc6;
+	background-color: #000b1e;
+}
+html.dark .DrawerModal, html.dark .NotificationList .Notification-body {
+	color: #0abdc6;
+}
+html.dark .Notification-closeButton {
+	color: #0abdc6;
+}
+html.dark .Notification-closeButton:focus, html.dark .Notification-closeButton:hover {
+	color: #ea00d9;
+}
+html.dark .Notification-icon {
+	background-color: #711c91;
+	color: #0abdc6;
+	border: 1px solid #0abdc6;
+}
