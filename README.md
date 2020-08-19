@@ -2,23 +2,28 @@
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z1139QA)
 [![Donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/roboron/donate)
 
-![Cyberpunk Neon theme in action 1](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/Resources/Screenshots/screenshot-1.png)
-![Cyberpunk Neon theme in action 2](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/Resources/Screenshots/screenshot-2.png)
-![Cyberpunk Neon theme in action 3](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/Resources/Screenshots/screenshot-3.png)
+![Cyberpunk Neon theme in action 1](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/resources/screenshots/screenshot-1.png)
+![Cyberpunk Neon theme in action 2](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/resources/screenshots/screenshot-2.png)
+![Cyberpunk Neon theme in action 3](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/resources/screenshots/screenshot-3.png)
 
 ## Table of contents
 - [Description](#description)
 - [How to apply](#how-to-apply)
-- [Desktop](#desktop)
-  - [Cursors](#cursors)
+- [Apps](#apps)
   - [Firefox](#firefox)
-  - [GTK](#gtk)
-  - [KDE Plasma](#kde)
-  - [Icons](#icons)
+  - [Fedilab](#fedilab)
   - [Tabletop Simulator](#tabletop-simulator)
   - [Telegram](#telegram)
-  - [Welcome Screen](#welcome-screen)
   - [Zim](#zim)
+- [Cursors](#cursors)
+- [GTK](#gtk)
+- [Icons](#icons)
+  - [Suru++](#suru++)
+  - [Papirus](#papirus-kolorizer)
+  - [Linebit](#linebit)
+- [KDE Plasma](#kde)
+  - [Plasma colorscheme](#plasma-colorscheme)
+  - [Welcome Screen](#welcome-screen)
 - [Terminal]
   - [Konsole](#konsole)
   - [Tilix](#tilix)
@@ -49,76 +54,82 @@ And cd into the directory
 
 `cd Cyberpunk-Neon`
 
-## Desktop
+## Apps
 
-### Cursors
+### Fedilab
 
-While I have not made those, I recommend using [Breeze Hacked Cursor Theme](https://github.com/codejamninja/breeze-hacked-cursor-theme) (also available via [AUR](https://aur.archlinux.org/packages/breeze-hacked-cursor-theme/))
+Cyberpunk Neon Fedilab theme is featured on [https://fedilab.app/themes/](https://fedilab.app/themes/). You can aslo find it in this repository in apps/fedilab/fedilab_cyberpunk-neon.csv
 
 ### Firefox
 
 The official theme of Cyberpunk Neon is available in [Firefox Addons](https://addons.mozilla.org/es/firefox/addon/cyberpunk-neon/) (by Thomas Leon Highbaugh).
 
-### GTK
+### Tabletop Simulator
+
+Open the game. Go to Configuration -> Interface -> Theme Editor and click "Import/Export". Now copy the content of apps/tabletop-simulator/tabletop-simulator_cyberpunk-neon.txt
+
+### Telegram
+
+Just drop apps/telegram/cyberpunk-neon.tdesktop-theme into the chat and open it.
+
+### Zim
+
+If you use Zim you can copy apps/zim/style.conf into ~./config/zim
+
+`cp apps/zim/style.conf ~./config/zim/`
+
+## Cursors
+
+While I have not made those, I recommend using [Breeze Hacked Cursor Theme](https://github.com/codejamninja/breeze-hacked-cursor-theme) (also available via [AUR](https://aur.archlinux.org/packages/breeze-hacked-cursor-theme/))
+
+## GTK
 
 There are 3 GTK variants inside the gtk folder. The one originally made for this theme was the Materia variant, but you can also install the Numix variant or the Arc Variant.
 
-Extract Materia-Cyberpunk-Neon.tar.gz into ~/.themes/
+Extract materia-cyberpunk-neon.tar.gz into ~/.themes/
 
-`tar xzf gtk/Materia-Cyberpunk-Neon.tar.gz -C ~/.themes/`
+`tar xzf gtk/materia-cyberpunk-neon.tar.gz -C ~/.themes/`
 
 An apply the theme via settings (in KDE = Settings -> Appearance - Application Style)
 
 Note: You can also edit the theme with oomox with the oomox configuration file provided in this repository.
 
-### KDE
+## Icons
 
-You can use the KDE color scheme with any theme, as long as they are **not kvantum themes**. For consistency is better to install [Materia-Dark for KDE](https://github.com/PapirusDevelopmentTeam/materia-kde) (or any of the QT versions of the GTK variants) to fit with gtk theme.
-
-Next you have to copy CyberpunkNeon.colors to ~/.local/share/color-schemes
-
-`cp CyberpunkNeon.colors ~/.local/share/color-schemes`
-
-Now change the color scheme in Settings -> Appearance -> Color. Don't forget to also change Workspace Theme to Breeze if you want the system to follow the Color Scheme.
-
-### Icons
-
-#### Suru++
+### Suru++
 
 Suru++ includes a Cyberpunk-Neon variant. You can use [Suru++ icons](https://github.com/gusbemacbe/suru-plus) (papirus-like) or [Suru++ Asprómauros](https://github.com/gusbemacbe/suru-plus-aspromauros) (monochrome, gradient if wished). Refer to the [Suru++ Wiki](https://github.com/gusbemacbe/suru-plus/wiki) for more info.
 
-#### Papirus Kolorizer
+### Papirus Kolorizer
 
 Alternatively you can use the papirus-kolorizer.sh script included in this repository **WARNING**: It will replace your existing Papirus icons, if any. Refer to [Papirus Kolorizer repo](https://github.com/DarthWound/papirus-kolorizer) for more info.
 
 ```
-chmod +x papirus-kolorizer.sh
-./papirus-kolorizer.sh
+chmod +x icons/papirus-kolorizer.sh
+.icons/papirus-kolorizer.sh
 ```
 
 Apply the icons (Papirus-Dark) in system settings (KDE = Settings -> Appearance- Icons. Apply icons for GTK applications too in Settings -> Appearance - Application Style).
 
-#### Linebit
+### Linebit
 
 Icons at the left of the screenshots are extracted from [Linebit Android Icon Pack](https://play.google.com/store/apps/details?id=com.edzondm.linebit) and then customized one-by-one via KDE Plasma "Edit applications". If you need help with those, you can contact me directly for more info at robertoms258@gmail.com 
 
-### Tabletop Simulator
+## KDE
 
-Open the game. Got con Configuration -> Interface -> Theme Editor and click "Import/Export". Now copy the content of TabletopSimulator_Cyberpunk-Neon.txt
+### Plasma colorscheme
 
-### Telegram
+You can use the KDE color scheme with any theme, as long as they are **not kvantum themes**. For consistency is better to install [Materia-Dark for KDE](https://github.com/PapirusDevelopmentTeam/materia-kde) (or any of the QT versions of the GTK variants) to fit with gtk theme.
 
-Just drop the cyberpunk-neon.tdesktop-theme into the chat and open it.
+Next you have to copy kde/cyberpunk-neon.colors to ~/.local/share/color-schemes
 
-### Welcome Screen
+`cp kde/cyberpunk-neon.colors ~/.local/share/color-schemes`
+
+Now change the color scheme in Settings -> Appearance -> Color. Don't forget to also change Workspace Theme to Breeze if you want the system to follow the Color Scheme.
+
+### Welcome screen
 
 I have not make a Welcome Screen for KDE, but I recommend using [Charlie by l4k1](https://store.kde.org/p/1297744). The text you need to edit is at line 211 in `~/.local/share/plasma/look-and-feel/org.kde.Charlie.desktop/contents/splash/Splash.qml`
-
-### Zim
-
-If you use Zim you can copy my style.conf into ~./config/zim
-
-`cp style.conf ~./config/zim/`
 
 ## Terminal
 
@@ -130,13 +141,13 @@ In the terminal folder you will find colorschemes for different terminal emulato
 
 Copy Cyberpunk-Neon.colorscheme into ~~/.local/share/konsole/
 
-`cp Cyberpunk-Neon.colorscheme ~/.local/share/konsole/`
+`cp cyberpunk-neon.colorscheme ~/.local/share/konsole/`
 
 ### Tilix
 
 Copy Cyberpunk-Neon.json into ~/.config/tilix/schemes
 
-`cp Cyberpunk-Neon.json ~/.config/tilix/schemes`
+`cp cyberpunk-neon.json ~/.config/tilix/schemes`
 
 Select it in Settings -> Profile -> Color
 
@@ -148,11 +159,11 @@ See terminal-palette file
 
 Although you can use Vim with the default terminal colors, I've created a Vim theme to better fit my needs. You need to copy cyberpunkneon.vim to ~/.vim/colors
 
-`cp cyberpunkneon.vim ~/.vim/colors`
+`cp cyberpun-kneon.vim ~/.vim/colors`
 
 And then apply the theme in your .vimrc 
 
-`colorscheme cyberpunkneon`
+`colorscheme cyberpunk-neon`
 
 You can also modify and generate the theme easily with the [rnb.erb](https://github.com/romainl/vim-rnb/) file in the Resources folder.
 
@@ -164,9 +175,9 @@ Note: powerlevel10k config is retrocompatible with powerlevel9k syntax. You just
 
 ## CSS Themes
 
-I've applied the Cyberpunk-Neon color scheme to some websites. You cand find the CSS files to be used with Stylus in the CSS folder, or you can install them directly via userstyles.org. Currently available websites are:
-* Mastodon (classic) - [userstyles.org page](https://userstyles.org/styles/174594/mastodon-cyberpunk-neon)
-* TweetDeck (dark) - [userstyles.org page](https://userstyles.org/styles/188135/tweetdeck-cyberpunk-neon) 
+I've applied the Cyberpunk-Neon color scheme to some websites. You cand find the CSS files to be used with Stylus in the CSS folder, or you can install and manage them directly via greasyfork.org (Note: Styles avilable via userstyles.org are no longer supported). Currently available websites are:
+* Mastodon (classic) - [Greasy Fork](https://greasyfork.org/es/scripts/409167-mastodon-cyberpunk-neon)
+* TweetDeck (dark) - [Greasy Fork](https://greasyfork.org/es/scripts/409158-tweetdeck-cyberpunk-neon) 
 
 ### Discord
 
@@ -174,4 +185,4 @@ Please go to [CSS/discord](https://github.com/Roboron3042/Cyberpunk-Neon/tree/ma
 
 ## License
 
-Everything in this repository is licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html), except papirus-kolorizer script licensed under MIT.
+The content provided in this git repository is licensed under CC-BY-SA 4.0, which is available in the LICENSE.md. The sole exception is papirus-kolorizer script licensed under MIT.
