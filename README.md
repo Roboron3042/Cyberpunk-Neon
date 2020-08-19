@@ -27,6 +27,7 @@
   - [ZSH](#zsh)
 - [CSS Themes](#css-themes)
   - [Mastodon](#css-themes)
+  - [TweetDeck](#css-themes)
   - [Discord](#discord)
 - [License](#license)
 

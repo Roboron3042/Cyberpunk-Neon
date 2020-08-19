@@ -630,6 +630,35 @@ a.status-card.compact:hover {
     color: #0abdc6;
     background: #091833;
 }
+.account__header__account-note label {
+	color: #0abdc6;
+}
+.account__header__account-note textarea:focus {
+	background: #133e7c;
+}
+.account__header__account-note textarea {
+	color: #0abdc6;
+	background: transparent;
+}
+.inline-alert {
+	color: #00ff00;
+}
+.account__header__account-note {
+	color: #0abdc6;
+	border-bottom: 1px solid #0abdc6;
+}
+.timeline-hint {
+	color: #0abdc6;
+}
+.timeline-hint a:active, .timeline-hint a:focus, .timeline-hint a:hover {
+	color: #ea00d9;
+}
+.empty-column-indicator a, .error-column a, .follow_requests-unlocked_explanation a {
+	color: #ea00d9;
+}
+.account__header__tabs__buttons .icon-button {
+	border: 1px solid #0abdc6;
+}
 
 /* 6.3. Hastags */
 .trends__item__name {
@@ -678,6 +707,14 @@ a.status-card.compact:hover {
     color: #0abdc6ba;
     background: #091833;
     border-bottom: 1px solid #000b1e;
+}
+.floating-action-button {
+	background: #133e7c;
+	color: #0abdc6;
+	border: 1px solid #0abdc6;
+}
+.floating-action-button:active, .floating-action-button:focus, .floating-action-button:hover {
+	background: #711c91;
 }
 
 /* 9. External View */
@@ -773,6 +810,9 @@ html {
 }
 .button.logo-button svg {
     fill: #0abdc6;
+}
+.icon-button.active {
+	color: #0abdc6;
 }
 
 /* 9.1.1. Followers */

@@ -3,6 +3,15 @@
     Upstream URL / Report issues: https://github.com/Roboron3042/Cyberpunk-Neon
 */
 
+/* Index
+ *  0. Miscellaneous
+ *  1. Left bar
+ *  2. Columns
+ *  3. Menu & Dialogs
+ *  4. Media
+ *  5. Notifications
+ */
+
 /* 0. Miscellaneous */
 
 /* 0.1. Selection */
@@ -500,6 +509,21 @@ html.dark .media-badge {
 .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--text span {
 	vertical-align: middle;
 	color: #ea00d9;
+}
+html.dark .conversation-more {
+	color: #ea00d9;
+}
+html.dark .thread {
+	background-color: #133e7c;
+}
+html.dark .gap-chirp {
+	color: #ea00d9;
+}
+html.dark .gap-chirp::before {
+    background-color: #133e7c;
+}
+html.dark .gap-chirp::after {
+    background-color: #133e7c;
 }
 
 /* 2.1. Headers */

@@ -54,6 +54,12 @@
     --deprecated-text-input-border-hover: #040405;
     --deprecated-text-input-border-disabled: #202225;
     --deprecated-text-input-prefix: #dcddde;
+    --scrollbar-thin-thumb: #0abdc6;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #0abdc6;
+    --scrollbar-auto-track: #000b1e;
+    --scrollbar-auto-scrollbar-color-thumb: #0abdc6;
+    --scrollbar-auto-scrollbar-color-track: #000b1e;
 }
 
 /* 1. Miscelaneus */
@@ -139,6 +145,11 @@
 }
 .theme-dark .checkbox-3kaeSU .checkboxInner-3yjcPe span {
     border-color: #0abdc6;
+}
+
+/* 1.9. New Device Dialog */
+.lookLink-9FtZy-.colorBrand-3pXr91 {
+    color: #ea00d9;
 }
 
 /* 2. Server list */
@@ -889,6 +900,15 @@
 .theme-dark .edited-DL9ECl {
     color: rgba(10, 189, 198, .7);
 }
+.newMessagesBar-265mhP {
+    background-color: #133e7c;
+}
+.newMessagesBar-265mhP:hover {
+    background-color: #711c91;
+}
+.barButtonBase-2uLO1z {
+    color: #0abdc6;
+}
 
 /* 4.1. Message Buttons */
 .barButtonBase-3UKlW2 {
@@ -1194,6 +1214,52 @@
 #bda-qem-twitch-container, #bda-qem-favourite-container {
     background-color: #000b1e;
 }
+
+/* 5.5. @here and @everyone warnings */
+.theme-dark .contentTitle-2tG_sM {
+    color: #0abdc6;
+}
+.theme-dark .contentTitle-2tG_sM strong {
+    color: #ea00d9;
+}
+.theme-dark .selectorSelected-1_M1WV {
+    background-color: #133e7c;
+}
+.theme-dark .content-Qb0rXO {
+    color: #ea00d9;
+}
+.theme-dark .description-11DmNu, .theme-dark .descriptionUsername-J_75O8 {
+    color: #0abdc6;
+}
+.theme-dark .descriptionDiscriminator-3vUOCc {
+    color: rgba(10, 189, 198, .6);
+}
+.theme-dark .body-2iXqIL {
+    color: #0abdc6;
+}
+.theme-dark .header-3_S6dz {
+    color: #ea00d9;
+}
+.theme-dark .everyonePopout-nEbJY3 {
+    background-color: #091833;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(10, 189, 198, .6);
+    box-shadow: 0 2px 10px 0 rgba(10, 189, 198, .6);
+}
+.theme-dark .footer-2aTx0s {
+    background-color: #000b1e;
+    color: #0abdc6;
+    fill: #0abdc6 !important;
+}
+#app-mount > div.popouts-2bnG9Z.da-popouts > div.noArrow-2foL9g.da-noArrow.noShadow-3pu20z.da-noShadow.popout-2iWAc-.da-popout.popoutTopLeft-3B0mFf > div > form > div.footer-2aTx0s.da-footer > svg > g > path {
+    fill: #0abdc6 !important;
+}
+.theme-dark .buttonHint-2OxJB8 strong {
+    color: #ea00d9;
+}
+.theme-dark .buttonHint-2OxJB8 {
+    color: #0abdc6;
+}
+
 
 /* 6. Top bar */
 
@@ -1557,6 +1623,57 @@
     color: #ea00d9;
 }
 
+/* 9.4. Video Call */
+.colorable-1bkp8v.green-plH-Mj {
+    background: #133e7c;
+}
+.colorable-1bkp8v.green-plH-Mj, .colorable-1bkp8v.green-plH-Mj .centerIcon-2G6o-T {
+    color: #0abdc6;
+}
+.colorable-1bkp8v.green-plH-Mj.active-1QRrIS {
+    background: #133e7c;
+}
+.colorable-1bkp8v.green-plH-Mj:hover {
+    background: #711c91;
+}
+.colorable-1bkp8v.red-33-Lnk.active-1QRrIS, .colorable-1bkp8v.red-33-Lnk:hover {
+    background: #711c91;
+}
+.colorable-1bkp8v.red-33-Lnk, .colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T {
+    color: #0abdc6;
+}
+.colorable-1bkp8v.red-33-Lnk {
+    background: #133e7c;
+}
+.colorable-1bkp8v.primaryDark-3mSFDl, .colorable-1bkp8v.primaryDark-3mSFDl .centerIcon-2G6o-T {
+    color: #0abdc6;
+}
+.colorable-1bkp8v.primaryDark-3mSFDl {
+    background: #133e7c;
+}
+.colorable-1bkp8v.primaryDark-3mSFDl:hover {
+    background: #711c91;
+}
+.colorDefault-2K3EoJ.focused-3afm-j {
+    background-color: #711c91;
+    color: #0abdc6;
+}
+.colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS {
+    background: #ea00d9;
+}
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS {
+    color: #711c91;
+}
+.colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ, .colorDefault-2K3EoJ.focused-3afm-j .radioSelection-1HmrQS, .colorDefault-2K3EoJ.focused-3afm-j .subtext-13Lvrj {
+    color: #ea00d9;
+}
+.controlIcon-35oS15 {
+    color: #0abdc6;
+}
+.controlIcon-35oS15:hover {
+    color: #ea00d9;
+}
+
 /* 10. Quickswitcher */
 .theme-dark .keybindShortcut-1BD6Z1 span .bindArrow-2X3Aom g {
     fill: #0abdc6;
@@ -1802,5 +1919,16 @@
 }
 .bd-toast.toast-success {
     background-color: #711c91;
+    color: #0abdc6;
+}
+.standardSidebarView-3F1I7i #editor-detached h3 {
+    color: #0abdc6;
+}
+.standardSidebarView-3F1I7i #editor-detached button {
+    background: #133e7c;
+    color: #0abdc6;
+}
+.standardSidebarView-3F1I7i #editor-detached button:hover {
+    background: #711c91;
     color: #0abdc6;
 }
