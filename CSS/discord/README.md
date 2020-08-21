@@ -8,8 +8,8 @@ Now you can choose between the classic version and a transparent version with a 
 ### BetterDiscord
 First, install [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases) if you don't already have it (GNU/Linux version [here](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172).
 
-* Classic version: Download the Discord-Cyberpunk-Neon CSS file (you can click [here](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/CSS/discord/Discord-Cyberpunk-Neon.theme.css) and right-click in the page to "Save As...". Then save the .css file in BetterDiscord's theme folder.
-* Transparent version: Download the Discord-Cyberpunk-Neon-Transparent CSS file (you can click [here](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/CSS/discord/Discord-Cyberpunk-Neon-Transparent.theme.css) and right-click in the page to "Save As...". Then save the .css file in BetterDiscord's theme folder. If you want to change the background, edit the CSS file and change the URL image (instructions inside).
+* Classic version: Download the discord-cyberpunk-neon CSS file (you can click [here](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/CSS/discord/discord-cyberpunk-neon.theme.css) and right-click in the page to "Save As...". Then save the .css file in BetterDiscord's theme folder.
+* Transparent version: Download the discord-cyberpunk-neon-Transparent CSS file (you can click [here](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/CSS/discord/discord-cyberpunk-neon-transparent.theme.css) and right-click in the page to "Save As...". Then save the .css file in BetterDiscord's theme folder. If you want to change the background, edit the CSS file and change the URL image (instructions inside).
 
 And don't forget to apply in BetterDiscord Theme Settings! This version will update itself everytime you open Discord.
 
