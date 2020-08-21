@@ -1,0 +1,39 @@
+## Terminal
+
+In this folder you will find colorschemes for different terminal emulators and applications.
+
+### Konsole
+
+Copy konsole/cyberpunk-neon.colorscheme into ~~/.local/share/konsole/
+
+`cp konsole/cyberpunk-neon.colorscheme ~/.local/share/konsole/`
+
+### Tilix
+
+Copy tilix/cyberpunk-neon.json into ~/.config/tilix/schemes
+
+`cp tilix/cyberpunk-neon.json ~/.config/tilix/schemes`
+
+Select it in Settings -> Profile -> Color
+
+### Other
+
+See terminal-palette file
+
+### Vim
+
+Although you can use Vim with the default terminal colors, I've created a Vim theme to better fit my needs. You need to copy vim/cyberpunkneon.vim to ~/.vim/colors
+
+`cp vim/cyberpunk-neon.vim ~/.vim/colors`
+
+And then apply the theme in your .vimrc 
+
+`colorscheme cyberpunk-neon`
+
+You can also modify and generate the theme easily with the [rnb.erb](https://github.com/romainl/vim-rnb/) file in the resources folder.
+
+### ZSH
+
+Those cool prompts I have are a ZSH theme. Assuming you already installed ZSH and the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme for it, you only have to copy the contents of the /zsh/powerlevel9k file into your ~/.zshrc 
+
+Note: powerlevel10k config is retrocompatible with powerlevel9k syntax. You just need to tell ZSH to use the powerlevel10k theme before adding the content of the powerlevel9k file. If you, like me, have installed the theme via [Archlinux User Repository](https://aur.archlinux.org/packages/zsh-theme-powerlevel10k-git/), that means you have to add `source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme` to your ~/.zshrc

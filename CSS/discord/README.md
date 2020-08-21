@@ -19,6 +19,8 @@ First, install Stylus for [Chrome](https://chrome.google.com/webstore/detail/sty
 * Classic version: use the [Greasy Fork version](https://greasyfork.org/en/scripts/409172-discord-cyberpunk-neon).
 * Transparent version: use the [Greasy Fork version](https://greasyfork.org/en/scripts/409171-discord-cyberpunk-neon-transparent).
 
+Note: Styles available via userstyles.org are no longer supported. Please dont't use those.
+
 ## Screenshots 
 
 Classic version
