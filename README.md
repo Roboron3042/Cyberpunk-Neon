@@ -10,6 +10,7 @@
 - [Description](#description)
 - [Quickstart](#quickstart)
 - [Apps](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/apps#apps)
+  - [3DS Home Theme](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/apps#3ds-theme)
   - [Firefox](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/apps#firefox)
   - [Fedilab](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/apps#fedilab)
   - [Tabletop Simulator](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/apps#tabletop-simulator)
