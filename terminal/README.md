@@ -4,9 +4,17 @@ In this folder you will find colorschemes for different terminal emulators and a
 
 ### Konsole
 
-Copy konsole/cyberpunk-neon.colorscheme into ~~/.local/share/konsole/
+Copy konsole/cyberpunk-neon.colorscheme into ~/.local/share/konsole/
 
 `cp konsole/cyberpunk-neon.colorscheme ~/.local/share/konsole/`
+
+### Termite
+
+Copy termite/config into ~/.config/termite/config
+
+`cp termite/config ~/.config/termite/config`
+
+Restart termite.
 
 ### Tilix
 

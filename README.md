@@ -27,6 +27,7 @@
   - [Welcome Screen](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/kde#welcome-screen)
 - [Terminal](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#terminal)
   - [Konsole](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#konsole)
+  - [Termite](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#termite)
   - [Tilix](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#tilix)
   - [Other](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#other)
   - [Vim](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#vim)
