@@ -1,9 +1,8 @@
 ## GTK
 
-There are 3 GTK variants available: 
+There are 2 GTK variants available: 
 
 * Materia Cyberpunk Neon (materia-cyberpunk-neon.tar.gz)
-* Arc Cyberpunk Neon (arc-cyberpunk-neon.tar.gz)
 * Numix Cyberpunk Neon (numix-cyberpunk-neon.tar.gz)
 
 Choose your favourite!
