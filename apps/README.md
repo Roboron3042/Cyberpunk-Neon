@@ -21,6 +21,10 @@ Open the game. Go to Configuration -> Interface -> Theme Editor and click "Impor
 
 Just drop telegram/cyberpunk-neon.tdesktop-theme into the chat and open it.
 
+### Telegram Android
+
+Just drop telegram/cyberpunk-neon.attheme into the chat and open it.
+
 ### Zim
 
 If you use Zim you can copy zim/style.conf into ~./config/zim
