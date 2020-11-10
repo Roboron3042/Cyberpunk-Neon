@@ -22,7 +22,7 @@
     # The description should fit in a single line with no linefeed.
     # 'background' can be "light" or "dark".
     information = {
-        author:      "Roberto Michán Sánchez",
+        author:      "Roberto Michán Sánchez (Roboron)",
         email:       "robertoms258@gmail.com",
         name:        "cyberpunkneon",
         description: "A dark theme with a cyberpunk/outrun feeling",
@@ -47,22 +47,22 @@
     #
     # The colors below are the first 16 colors of the xterm palette. They
     # are only here as an example, though. You can get rid of them, I won't be mad.
-    fondo       = ["#000b1e", 233, "black"]
+    darkblue    = ["#000b1e", 233, "black"]
     darkred     = ["#800000", 1, "darkred"]
     darkgreen   = ["#008000", 2, "darkgreen"]
-    naranja  = ["#f57800", 208, "darkyellow"]
-    darkblue    = ["#000080", 4, "darkblue"]
-    seleccion = ["#711c91", 13, "darkmagenta"]
+    orange      = ["#f57800", 208, "darkyellow"]
+    blue        = ["#000080", 4, "darkblue"]
+    purple      = ["#711c91", 13, "darkmagenta"]
     darkcyan    = ["#008080", 6, "darkcyan"]
     gray        = ["#c0c0c0", 7, "gray"]
     darkgray    = ["#808080", 8, "darkgray"]
-    rojo         = ["#ff0000", 9, "red"]
-    verde       = ["#00ff00", 10, "green"]
-    amarillo      = ["#ffff00", 11, "yellow"]
-    boton        = ["#005faf", 25, "blue"]
-    detalle     = ["#ea00d9", 201, "magenta"]
-    texto        = ["#0abdc6", 44, "cyan"]
-    blanco       = ["#d7d7d5", 255, "white"]
+    red         = ["#ff0000", 9, "red"]
+    green       = ["#00ff00", 10, "green"]
+    yellow      = ["#ffff00", 11, "yellow"]
+    lightblue   = ["#005faf", 25, "blue"]
+    pink        = ["#ea00d9", 201, "magenta"]
+    cyan        = ["#0abdc6", 44, "cyan"]
+    white       = ["#d7d7d5", 255, "white"]
 
     # Step 4: highlights
     #
@@ -98,55 +98,69 @@
     # You can add any custom highlight group to the standard list below but you shouldn't
     # remove any if you want a working colorscheme.
     highlights = [
-        [ "Normal", fondo, texto, "NONE" ],
-        [ "NonText", "NONE", detalle, "NONE" ],
-        [ "Comment", "NONE", boton, "bold" ],
-        [ "Constant", "NONE", naranja, "NONE" ],
-        [ "Error", "NONE", rojo, "NONE" ],
-        [ "Identifier", "NONE", seleccion, "bold" ],
-        [ "PreProc", "NONE", seleccion, "bold" ],
-        [ "Special", "NONE", seleccion, "NONE" ],
-        [ "Statement", "NONE", verde, "bold" ],
-        [ "String", "NONE", naranja, "NONE" ],
+		[ "ColorColumn", red, darkblue, "NONE" ],
+		[ "CursorColumn", "NONE", pink, "NONE" ],
+		[ "SpellLocal", cyan, darkblue, "NONE", pink ],
+		[ "SpellRare", purple, pink, "NONE", cyan ],
+		[ "Visual", purple, cyan, "bold" ],
+        [ "Comment", "NONE", lightblue, "bold" ],
+        [ "Constant", "NONE", orange, "NONE" ],
+        [ "Cursor", "NONE", pink, "NONE" ],
+        [ "CursorLine", pink, darkblue, "NONE" ],
+        [ "CursorLineNr", pink, darkblue, "NONE" ],
+        [ "DiffAdd", purple, green, "NONE" ],
+        [ "DiffChange", purple, white, "NONE" ],
+        [ "DiffDelete", purple , red, "NONE" ],
+        [ "DiffText", purple, cyan, "NONE" ],
+        [ "Directory", "NONE", green, "bold" ],
+        [ "Error", "NONE", red, "NONE" ],
+        [ "ErrorMsg", red, darkblue, "bold" ],
+        [ "Exception", "NONE", red, "bold" ],
+        [ "FoldColumn", green, darkblue, "NONE" ],
+        [ "Folded", green, darkblue, "NONE" ],
+        [ "Function", "NONE", pink, "bold" ],
+        [ "Identifier", "NONE", purple, "bold" ],
+        [ "IncSearch", pink, darkblue, "NONE" ],
+        [ "Keyword", "NONE", pink, "bold" ],
+        [ "LineNr", "NONE", cyan, "NONE" ],
+        [ "MatchParen", cyan, darkblue, "NONE" ],
+        [ "ModeMsg", "NONE", cyan, "bold" ],
+        [ "MoreMsg", "NONE", cyan, "bold" ],
+        [ "NonText", "NONE", pink, "NONE" ],
+        [ "Normal", darkblue, cyan, "NONE" ],
         [ "Number", "Constant" ],
-        [ "Todo", detalle, "NONE", "NONE" ],
-        [ "Type", "NONE", detalle, "bold" ],
-        [ "Underlined", "NONE", texto, "underline" ],
-        [ "StatusLine", boton, texto, "bold" ],
-        [ "StatusLineNC", seleccion, detalle, "NONE" ],
-        [ "StatusLineTerm", "StatusLine" ],
-        [ "StatusLineTermNC", "StatusLineNC" ],
-        [ "VertSplit", boton, "NONE", "NONE" ],
-        [ "TabLine", boton, texto, "bold" ],
-        [ "TabLineFill", boton, texto, "bold" ],
-        [ "TabLineSel", seleccion, texto, "bold" ],
-        [ "Title", "NONE", naranja, "NONE" ],
-        [ "CursorLine", detalle, detalle, "NONE" ],
-        [ "LineNr", "NONE", texto, "NONE" ],
-        [ "CursorLineNr", detalle, detalle, "NONE" ],
-		[ "CursorColumn", "NONE", detalle, "NONE" ],
-        [ "Pmenu", boton, texto, "NONE" ],
-        [ "PmenuSbar", boton, "NONE", "NONE" ],
-        [ "PmenuSel", seleccion, texto, "bold" ],
-        [ "PmenuThumb", texto, "NONE", "NONE" ],
-        [ "DiffAdd", seleccion, verde, "NONE" ],
-        [ "DiffChange", seleccion, blanco, "NONE" ],
-        [ "DiffDelete", seleccion , rojo, "NONE" ],
-        [ "DiffText", seleccion, texto, "NONE" ],
-        [ "IncSearch", detalle, "NONE", "NONE" ],
-        [ "Search", detalle, "NONE", "bold" ],
-        [ "ErrorMsg", rojo, "NONE", "bold" ],
-        [ "ModeMsg", "NONE", texto, "bold" ],
-        [ "MoreMsg", "NONE", texto, "bold" ],
-        [ "Question", "NONE", texto, "NONE" ],
-        [ "WarningMsg", "Error" ],
-        [ "Cursor", "NONE", detalle, "NONE" ],
-        [ "Function", "NONE", detalle, "bold" ],
-        [ "Exception", "NONE", rojo, "bold" ],
-        [ "htmlTagName", "NONE", seleccion, "bold" ],
-        [ "Operator", "NONE", detalle, "bold" ],
-		[ "Visual", seleccion, texto, "bold" ],
-        [ "Keyword", "NONE", detalle, "bold" ]
+        [ "Operator", "NONE", pink, "bold" ],
+        [ "Pmenu", lightblue, cyan, "NONE" ],
+        [ "PmenuSbar", lightblue, "NONE", "NONE" ],
+        [ "PmenuSel", purple, cyan, "bold" ],
+        [ "PmenuThumb", cyan, darkblue, "NONE" ],
+        [ "PreProc", "NONE", purple, "bold" ],
+        [ "Question", "NONE", cyan, "NONE" ],
+        [ "Search", pink, darkblue, "bold" ],
+        [ "SignColumn", green, darkblue, "NONE" ],
+        [ "Special", "NONE", purple, "NONE" ],
+        [ "SpecialKey", "NONE", "green", "NONE" ],
+        [ "SpellBad", red, darkblue, "NONE" ],
+        [ "SpellCap", green, darkblue, "NONE", blue ],
+        [ "Statement", "NONE", green, "bold" ],
+        [ "StatusLine", lightblue, cyan, "bold" ],
+        [ "StatusLineNC", purple, pink, "NONE" ],
+        [ "StatusLineTerm", lightblue, cyan, "bold" ],
+        [ "StatusLineTermNC", purple, pink, "NONE" ],
+        [ "String", "NONE", orange, "NONE" ],
+        [ "TabLine", lightblue, cyan, "bold" ],
+        [ "TabLineFill", lightblue, cyan, "bold" ],
+        [ "TabLineSel", purple, cyan, "bold" ],
+        [ "Title", "NONE", orange, "NONE" ],
+        [ "Todo", pink, darkblue, "NONE" ],
+        [ "ToolbarLine", blue, cyan, "NONE" ],
+        [ "ToolbarButton", lightblue, cyan, "NONE" ],
+        [ "Type", "NONE", pink, "bold" ],
+        [ "Underlined", "NONE", cyan, "underline" ],
+        [ "VertSplit", lightblue, "NONE", "NONE" ],
+        [ "WarningMsg", "NONE", red, "NONE" ],
+        [ "WildMenu", orange, darkblue, "NONE" ],
+        [ "htmlTagName", "NONE", purple, "bold" ]
     ]
 
     # Define the color palette used by :terminal when in GUI Vim
@@ -156,22 +170,22 @@
     #
     # The expected values are colors defined in step 2.
     terminal_ansi_colors = [
-        fondo,
+        darkblue,
         darkred,
         darkgreen,
-        naranja,
-        darkblue,
-        seleccion,
+        orange,
+        blue,
+        purple,
         darkcyan,
         darkgray,
         darkgray,
-        rojo,
-        verde,
-        amarillo,
-        boton,
-        detalle,
-        texto,
-        blanco
+        red,
+        green,
+        yellow,
+        lightblue,
+        pink,
+        cyan,
+        white
     ]
 
     # Step 5: generation

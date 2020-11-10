@@ -34,11 +34,15 @@ Although you can use Vim with the default terminal colors, I've created a Vim th
 
 `cp vim/cyberpunk-neon.vim ~/.vim/colors`
 
-And then apply the theme in your .vimrc 
+And then apply the theme in your .vimrc:
 
 `colorscheme cyberpunk-neon`
 
-You can also modify and generate the theme easily with the [rnb.erb](https://github.com/romainl/vim-rnb/) file in the resources folder.
+Set also 'termguicolors' for better integration:
+
+`set termguicolors`
+
+You can also modify and generate the theme easily with the [cyberpunkneon.erb](https://github.com/romainl/vim-rnb/) file in the resources folder.
 
 ### ZSH
 
