@@ -1,4 +1,4 @@
-" cyberpunkneon.vim -- Vim color scheme.
+" cyberpunk-neon.vim -- Vim color scheme.
 " Author:      Roberto Michán Sánchez (Roboron) (robertoms258@gmail.com)
 " Webpage:     https://github.com/Roboron3042/Cyberpunk-Neon
 " Description: A dark theme with a cyberpunk/outrun feeling
@@ -9,7 +9,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "cyberpunkneon"
+let colors_name = "cyberpunk-neon"
 
 if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi ColorColumn ctermbg=9 ctermfg=233 cterm=NONE guibg=#ff0000 guifg=#000b1e gui=NONE
