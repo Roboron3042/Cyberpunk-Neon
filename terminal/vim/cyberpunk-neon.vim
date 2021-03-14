@@ -37,7 +37,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi IncSearch ctermbg=201 ctermfg=233 cterm=NONE guibg=#ea00d9 guifg=#000b1e gui=NONE
     hi Keyword ctermbg=NONE ctermfg=201 cterm=bold guibg=NONE guifg=#ea00d9 gui=bold
     hi LineNr ctermbg=NONE ctermfg=44 cterm=NONE guibg=NONE guifg=#0abdc6 gui=NONE
-    hi MatchParen ctermbg=44 ctermfg=233 cterm=NONE guibg=#0abdc6 guifg=#000b1e gui=NONE
+    hi MatchParen ctermbg=25 ctermfg=44 cterm=NONE guibg=#005faf guifg=#0abdc6 gui=NONE
     hi ModeMsg ctermbg=NONE ctermfg=44 cterm=bold guibg=NONE guifg=#0abdc6 gui=bold
     hi MoreMsg ctermbg=NONE ctermfg=44 cterm=bold guibg=NONE guifg=#0abdc6 gui=bold
     hi NonText ctermbg=NONE ctermfg=201 cterm=NONE guibg=NONE guifg=#ea00d9 gui=NONE
@@ -106,7 +106,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi IncSearch ctermbg=magenta ctermfg=black cterm=NONE
     hi Keyword ctermbg=NONE ctermfg=magenta cterm=bold
     hi LineNr ctermbg=NONE ctermfg=cyan cterm=NONE
-    hi MatchParen ctermbg=cyan ctermfg=black cterm=NONE
+    hi MatchParen ctermbg=blue ctermfg=cyan cterm=NONE
     hi ModeMsg ctermbg=NONE ctermfg=cyan cterm=bold
     hi MoreMsg ctermbg=NONE ctermfg=cyan cterm=bold
     hi NonText ctermbg=NONE ctermfg=magenta cterm=NONE
