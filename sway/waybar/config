@@ -1,0 +1,229 @@
+// -*- mode: json -*-
+
+{
+	"layer": "top",
+	"position": "top",
+
+	"modules-left": [
+		"sway/workspaces",
+		"custom/right-arrow-workspaces",
+		"custom/mastodon",
+		"custom/twitter",
+		"custom/github",
+		"custom/reddit",
+		"custom/traktv",
+		"custom/right-arrow-shortcuts",
+		"mpd",
+		"custom/right-arrow-mpd",
+	],
+	"modules-center": [
+		"custom/left-arrow-clock",
+		"clock",
+		"custom/right-arrow-clock"
+	],
+	"modules-right": [
+		"custom/left-arrow-pulse",
+		"custom/mpd-vol",
+		"pulseaudio",
+		"custom/left-arrow-modules",
+		"memory",
+		"cpu",
+		"temperature",
+		"disk",
+		"custom/pacman",
+		"battery",
+		"custom/left-arrow-tray",
+		"tray",
+		"custom/exit"
+	],
+
+	"custom/right-arrow-workspaces": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/right-arrow-shortcuts": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/right-arrow-mpd": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/left-arrow-clock": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/right-arrow-clock": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/left-arrow-pulse": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/left-arrow-modules": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/left-arrow-mpd": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/left-arrow-modules": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/left-arrow-tray": {
+		"format": "",
+		"tooltip": false
+	},
+
+	"sway/workspaces": {
+		"disable-scroll": false,
+		"format": "{name}"
+	},
+	"custom/mastodon": {
+		"format": "ﳄ",
+		"on-click": "xdg-open https://im-in.space/",
+		"on-click-right": "xdg-open https://cybre.space/",
+		"tooltip": false
+	},
+	"custom/twitter": {
+		"format": "",
+		"on-click": "xdg-open https://tweetdeck.twitter.com/",
+		"tooltip": false
+	},
+	"custom/github": {
+		"format": "",
+		"on-click": "xdg-open https://github.com",
+		"tooltip": false
+	},
+	"custom/reddit": {
+		"format": "樓",
+		"on-click": "$TERM -e tuir",
+		"tooltip": false
+	},
+	"custom/traktv": {
+		"format": "",
+		"on-click": "xdg-open https://trakt.tv/dashboard",
+		"tooltip": false
+	},
+	"mpd": {
+		"max-length": 60,
+        "format": " {stateIcon} {randomIcon}{consumeIcon}{repeatIcon}{singleIcon}{title} ",
+        "format-disconnected": " Disconnected",
+        "format-stopped": " ■ {randomIcon}{consumeIcon}{repeatIcon}{singleIcon}Stopped ",
+        "unknown-tag": "N/A",
+        "interval": 2,
+        "consume-icons": {
+            "on": " "
+        },
+        "random-icons": {
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "1 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "MPD (connected)",
+        "tooltip-format-disconnected": "MPD (disconnected)",
+		"on-click": "mpc toggle",
+		"on-click-right": "cantata",
+		"on-scroll-down": "mpc next",
+		"on-scroll-up": "mpc prev",
+    },
+
+
+
+	"clock": {
+		"format": "{:%a. %d | %H:%M}",
+		"tooltip": false,
+		"on-click": "zim 'Tu Wiki' Journal:$(date +%Y):Week_$(date +%V)",
+		"on-click-right": "zim 'Universidad' Journal:$(date +%Y):Week_$(date +%V)"
+	},
+	"custom/mpd-vol": {
+		"interval": 5,
+		"format": " {}",
+		"exec": "mpc volume | tr -dc '0-9%'",
+		"on-scroll-up": "mpc volume +10",
+		"on-scroll-down": "mpc volume -10"
+	},
+	"pulseaudio": {
+		"format": "{icon} {volume:2}% {format_source}",
+		"format-bluetooth": "{icon}  {volume}%",
+		"format-muted": "MUTE",
+		"format-source": "  {volume}%",
+		"format-source-muted": " ",
+		"format-icons": {
+			"headphones": "",
+			"default": [
+				"",
+				"",
+				""
+			]
+		},
+		"scroll-step": 5,
+		"on-click-right": "amixer set Capture toggle",
+		"on-click": "pavucontrol"
+	},
+	"memory": {
+		"interval": 5,
+		"format": " {}%",
+		"on-click": "$TERM -e htop"
+	},
+	"cpu": {
+		"interval": 5,
+        "format": " {usage}%",
+		"on-click": "$TERM -e htop"
+	},
+    "temperature": {
+        "critical-threshold": 75,
+        "format": " {temperatureC}°C"
+    },
+	"battery": {
+		"states": {
+			"good": 95,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon} {capacity}%",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"disk": {
+		"interval": 5,
+		"format": " {percentage_used}%",
+		"path": "/",
+		"on-click": "dolphin"
+	},
+	"custom/pacman": {
+		"format": " {}",
+		"interval": 3600, // every hour
+		"exec": "checkupdates | wc -l", // # of updates
+		"exec-if": "exit 0", // always run; consider advanced run conditions
+		"on-click": "$TERM -e up; pkill -SIGRTMIN+8 waybar", // update system
+		"signal": 8,
+	},
+	"tray": {
+		"icon-size": 20,
+		"spacing": 10
+	},
+	"custom/exit": {
+		"tooltip": false,
+		"format": "⏻",
+		"on-click": "swaymsg exit",
+		"on-click-right": "systemctl poweroff",
+		"on-click-middle": "systemctl reboot"
+	}
+}

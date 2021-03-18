@@ -1,0 +1,14 @@
+# Theme
+#
+# Note: I only really need border for the current focused window, so the inactive broder is set to background color. If you want a more visible vorder, replace #000b1e with #0abdc6 (for example) on client.[focused_inactive|unfocused]
+default_border pixel 1
+default_floating_border pixel 1
+
+client.focused          #ea00d9 #ea00d9 #000b1e #ea00d9 #ea00d9 
+client.focused_inactive	#000b1e #000b1e #0abdc6 #000b1e #000b1e
+client.unfocused		#000b1e #000b1e #0abdc6 #000b1e #000b1e
+client.urgent           #ff0000 #ff0000 #000b1e #ff0000 #ff0000
+client.placeholder      #000b1e #000b1e #0abdc6 #000b1e #000b1e
+
+# Cursor
+seat seat0 xcursor_theme Breeze-Hacked 28

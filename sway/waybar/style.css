@@ -1,0 +1,138 @@
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cyberpunk-Neon colorscheme */
+@define-color dark-blue		#000b1e;
+@define-color blue			#091833;
+@define-color light-blue	#133e7c;
+@define-color light-alt		#0b2956;
+@define-color cyan			#0abdc6;
+@define-color pink			#ea00d9;
+@define-color purple		#711c91;
+@define-color purple-alt	#321959;
+@define-color red			#ff0000;
+@define-color orange		#f57800;
+@define-color white			#d7d7d5;
+@define-color yellow		#ffff00;
+@define-color green			#00ff00;
+
+
+window#waybar {
+	font-size: 16px;
+	font-family: "Hack Nerd Font";
+	background: @blue;
+	color: @cyan;
+}
+
+#custom-right-arrow-workspaces,
+#custom-left-arrow-tray {
+	font-size: 18px;
+	color: @light-alt;
+	background: @purple-alt;
+}
+#custom-right-arrow-shortcuts,
+#custom-left-arrow-modules {
+	font-size: 18px;
+	color: @purple-alt;
+	background: @light-alt;
+}
+#custom-right-arrow-mpd,
+#custom-left-arrow-pulse {
+	font-size: 18px;
+	color: @light-alt;
+	background: @blue;
+}
+#custom-left-arrow-clock {
+	font-size: 18px;
+	color: @purple-alt;
+	background: @blue;
+}
+#custom-right-arrow-clock {
+	font-size: 18px;
+	color: @purple-alt;
+	background: @blue;
+}
+
+#custom-mastodon,
+#custom-twitter,
+#custom-github,
+#custom-reddit,
+#custom-traktv,
+#clock,
+#memory,
+#cpu,
+#temperature,
+#disk,
+#custom-pacman{
+	color: @cyan;
+    padding-left: 10px;
+    padding-right: 10px;
+	background: @purple-alt;
+}
+
+#custom-mpd-vol,
+#pulseaudio,
+#tray,
+#custom-exit{
+    padding-left: 10px;
+    padding-right: 10px;
+	background: @light-alt;
+}
+
+#workspaces button {
+	background: @light-alt;
+	padding: 0 0px;
+	color: @cyan;
+}
+#workspaces button.focused {
+	color: @pink;
+}
+#workspaces button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+#workspaces button:hover {
+	background: @purple;
+	border: none;
+	padding: 0 0px;
+}
+
+#custom-mastodon{
+	color: @pink;
+}
+#custom-github{
+	color: @white;
+}
+#custom-reddit{
+	color: @orange;
+}
+#custom-traktv{
+	color: @red;
+}
+
+#clock{
+	color: @pink;
+}
+#mpd{
+	background: @light-alt;
+}
+#memory {
+	color: @green;
+}
+#cpu {
+	color: @pink;
+}
+#temperature {
+	color: @red;
+}
+#disk {
+	color: @yellow;
+}
+#custom-pacman{
+	color: @orange;
+}
