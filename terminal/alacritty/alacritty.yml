@@ -1,6 +1,6 @@
 # Cyberpunk-Neon
 #
-# Note: for some reason the "bright" blue is not used in the same cases as konsole, so this colorscheme is subject to change to address this.
+draw_bold_text_with_bright_colors: true
 
   # Default colours
   primary:
