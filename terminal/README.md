@@ -2,6 +2,10 @@
 
 In this folder you will find colorschemes for different terminal emulators and applications.
 
+### Alacritty
+
+Replace your current colorscheme on .config/alacritty/alacritty.yml with the contents of alacritty/alacritty.yml
+
 ### Konsole
 
 Copy konsole/cyberpunk-neon.colorscheme into ~/.local/share/konsole/
