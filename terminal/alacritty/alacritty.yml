@@ -37,7 +37,7 @@
     white:   '0xd7d7d5'
 
   # dim colors
-  bright:
+  dim:
     black:   '0x1c61c2'
     red:     '0xff0000'
     green:   '0xd300c4'
