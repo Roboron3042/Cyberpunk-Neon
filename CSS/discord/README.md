@@ -3,7 +3,7 @@
 This is the Cyberpunk Neon theme for Discord. Everything is recolored to fit the theme. But nothing more than the colors are changed.
 
 ## Installation
-Now you can choose between the classic version and a transparent version with a custom image background (screenshots below). Please notice that the transparent version is not my main focus and it can get some improvements.
+You can choose between the classic version and the transparent version with a custom image background (screenshots below). **If you have problems with custom images not loading on the transparent version, try to upload them to imgur.com first**. Please notice that the transparent version is not my main focus and it can get some improvements.
 
 ### BetterDiscord
 First, install [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases) if you don't already have it (GNU/Linux version [here](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172).
