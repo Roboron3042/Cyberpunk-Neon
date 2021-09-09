@@ -22,10 +22,13 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Cursor ctermbg=NONE ctermfg=201 cterm=NONE guibg=NONE guifg=#ea00d9 gui=NONE
     hi CursorLine ctermbg=201 ctermfg=233 cterm=NONE guibg=#ea00d9 guifg=#000b1e gui=NONE
     hi CursorLineNr ctermbg=201 ctermfg=233 cterm=NONE guibg=#ea00d9 guifg=#000b1e gui=NONE
-    hi DiffAdd ctermbg=13 ctermfg=10 cterm=NONE guibg=#711c91 guifg=#00ff00 gui=NONE
-    hi DiffChange ctermbg=13 ctermfg=255 cterm=NONE guibg=#711c91 guifg=#d7d7d5 gui=NONE
-    hi DiffDelete ctermbg=13 ctermfg=9 cterm=NONE guibg=#711c91 guifg=#ff0000 gui=NONE
-    hi DiffText ctermbg=13 ctermfg=44 cterm=NONE guibg=#711c91 guifg=#0abdc6 gui=NONE
+    hi DiffAdd ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#00ff00 gui=NONE
+    hi DiffAdded ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#00ff00 gui=NONE
+    hi DiffChange ctermbg=NONE ctermfg=255 cterm=NONE guibg=NONE guifg=#d7d7d5 gui=NONE
+    hi DiffChanged ctermbg=NONE ctermfg=255 cterm=NONE guibg=NONE guifg=#d7d7d5 gui=NONE
+    hi DiffDelete ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#ff0000 gui=NONE
+    hi DiffRemoved ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#ff0000 gui=NONE
+    hi DiffText ctermbg=NONE ctermfg=44 cterm=NONE guibg=NONE guifg=#0abdc6 gui=NONE
     hi Directory ctermbg=NONE ctermfg=10 cterm=bold guibg=NONE guifg=#00ff00 gui=bold
     hi Error ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#ff0000 gui=NONE
     hi ErrorMsg ctermbg=9 ctermfg=233 cterm=bold guibg=#ff0000 guifg=#000b1e gui=bold
@@ -91,10 +94,13 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Cursor ctermbg=NONE ctermfg=magenta cterm=NONE
     hi CursorLine ctermbg=magenta ctermfg=black cterm=NONE
     hi CursorLineNr ctermbg=magenta ctermfg=black cterm=NONE
-    hi DiffAdd ctermbg=darkmagenta ctermfg=green cterm=NONE
-    hi DiffChange ctermbg=darkmagenta ctermfg=white cterm=NONE
-    hi DiffDelete ctermbg=darkmagenta ctermfg=red cterm=NONE
-    hi DiffText ctermbg=darkmagenta ctermfg=cyan cterm=NONE
+    hi DiffAdd ctermbg=NONE ctermfg=green cterm=NONE
+    hi DiffAdded ctermbg=NONE ctermfg=green cterm=NONE
+    hi DiffChange ctermbg=NONE ctermfg=white cterm=NONE
+    hi DiffChanged ctermbg=NONE ctermfg=white cterm=NONE
+    hi DiffDelete ctermbg=NONE ctermfg=red cterm=NONE
+    hi DiffRemoved ctermbg=NONE ctermfg=red cterm=NONE
+    hi DiffText ctermbg=NONE ctermfg=cyan cterm=NONE
     hi Directory ctermbg=NONE ctermfg=green cterm=bold
     hi Error ctermbg=NONE ctermfg=red cterm=NONE
     hi ErrorMsg ctermbg=red ctermfg=black cterm=bold
