@@ -21,8 +21,7 @@ Open the game. Go to Configuration -> Interface -> Theme Editor and click "Impor
 
 You can install the updated Telegram theme using this link: [https://t.me/addtheme/cyberpunk_neon_v2](https://t.me/addtheme/cyberpunk_neon_v2)
 
-The file telegram/cyberpunk-neon.tdesktop-theme file in this repository can also be used. But it contains the first version released.
-
+The file telegram/cyberpunk-neon.tdesktop-theme file in this repository can also be used. Just drop it to a chat. 
 ### Telegram Android
 
 The Android theme can be installed using this link: [https://t.me/addtheme/cyberpunk_neon](https://t.me/addtheme/cyberpunk_neon) (Warning: Not maintained by me). Note that the Android theme is not up-to-date with the current Desktop theme.
