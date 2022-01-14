@@ -899,13 +899,13 @@
 
 /* 4.0.1. Unread messages separator*/
 .group-spacing-16 .divider-IqmEqJ.beforeGroup-1BvJAt {
-    border-top: thin solid #ea00d9;
-    --divider-color: #ea00d9;
+    border-top: thin solid #ea00d9 !important;
+    --divider-color: #ea00d9 !important;
 }
 
 .unreadPill-3nEWYM {
-    color: #000b1e;
-    background-color: var(--divider-color);
+    color: #000b1e !important;
+    background-color: var(--divider-color) !important;
 }
 
 /* 4.1. Message Buttons */
@@ -1529,7 +1529,7 @@
     background-color: #091833;
 }
 .peopleColumn-1wMU14 {
-	background-color: #091833;
+	background-color: #091833 !important;
 }
 
 /* 9.0.1 Add friend buttom */
@@ -1559,7 +1559,7 @@
 
 /* 9.2. Friend Playing Modal */
 .topSectionPlaying-1J5E4n {
-    background: #711c91;
+    background: #711c91 !important;
 }
 .username-3gJmXY {
     color: #0abdc6;
@@ -1575,7 +1575,7 @@
 }
 /* hover cards */
 .theme-dark .outer-2JOHae.active-1W_Gl9, .theme-dark .outer-2JOHae.interactive-2zD88a:hover {
-    background-color: #321959;
+    background-color: #321959 !important;
 }
 
 /* 9.3. Call */
