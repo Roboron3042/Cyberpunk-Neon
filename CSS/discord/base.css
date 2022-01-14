@@ -17,51 +17,54 @@
  */
 
 /* 0. Colorscheme */
-
 .theme-dark {
-    --header-primary: #ea00d9;
-    --header-secondary: #0abdc6;
-    --text-normal: #0abdc6;
-    --text-muted: rgba(10, 189, 198, .6);
-    --text-link: #ea00d9;
-    --channels-default: rgba(10, 189, 198, .7);
-    --interactive-normal: #0abdc6;
-    --interactive-hover: #ea00d9;
-    --interactive-active: #0abdc6;
-    --interactive-muted: rgba(10, 189, 198, .6);
-    --background-primary: #091833;
-    --background-secondary: #000b1e;
-    --background-secondary-alt: #091833;
-    --background-tertiary: #000b1e;
-    --background-accent: #133e7c;
-    --background-floating: #091833;
-    --background-modifier-hover: rgba(19, 62, 124, .6);
-    --background-modifier-active: rgba(113, 28, 145, .6);
-    --background-modifier-selected: rgba(113, 28, 145, .6);
-    --background-modifier-accent: rgba(10, 189, 198, .2);
-    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
-    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-    --logo-primary: #ea00d9;
-    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-    --channeltextarea-background: #133e7c;
-    --activity-card-background: #000b1e;
-    --deprecated-panel-background: #091833;
-    --deprecated-card-bg: rgba(0, 11, 30, .6);
-    --deprecated-card-editable-bg: rgba(19, 62, 124, .2);
-    --deprecated-store-bg: #091833;
-    --deprecated-quickswitcher-input-background: #133e7c;
-    --deprecated-quickswitcher-input-placeholder: rgba(10, 189, 198, .3);
-    --deprecated-text-input-bg: rgba(0,0,0,0.1);
-    --deprecated-text-input-border: rgba(0,0,0,0.3);
-    --deprecated-text-input-border-hover: #040405;
-    --deprecated-text-input-border-disabled: #202225;
-    --deprecated-text-input-prefix: #dcddde;
-    --scrollbar-thin-thumb: #0abdc6;
-    --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #0abdc6;
-    --scrollbar-auto-track: #000b1e;
-    --scrollbar-auto-scrollbar-color-thumb: #0abdc6;
-    --scrollbar-auto-scrollbar-color-track: #000b1e;
+	--activity-card-background: #000b1e;
+	--background-accent: #133e7c;
+	--background-floating: #091833;
+	--background-mentioned-hover: rgba(0, 255, 0, 0.1);
+	--background-mentioned: rgba(0, 255, 0, 0.05);
+	--background-modifier-accent: rgba(10, 189, 198, .2);
+	--background-modifier-active: rgba(113, 28, 145, .6);
+	--background-modifier-hover: rgba(19, 62, 124, .6);
+	--background-modifier-selected: rgba(113, 28, 145, .6);
+	--background-primary: #091833 !important;
+	--background-secondary-alt: #091833 !important;
+	--background-secondary: #000b1e !important;
+	--background-tertiary: #000b1e !important;
+	--channels-default: rgba(10, 189, 198, .7);
+	--channeltextarea-background: #133e7c !important;
+	--control-brand-foreground-new: #ea00d9;
+	--deprecated-card-bg: rgba(0, 11, 30, .6);
+	--deprecated-card-editable-bg: rgba(19, 62, 124, .2);
+	--deprecated-panel-background: #091833 !important;
+	--deprecated-quickswitcher-input-background: #133e7c;
+	--deprecated-quickswitcher-input-placeholder: rgba(10, 189, 198, .3);
+	--deprecated-store-bg: #091833;
+	--deprecated-text-input-bg: rgba(0,0,0,0.1);
+	--deprecated-text-input-border-disabled: #202225;
+	--deprecated-text-input-border-hover: #040405;
+	--deprecated-text-input-border: rgba(0,0,0,0.3);
+	--deprecated-text-input-prefix: #dcddde;
+	--elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+	--elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+	--guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+	--header-primary: #ea00d9;
+	--header-secondary: #0abdc6;
+	--interactive-active: #0abdc6;
+	--interactive-hover: #ea00d9;
+	--interactive-muted: rgba(10, 189, 198, .6);
+	--interactive-normal: #0abdc6;
+	--logo-primary: #ea00d9;
+	--scrollbar-auto-scrollbar-color-thumb: #0abdc6;
+	--scrollbar-auto-scrollbar-color-track: #000b1e;
+	--scrollbar-auto-thumb: #0abdc6;
+	--scrollbar-auto-track: #000b1e;
+	--scrollbar-thin-thumb: #0abdc6;
+	--scrollbar-thin-track: transparent;
+	--text-link: #ea00d9;
+	--text-muted: rgba(10, 189, 198, .6);
+	--text-normal: #0abdc6;
+	--textbox-markdown-syntax: #ea00d9;
 }
 
 /* 1. Miscelaneus */
@@ -894,6 +897,17 @@
     color: #0abdc6;
 }
 
+/* 4.0.1. Unread messages separator*/
+.group-spacing-16 .divider-IqmEqJ.beforeGroup-1BvJAt {
+    border-top: thin solid #ea00d9;
+    --divider-color: #ea00d9;
+}
+
+.unreadPill-3nEWYM {
+    color: #000b1e;
+    background-color: var(--divider-color);
+}
+
 /* 4.1. Message Buttons */
 .barButtonBase-3UKlW2 {
     color: #0abdc6;
@@ -1514,12 +1528,19 @@
 .theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
     background-color: #091833;
 }
-div.item-3HknzM:nth-child(5) {
-    color: #0abdc6 !important;
-    background-color: #133e7c !important;
+.peopleColumn-1wMU14 {
+	background-color: #091833;
 }
-div.item-3HknzM:nth-child(5):hover {
-    background-color: #711c91 !important;
+
+/* 9.0.1 Add friend buttom */
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.container-2cd8Mz > section > div.children-3xh0VB > div.tabBar-ra-EuL.topPill-3DJJNV > div:nth-child(5) {
+	background-color: #133e7c !important;
+	color: #0abdc6 !important;
+}
+
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.container-2cd8Mz > section > div.children-3xh0VB > div.tabBar-ra-EuL.topPill-3DJJNV > div:nth-child(5):hover {
+	background-color: #321959 !important;
+	color: #0abdc6 !important;
 }
 
 /* 9.1. Groups */
@@ -1536,7 +1557,7 @@ div.item-3HknzM:nth-child(5):hover {
     background-color: rgba(19, 62, 124, .6);
 }
 
-/* 9.2. Friend PLaying Modal */
+/* 9.2. Friend Playing Modal */
 .topSectionPlaying-1J5E4n {
     background: #711c91;
 }
@@ -1548,9 +1569,13 @@ div.item-3HknzM:nth-child(5):hover {
 }
 .additionalActionsIcon-1FoUlE {
     color: #0abdc6;
-}
+} 
 #app-mount > div:nth-child(4) > div:nth-child(2) > div.modal-3c3bKg.da-modal > div.inner-1ilYF7.da-inner > div > div.topSectionPlaying-1J5E4n.da-topSectionPlaying > div > div.tabBarContainer-1s1u-z.da-tabBarContainer > div > div {
     color: #0abdc6 !important;
+}
+/* hover cards */
+.theme-dark .outer-2JOHae.active-1W_Gl9, .theme-dark .outer-2JOHae.interactive-2zD88a:hover {
+    background-color: #321959;
 }
 
 /* 9.3. Call */
