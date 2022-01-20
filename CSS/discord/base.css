@@ -1509,7 +1509,7 @@
 
 /* 9. Friends */
 .theme-dark .container-1D34oG {
-    background-color: #091833;
+    background-color: var(--background-primary);
 }
 #app-mount > div.app-19_DXt.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div.base-3dtUhz.da-base > div > div.container-3gCOGc.da-container > div.container-1r6BKw.da-container.themed-ANHk51.da-themed > div.children-19S4PO.da-children > div.tabBar-1E2ExX.da-tabBar.topPill-30KHOu > div:nth-child(5) {
     background-color: #133e7c !important;
@@ -1526,10 +1526,10 @@
     background-color: rgba(19, 62, 124, .6);
 }
 .theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
-    background-color: #091833;
+    background-color: var(--background-primary);
 }
 .peopleColumn-1wMU14 {
-	background-color: #091833 !important;
+	background-color: var(--background-primary) !important;
 }
 
 /* 9.0.1 Add friend buttom */

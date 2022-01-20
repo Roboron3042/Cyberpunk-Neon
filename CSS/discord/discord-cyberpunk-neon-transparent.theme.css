@@ -2,28 +2,43 @@
 
 @import url("https://roboron3042.github.io/Cyberpunk-Neon/CSS/discord/base.css");
 
-/*
-    Autor: Roberto Michán Sánchez (Roboron)
-    Upstream URL / Report issues: https://github.com/Roboron3042/Cyberpunk-Neon
-    License: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+/* Cyberpunk Neon color scheme is a cyberpunk/outrun color scheme based on the Cyberpunk Neon Color Palette. Want more of it? Check out the Cyberpunk Neon GitHub: https://github.com/Roboron3042/Cyberpunk-Neon 
+ 
+You are free to modify, share, and even propose changes to this theme if you want.
 */
 
-/* Custom background
+/* CUSTOM BACKGROUND
     To change the background replace the URL in background-image in .appMount-3lHmkl with your prefered one 
     
-    Example: 
-    
-    background-image: url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/blade-runner-2049.jpg);
-    
-    Result: https://cdn.discordapp.com/attachments/634038467696787463/634474813838065664/Screenshot_20191017_213616.png
+	IMPORTANT: Some hosting sites may not work, so we recommend imgur to upload your desired image.
 */
 
-.appMount-3lHmkl {
-    background-image: url(https://i.imgur.com/jshwEyA.jpg);
-    background-color: rgba(9, 24, 51, 0);
+.appMount-2yBXZl {
+    background-image: url(https://i.imgur.com/jshwEyA.jpg) !important;
+    background-color: rgba(9, 24, 51, 0) !important;
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
+}
+
+/* 12. TRANSPARENCY
+	You can modify the transparency changing the values of the following parameters */
+.theme-dark {
+	--transparency: .4;
+	--less-transparency: .7;
+    --background-primary: rgba(9, 24, 51, var(--transparency) ) !important;
+    --background-secondary: rgba(0, 11, 30, var(--transparency) ) !important;
+    --background-tertiary: rgba(0, 11, 30, var(--transparency) ) !important;
+    --deprecated-panel-background: rgba(9, 24, 51, var(--transparency) ) !important;
+    --channeltextarea-background: rgba(19, 62, 124, var(--less-transparency) ) !important;
+    --background-secondary-alt: rgba(9, 24, 51, var(--less-transparency)) !important;
+
+}
+.theme-dark .inset-3sAvek {
+    background-color: var(--channeltextarea-background) !important;
+}
+.theme-dark .container-2cd8Mz {
+    background-color: transparent;
 }
 
 /* Web scrollbars 
@@ -45,26 +60,6 @@
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scrollbar-2rkZSL .thumb-2JwNFC {
     background-color: #0abdc6;
     border: 3px solid #000b1e;
-}
-
-/* 13. Transparency */
-.theme-dark {
-    --background-primary: rgba(9, 24, 51, .4);
-    --background-secondary: rgba(0, 11, 30, .4);
-    --background-tertiary: rgba(0, 11, 30, .4);
-    --deprecated-panel-background: rgba(9, 24, 51, .4);
-    --channeltextarea-background: rgba(19, 62, 124, .7);
-    --background-secondary-alt: rgba(9, 24, 51, .7)
-
-}
-.theme-dark .container-1D34oG {
-    background-color: rgba(9, 24, 51, .4)
-}
-.theme-dark .inset-3sAvek {
-    background-color: rgba(19, 62, 124, .2);
-}
-.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
-    background-color: rgba(9, 24, 51, .4)
 }
 
 /* Custom CSS goes here */
