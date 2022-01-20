@@ -6,7 +6,7 @@ This is the Cyberpunk Neon theme for Discord. Everything is recolored to fit the
 You can choose between the classic version and the transparent version with a custom image background (screenshots below). **If you have problems with custom images not loading on the transparent version, try to upload them to imgur.com first**. Please notice that the transparent version is not my main focus and it can get some improvements.
 
 ### BetterDiscord
-First, install [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases) if you don't already have it (GNU/Linux version [here](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172).
+First, install [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases) if you don't already have it.
 
 * Classic version: Download the discord-cyberpunk-neon CSS file (you can click [here](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/CSS/discord/discord-cyberpunk-neon.theme.css) and right-click in the page to "Save As...". Then save the .css file in BetterDiscord's theme folder.
 * Transparent version: Download the discord-cyberpunk-neon-Transparent CSS file (you can click [here](https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/CSS/discord/discord-cyberpunk-neon-transparent.theme.css) and right-click in the page to "Save As...". Then save the .css file in BetterDiscord's theme folder. If you want to change the background, edit the CSS file and change the URL image (instructions inside).
@@ -16,9 +16,13 @@ And don't forget to apply in BetterDiscord Theme Settings! This version will upd
 ### Web browser
 First, install Stylus for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Firefox](https://addons.mozilla.org/es/firefox/addon/styl-us/) if you don't already have it.
 
-* Classic version: use the [Greasy Fork version](https://greasyfork.org/en/scripts/409172-discord-cyberpunk-neon).
-* Transparent version: use the [Greasy Fork version](https://greasyfork.org/en/scripts/409171-discord-cyberpunk-neon-transparent).
-
+* Classic version:
+	* [UserStyles.world](https://userstyles.world/style/2849/discord-cyberpunk-neon)
+	* [Greasy Fork](https://greasyfork.org/en/scripts/409172-discord-cyberpunk-neon)
+* Transparent version:
+	* [UserStyles.world](https://userstyles.world/style/2848/discord-cyberpunk-neon-transparent)
+	* [Greasy Fork](https://greasyfork.org/en/scripts/409171-discord-cyberpunk-neon-transparent)
+	
 Note: Styles available via userstyles.org are no longer supported. Please dont't use those.
 
 ## Screenshots 

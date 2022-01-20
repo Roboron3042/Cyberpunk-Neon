@@ -2,9 +2,11 @@
 
 @import url("https://roboron3042.github.io/Cyberpunk-Neon/CSS/discord/base.css");
 
-/* Cyberpunk Neon color scheme is a cyberpunk/outrun color scheme based on the Cyberpunk Neon Color Palette. Want more of it? Check out the Cyberpunk Neon GitHub: https://github.com/Roboron3042/Cyberpunk-Neon 
- 
-You are free to modify, share, and even propose changes to this theme if you want.
+/* 
+	Cyberpunk Neon color scheme is a cyberpunk/outrun color scheme based on the Cyberpunk Neon Color Palette.
+	Autor: Roberto Michán Sánchez (Roboron)
+	Upstream URL / Report issues: https://github.com/Roboron3042/Cyberpunk-Neon
+	License: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
 */
 
 /* CUSTOM BACKGROUND
@@ -21,17 +23,20 @@ You are free to modify, share, and even propose changes to this theme if you wan
     background-size: cover;
 }
 
-/* 12. TRANSPARENCY
+
+
+
+
+
+/* 13. TRANSPARENCY
 	You can modify the transparency changing the values of the following parameters */
 .theme-dark {
-	--transparency: .4;
-	--less-transparency: .7;
-    --background-primary: rgba(9, 24, 51, var(--transparency) ) !important;
-    --background-secondary: rgba(0, 11, 30, var(--transparency) ) !important;
-    --background-tertiary: rgba(0, 11, 30, var(--transparency) ) !important;
-    --deprecated-panel-background: rgba(9, 24, 51, var(--transparency) ) !important;
-    --channeltextarea-background: rgba(19, 62, 124, var(--less-transparency) ) !important;
-    --background-secondary-alt: rgba(9, 24, 51, var(--less-transparency)) !important;
+    --background-primary: rgba(9, 24, 51, .4) !important;
+    --background-secondary: rgba(0, 11, 30, .4)  !important;
+    --background-tertiary: rgba(0, 11, 30, .4) !important;
+    --deprecated-panel-background: rgba(9, 24, 51, .4) !important;
+    --channeltextarea-background: rgba(19, 62, 124, .7) !important;
+    --background-secondary-alt: rgba(9, 24, 51, .7) !important;
 
 }
 .theme-dark .inset-3sAvek {

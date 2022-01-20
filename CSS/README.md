@@ -2,8 +2,12 @@
 
 I've applied the Cyberpunk-Neon color scheme to some websites. You can install and manage them directly via greasyfork.org. Currently available websites are:
 
-* Mastodon (classic) - [Greasy Fork](https://greasyfork.org/es/scripts/409167-mastodon-cyberpunk-neon)
-* TweetDeck (dark) - [Greasy Fork](https://greasyfork.org/es/scripts/409158-tweetdeck-cyberpunk-neon) 
+* Mastodon (classic):
+	* [UserStyles.world](https://userstyles.world/style/2850/mastodon-cyberpunk-neon)
+	* [Greasy Fork](https://greasyfork.org/es/scripts/409167-mastodon-cyberpunk-neon)
+* TweetDeck (dark)
+	* [UserStyles.world](https://userstyles.world/style/2851/tweetdeck-cyberpunk-neon)
+	* [Greasy Fork](https://greasyfork.org/es/scripts/409158-tweetdeck-cyberpunk-neon) 
 
 Note: Styles available via userstyles.org are no longer supported. Please dont't use those.
 
