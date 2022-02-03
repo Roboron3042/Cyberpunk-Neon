@@ -1,0 +1,552 @@
+/* ==UserStyle==
+@name           Startpage Cyberpunk Neon
+@description    Cyberpunk Neon theme for Startpage
+@namespace      github.com/Roboron3042/Cyberpunk-Neon
+@author         @Roboron3042 <robertoms258 at gmail dot com>
+@homepageURL    https://github.com/Roboron3042/Cyberpunk-Neon
+@supportURL     https://github.com/Roboron3042/Cyberpunk-Neon/issues
+@version        1.0
+@license        CC-BY-SA 4.0
+@preprocessor   stylus
+==/UserStyle== */
+@-moz-document url-prefix("https://www.startpage.com/") {
+ 
+/*
+    Autor: Roberto Michán Sánchez (Roboron)
+    Upstream URL / Report issues: https://github.com/Roboron3042/Cyberpunk-Neon
+    License: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+*/
+
+/* 0. Colorscheme */
+
+html {
+    --background: #000b1e;
+    --background-text: #091833;
+    --button: #133e7c;
+    --button-alt: #0b2956;
+    --button-alt-svg: invert(15%) sepia(81%) saturate(952%) hue-rotate(186deg) brightness(88%) contrast(102%);
+    --text: #0abdc6;
+    --text-svg: invert(50%) sepia(85%) saturate(1552%) hue-rotate(144deg) brightness(101%) contrast(92%); 
+    --text-alt: rgba(10, 189, 198, .6);
+    --accent: #ea00d9;
+    --accent-svg: invert(17%) sepia(98%) saturate(7408%) hue-rotate(299deg) brightness(106%) contrast(108%);
+    --select: #711c91;
+    --select-alt: #321959;
+    --green: #00ff00;
+}
+
+/* 0.1. Selection & Scrollbars */
+::selection {
+  background: var(--select-alt) !important; /* WebKit/Blink Browsers */
+  color: var(--text) !important;
+}
+::-moz-selection {
+  background: var(--select-alt) !important; /* Gecko Browsers */
+  color: var(--text) !important;
+}
+.note-3kmerW textarea::-moz-selection {
+    background:var(--select-alt) !important;
+    color:var(--text) !important;
+}
+.note-3kmerW  textarea::selection {
+    background:var(--select-alt) !important;
+    color:var(--text)!important;
+}
+html {
+    scrollbar-color: var(--text) var(--background) !important;
+}
+::placeholder {
+  color: var(--text-alt) !important;
+}
+
+/* 1. Header */
+
+.header:not(.header--default):not(.header--blak):not(.header--nite):not(.header--dawn) {
+	background-color: var(--background);
+}
+.header:not(.header--default):not(.header--blak):not(.header--nite):not(.header--dawn) .header__logo {
+	filter: var(--text-svg);
+}
+
+.header:not(.header--default):not(.header--blak):not(.header--nite):not(.header--dawn) .header__top-nav-container .home-button {
+	filter: var(--text-svg);
+}
+.header:not(.header--default):not(.header--blak):not(.header--nite):not(.header--dawn) .header__top-nav-container .home-button:hover {
+	filter: var(--accent-svg);
+}
+.search-form:not(.search-form--default):not(.search-form--blak):not(.search-form--nite):not(.search-form--dawn) .search-form__form {
+	background: var(--background-text);
+	border: 1px solid var(--text);
+}
+.search-form:not(.search-form--default):not(.search-form--blak):not(.search-form--nite):not(.search-form--dawn) .search-form__form:hover {
+	border: 1px solid var(--accent);
+}
+.search-form:not(.search-form--default):not(.search-form--blak):not(.search-form--nite):not(.search-form--dawn) .search-form__form:focus {
+	border: 1px solid var(--accent);
+}
+.search-form:not(.search-form--default):not(.search-form--blak):not(.search-form--nite):not(.search-form--dawn) .search-form__q {
+	color: var(--text);
+}
+.search-form:not(.search-form--default):not(.search-form--blak):not(.search-form--nite):not(.search-form--dawn) .search-form__clear-button .x-btn {
+    filter: var(--text-svg);
+}
+.search-form:not(.search-form--default):not(.search-form--blak):not(.search-form--nite):not(.search-form--dawn) .search-form__clear-button .x-btn:hover {
+    filter: var(--accent-svg);
+}
+.search-form:not(.search-form--default):not(.search-form--blak):not(.search-form--nite):not(.search-form--dawn) .search-form__clear-button {
+	border-right: 1px solid var(--text-alt);
+}
+.search-form:not(.search-form--default):not(.search-form--blak):not(.search-form--nite):not(.search-form--dawn) .search-form__button-desktop .ico-wrapper .ico {
+    filter: var(--text-svg);
+}
+.search-form:not(.search-form--default):not(.search-form--blak):not(.search-form--nite):not(.search-form--dawn) .search-form__button-desktop .ico-wrapper .ico:hover {
+	filter: var(--accent-svg);
+}
+.privacy-please-menu__button {
+	color: var(--text);
+}
+html.startpage-html--dark body .suggestPanel {
+	color: var(--text);
+	background-color: var(--background-text);
+	border: 1px solid var(--text-alt);
+}
+html.startpage-html--dark body .suggest_link_over {
+	background-color: var(--button-alt);
+}
+
+/* 1.1 Privacy, Please! */
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__button .chevron, .privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__button .privacy-please-text {
+	filter: var(--text-svg);
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__button .privacy-please-text {
+	color: var(--accent);
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__button:hover {
+	background: none;
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__button .chevron-container {
+	background: none;
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display {
+	background: var(--background);
+	border: 1px solid var(--accent);
+	color: var(--text);
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display__wrapper .close-btn .x-btn {
+	filter: var(--text-svg);
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display__wrapper .close-btn:hover .x-btn {
+	filter: var(--accent-svg);
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display__wrapper .close-btn:hover {
+	background: none;
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__button:hover .chevron, .privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__button:hover .privacy-please-text {
+	filter: var(--accent-svg);
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display__left-rail .link-text {
+    text-decoration: none;
+	color: var(--accent);
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display__left-rail .link-text:hover {
+    text-decoration: underline;
+	color: var(--accent);
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display__left-rail {
+	border-right: 1px solid var(--text-alt);
+	color: var(--text);
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display__left-rail .link:first-child {
+	border-bottom: 1px solid var(--text-alt);
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display__right-rail .privacy-please-rightrail-header {
+	color: var(--text); 
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display__right-rail .privacy-please-rightrail-text {
+	color: var(--text);
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display__right-rail .link-text {
+	color: var(--accent) !important;
+    text-decoration: none;
+}
+.privacy-please-menu:not(.privacy-please-menu--default):not(.privacy-please-menu--blak):not(.privacy-please-menu--nite):not(.privacy-please-menu--dawn) .privacy-please-menu__display__right-rail .link-text:hover {
+    text-decoration: underline;
+}
+
+/* 1.3 Menu */
+.hamburger-menu:not(.hamburger-menu--default):not(.hamburger-menu--blak):not(.hamburger-menu--nite):not(.hamburger-menu--dawn) .hamburger-menu__button .icon {
+	filter: var(--text-svg); 
+}
+.hamburger-menu:not(.hamburger-menu--default):not(.hamburger-menu--blak):not(.hamburger-menu--nite):not(.hamburger-menu--dawn) .hamburger-menu__button:hover {
+	background: none;
+}
+.hamburger-menu:not(.hamburger-menu--default):not(.hamburger-menu--blak):not(.hamburger-menu--nite):not(.hamburger-menu--dawn) .hamburger-menu__button:hover .icon {
+	filter: var(--accent-svg);
+}
+.hamburger-menu:not(.hamburger-menu--default):not(.hamburger-menu--blak):not(.hamburger-menu--nite):not(.hamburger-menu--dawn) .hamburger-menu__drawer {
+	background: var(--background);;
+	color: var(--text);
+	border: none;
+}
+.hamburger-menu:not(.hamburger-menu--default):not(.hamburger-menu--blak):not(.hamburger-menu--nite):not(.hamburger-menu--dawn) .hamburger-menu__drawer .link-button, .hamburger-menu:not(.hamburger-menu--default):not(.hamburger-menu--blak):not(.hamburger-menu--nite):not(.hamburger-menu--dawn) .hamburger-menu__drawer a {
+	color: var(--accent);
+}
+.hamburger-menu:not(.hamburger-menu--default):not(.hamburger-menu--blak):not(.hamburger-menu--nite):not(.hamburger-menu--dawn) .hamburger-menu__drawer .link-button:hover, .hamburger-menu:not(.hamburger-menu--default):not(.hamburger-menu--blak):not(.hamburger-menu--nite):not(.hamburger-menu--dawn) .hamburger-menu__drawer a:hover {
+	color: var(--accent);
+    text-decoration: underline;
+}
+.hamburger-menu:not(.hamburger-menu--default):not(.hamburger-menu--blak):not(.hamburger-menu--nite):not(.hamburger-menu--dawn) .hamburger-menu__drawer__section:not(:last-child) {
+	border-bottom: 1px solid var(--text-alt);
+}
+.hamburger-menu:not(.hamburger-menu--default):not(.hamburger-menu--blak):not(.hamburger-menu--nite):not(.hamburger-menu--dawn) .hamburger-menu__drawer__nav-link--startmail::before {
+	filter: var(--accent-svg);
+}
+
+/* 1.4 Sections */
+.inline-nav-menu:not(.inline-nav-menu--default):not(.inline-nav-menu--blak):not(.inline-nav-menu--nite):not(.inline-nav-menu--dawn) .inline-nav-menu__link__active {
+	color: var(--accent) !important;
+	border-bottom: 2px solid var(--accent);
+}
+.inline-nav-menu:not(.inline-nav-menu--default):not(.inline-nav-menu--blak):not(.inline-nav-menu--nite):not(.inline-nav-menu--dawn) .inline-nav-menu__link__active:hover {
+	color: var(--accent);
+	border-bottom: 2px solid var(--accent);
+}
+.inline-nav-menu:not(.inline-nav-menu--default):not(.inline-nav-menu--blak):not(.inline-nav-menu--nite):not(.inline-nav-menu--dawn) .inline-nav-menu__link__post-link {
+	color: var(--text); 
+}
+.inline-nav-menu:not(.inline-nav-menu--default):not(.inline-nav-menu--blak):not(.inline-nav-menu--nite):not(.inline-nav-menu--dawn) .inline-nav-menu__link__post-link:hover {
+	color: var(--accent);
+	border-bottom: 2px solid var(--accent);
+}
+
+/* 2. Body */
+
+/* 2.1. Filters */
+
+.layout-web:not(.layout-web--default):not(.layout-web--blak):not(.layout-web--nite):not(.layout-web--dawn) {
+	background: var(--background-text);
+}
+.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) {
+	background: var(--background-text);
+}
+.search-filter-time:not(.search-filter-time--default):not(.search-filter-time--blak):not(.search-filter-time--nite):not(.search-filter-time--dawn) .search-filter-time__dropdown {
+	color: var(--text); 
+}
+.search-filter-time:not(.search-filter-time--default):not(.search-filter-time--blak):not(.search-filter-time--nite):not(.search-filter-time--dawn) .search-filter-time__dropdown .chevron {
+	filter: var(--text-svg); 
+}
+.search-filter-region:not(.search-filter-region--default):not(.search-filter-region--blak):not(.search-filter-region--nite):not(.search-filter-region--dawn) .search-filter-region__dropdown {
+	color: var(--text); 
+}
+.search-filter-region:not(.search-filter-region--default):not(.search-filter-region--blak):not(.search-filter-region--nite):not(.search-filter-region--dawn) .search-filter-region__dropdown .chevron {
+	filter: var(--text-svg); 
+}
+.search-filter-family:not(.search-filter-family--default):not(.search-filter-family--blak):not(.search-filter-family--nite):not(.search-filter-family--dawn) .search-filter-family__field-label {
+	color: var(--text); 
+}
+.search-filter-family:not(.search-filter-family--default):not(.search-filter-family--blak):not(.search-filter-family--nite):not(.search-filter-family--dawn) .search-filter-family__toggle.active::before {
+	background-color: var(--select);
+}
+.search-filter-family:not(.search-filter-family--default):not(.search-filter-family--blak):not(.search-filter-family--nite):not(.search-filter-family--dawn) .search-filter-family__toggle.active::after {
+	background-color: var(--accent);
+}
+.search-filter-family:not(.search-filter-family--default):not(.search-filter-family--blak):not(.search-filter-family--nite):not(.search-filter-family--dawn) .search-filter-family__toggle::before {
+	background-color: var(--button);
+}
+.search-filter-family:not(.search-filter-family--default):not(.search-filter-family--blak):not(.search-filter-family--nite):not(.search-filter-family--dawn) .search-filter-family__toggle::after {
+	background-color: var(--text); 
+}
+.search-filters-toolbar:not(.search-filters-toolbar--default):not(.search-filters-toolbar--blak):not(.search-filters-toolbar--nite):not(.search-filters-toolbar--dawn) .settings .settings-icon {
+	filter: var(--text-svg); 
+}
+.search-filters-toolbar:not(.search-filters-toolbar--default):not(.search-filters-toolbar--blak):not(.search-filters-toolbar--nite):not(.search-filters-toolbar--dawn) .settings:hover {
+	background: none;
+}
+.search-filters-toolbar:not(.search-filters-toolbar--default):not(.search-filters-toolbar--blak):not(.search-filters-toolbar--nite):not(.search-filters-toolbar--dawn) .settings:hover .settings-icon {
+	filter: var(--accent-svg);
+}
+.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__label {
+	color: rgba(10, 189, 198, .7);
+}
+
+/* 2.1.1 Date filter */
+.search-filter-time:not(.search-filter-time--default):not(.search-filter-time--blak):not(.search-filter-time--nite):not(.search-filter-time--dawn) .search-filter-time__options {
+  border: 1px solid var(--accent);
+  background: var(--background);
+  color: var(--text);
+}
+.search-filter-time:not(.search-filter-time--default):not(.search-filter-time--blak):not(.search-filter-time--nite):not(.search-filter-time--dawn) .search-filter-time__options .options-header p {
+	color: var(--text); ;
+}
+.search-filter-time:not(.search-filter-time--default):not(.search-filter-time--blak):not(.search-filter-time--nite):not(.search-filter-time--dawn) .search-filter-time__options .options-header {
+	border-bottom: 1px solid rgba(10, 189, 198, .6)
+}
+.search-filter-time:not(.search-filter-time--default):not(.search-filter-time--blak):not(.search-filter-time--nite):not(.search-filter-time--dawn) .search-filter-time__options .filter-button {
+	color: var(--text); ;
+	background: none;
+}
+.search-filter-time:not(.search-filter-time--default):not(.search-filter-time--blak):not(.search-filter-time--nite):not(.search-filter-time--dawn) .search-filter-time__options .filter-button:focus, .search-filter-time:not(.search-filter-time--default):not(.search-filter-time--blak):not(.search-filter-time--nite):not(.search-filter-time--dawn) .search-filter-time__options .filter-button:hover {
+	background: var(--button-alt);
+}
+.search-filter-time:not(.search-filter-time--default):not(.search-filter-time--blak):not(.search-filter-time--nite):not(.search-filter-time--dawn) .search-filter-time__options .selected {
+	color: var(--accent);
+	background: var(--select-alt);
+}
+
+/* 2.1.2 Region filter */
+.search-filter-region:not(.search-filter-region--default):not(.search-filter-region--blak):not(.search-filter-region--nite):not(.search-filter-region--dawn) .search-filter-region__options {
+	border: 1px solid var(--accent);;
+	background: var(--background);;
+	color: var(--text);
+}
+.search-filter-region:not(.search-filter-region--default):not(.search-filter-region--blak):not(.search-filter-region--nite):not(.search-filter-region--dawn) .search-filter-region__options .options-header {
+	border-bottom: 1px solid rgba(10, 189, 198, .6)
+}
+.search-filter-region:not(.search-filter-region--default):not(.search-filter-region--blak):not(.search-filter-region--nite):not(.search-filter-region--dawn) .search-filter-region__options .options-header p {
+	color: var(--text); ;
+}
+.search-filter-region:not(.search-filter-region--default):not(.search-filter-region--blak):not(.search-filter-region--nite):not(.search-filter-region--dawn) .search-filter-region__searchbar-region {
+	background: var(--button-alt);
+	color: var(--text) !important; 
+	border: 1px solid var(--text);
+}
+.search-filter-region:not(.search-filter-region--default):not(.search-filter-region--blak):not(.search-filter-region--nite):not(.search-filter-region--dawn) .search-filter-region__searchbar-region:focus {
+	border: 1px solid var(--accent);
+}
+.search-filter-region:not(.search-filter-region--default):not(.search-filter-region--blak):not(.search-filter-region--nite):not(.search-filter-region--dawn) .search-filter-region__options .filter-button {
+	color: var(--text); ;
+	background: none;
+}
+.search-filter-region:not(.search-filter-region--default):not(.search-filter-region--blak):not(.search-filter-region--nite):not(.search-filter-region--dawn) .search-filter-region__options .selected {
+	color: var(--accent);
+	background: var(--select-alt);
+}
+.search-filter-region:not(.search-filter-region--default):not(.search-filter-region--blak):not(.search-filter-region--nite):not(.search-filter-region--dawn) .search-filter-region__options .filter-button:focus, .search-filter-region:not(.search-filter-region--default):not(.search-filter-region--blak):not(.search-filter-region--nite):not(.search-filter-region--dawn) .search-filter-region__options .filter-button:hover {
+	background: var(--button-alt);
+}
+
+/* 2.2 Results */
+.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__anonymous-view-url {
+	color: var(--accent);
+}
+.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__anonymous-view-icon {
+    filter: var(--button-alt-svg);
+}
+.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__result-url {
+	color: var(--accent);;
+}
+.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__result-title {
+	color: var(--green);
+}
+.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__result-title:visited {
+	color: var(--select);;
+}
+.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .w-gl__result {
+	color: var(--text);
+}
+.w-gl:not(.w-gl--default):not(.w-gl--blak):not(.w-gl--nite):not(.w-gl--dawn) .linkHover {
+	background: var(--select-alt);
+	border: none;
+}
+
+/* 2.2.1 Result box */
+.wp-qi-sb:not(.wp-qi-sb--default):not(.wp-qi-sb--blak):not(.wp-qi-sb--nite):not(.wp-qi-sb--dawn) .wp-qi-sb__result {
+	border-color: var(--text);
+	background: var(--button-alt);
+}
+.wp-qi-sb:not(.wp-qi-sb--default):not(.wp-qi-sb--blak):not(.wp-qi-sb--nite):not(.wp-qi-sb--dawn) .wp-qi-sb__title {
+	color: var(--green);
+}
+.wp-qi-sb:not(.wp-qi-sb--default):not(.wp-qi-sb--blak):not(.wp-qi-sb--nite):not(.wp-qi-sb--dawn) .wp-qi-sb__description {
+	color: var(--text); 
+}
+.wp-qi-sb:not(.wp-qi-sb--default):not(.wp-qi-sb--blak):not(.wp-qi-sb--nite):not(.wp-qi-sb--dawn) .wp-qi-sb__top-regular-img .headline, .wp-qi-sb:not(.wp-qi-sb--default):not(.wp-qi-sb--blak):not(.wp-qi-sb--nite):not(.wp-qi-sb--dawn) .wp-qi-sb__top-square-img {
+	border-bottom: 1px solid var(--button);
+}
+.wp-qi-sb:not(.wp-qi-sb--default):not(.wp-qi-sb--blak):not(.wp-qi-sb--nite):not(.wp-qi-sb--dawn) .wp-qi-sb__extract {
+	color: var(--text);
+}
+.wp-qi-sb:not(.wp-qi-sb--default):not(.wp-qi-sb--blak):not(.wp-qi-sb--nite):not(.wp-qi-sb--dawn) .wp-qi-sb__expand-text {
+	color: var(--accent);
+}
+.wp-qi-sb:not(.wp-qi-sb--default):not(.wp-qi-sb--blak):not(.wp-qi-sb--nite):not(.wp-qi-sb--dawn) .wp-qi-sb__link {
+	color: var(--accent);
+}
+
+
+.wp-qi-tp:not(.wp-qi-tp--default):not(.wp-qi-tp--blak):not(.wp-qi-tp--nite):not(.wp-qi-tp--dawn) .wp-qi-tp__top-regular-img .headline, .wp-qi-tp:not(.wp-qi-tp--default):not(.wp-qi-tp--blak):not(.wp-qi-tp--nite):not(.wp-qi-tp--dawn) .wp-qi-tp__top-square-img {
+	border-bottom: 1px solid var(--button);
+}
+.wp-qi-tp:not(.wp-qi-tp--default):not(.wp-qi-tp--blak):not(.wp-qi-tp--nite):not(.wp-qi-tp--dawn) .wp-qi-tp__result {
+	border-color: var(--text); 
+	background: var(--button-alt);
+}
+.wp-qi-tp:not(.wp-qi-tp--default):not(.wp-qi-tp--blak):not(.wp-qi-tp--nite):not(.wp-qi-tp--dawn) .wp-qi-tp__title {
+	color: var(--green);
+}
+.wp-qi-tp:not(.wp-qi-tp--default):not(.wp-qi-tp--blak):not(.wp-qi-tp--nite):not(.wp-qi-tp--dawn) .wp-qi-tp__description {
+	color: var(--text);
+}
+.wp-qi-tp:not(.wp-qi-tp--default):not(.wp-qi-tp--blak):not(.wp-qi-tp--nite):not(.wp-qi-tp--dawn) .wp-qi-tp__extract {
+	color: var(--text); 
+}
+.wp-qi-tp:not(.wp-qi-tp--default):not(.wp-qi-tp--blak):not(.wp-qi-tp--nite):not(.wp-qi-tp--dawn) .wp-qi-tp__expand-text {
+	color: var(--accent);
+}
+.wp-qi-tp:not(.wp-qi-tp--default):not(.wp-qi-tp--blak):not(.wp-qi-tp--nite):not(.wp-qi-tp--dawn) .wp-qi-tp__link {
+	color: var(--accent);
+}
+
+
+/* 2.3 bot buttons */
+.pagination:not(.pagination--default):not(.pagination--blak):not(.pagination--nite):not(.pagination--dawn) .num--active {
+	background: var(--select-alt);
+	border: none;
+	color: var(--accent);
+}
+.pagination:not(.pagination--default):not(.pagination--blak):not(.pagination--nite):not(.pagination--dawn) .pagination__num {
+	color: var(--text); 
+	background: var(--button-alt);
+	border: none;
+}
+.pagination:not(.pagination--default):not(.pagination--blak):not(.pagination--nite):not(.pagination--dawn) .pagination__next-prev-button {
+	color: var(--text);
+	background: var(--button-alt);
+	border: none;
+}
+.pagination:not(.pagination--default):not(.pagination--blak):not(.pagination--nite):not(.pagination--dawn) .pagination__next-prev-button:hover {
+	background: var(--select-alt);
+	border: none;
+}
+.pagination:not(.pagination--default):not(.pagination--blak):not(.pagination--nite):not(.pagination--dawn) .pagination__num:hover {
+	background: var(--select-alt);
+	border: none;
+}
+
+/* 3. Footer */
+.footer:not(.footer--default):not(.footer--blak):not(.footer--nite):not(.footer--dawn) .footer__container {
+	background: var(--background);
+}
+.footer:not(.footer--default):not(.footer--blak):not(.footer--nite):not(.footer--dawn) .footer__blog-widget__logo {
+	background-image: url(https://www.startpage.com/sp/cdn/images/home/dark/privacy-please-badge.svg);
+    /*filter: var(--accent-svg);*/
+}
+.footer:not(.footer--default):not(.footer--blak):not(.footer--nite):not(.footer--dawn) .footer__blog-widget__text {
+	color: var(--text);
+}
+.footer:not(.footer--default):not(.footer--blak):not(.footer--nite):not(.footer--dawn) .footer__blog-widget:hover {
+	background: var(--button-alt);
+}
+.footer:not(.footer--default):not(.footer--blak):not(.footer--nite):not(.footer--dawn) .footer__logo {
+	background-image: url(https://www.startpage.com/sp/cdn/images/home/startpage-logo-dark.svg);
+    filter: var(--text-svg);
+}
+.footer:not(.footer--default):not(.footer--blak):not(.footer--nite):not(.footer--dawn) .footer__links__startpage {
+	color: var(--accent);
+}
+.footer:not(.footer--default):not(.footer--blak):not(.footer--nite):not(.footer--dawn) .footer__links__startpage a:hover {
+	color: var(--accent);
+    text-decoration: underline;
+}
+.footer:not(.footer--default):not(.footer--blak):not(.footer--nite):not(.footer--dawn) .footer__social a {
+	background: var(--button);
+}
+.footer:not(.footer--default):not(.footer--blak):not(.footer--nite):not(.footer--dawn) .footer__social a:hover {
+	background: var(--select-alt);
+}
+.footer:not(.footer--default):not(.footer--blak):not(.footer--nite):not(.footer--dawn) .footer__social span {
+    filter: var(--text-svg);
+}
+
+/* 4. "Start page" */
+.home:not(.home--default):not(.home--blak):not(.home--nite):not(.home--dawn) .home__section-one__search {
+	background: var(--background-text);
+}
+.home:not(.home--default):not(.home--blak):not(.home--nite):not(.home--dawn) .home__section-one__search-logo {
+    filter: var(--text-svg); 
+}
+.search-form-home:not(.search-form-home--default):not(.search-form-home--blak):not(.search-form-home--nite):not(.search-form-home--dawn) .search-form-home__form {
+	background: var(--background-text);
+	border: 1px solid var(--text); 
+}
+.search-form-home:not(.search-form-home--default):not(.search-form-home--blak):not(.search-form-home--nite):not(.search-form-home--dawn) .search-form-home__q {
+	color: var(--text); 
+}
+.search-form-home:not(.search-form-home--default):not(.search-form-home--blak):not(.search-form-home--nite):not(.search-form-home--dawn) .search-form-home__form:hover {
+	background: var(--background-text);
+	border: 1px solid var(--accent);
+}
+.search-form-home__clear-button .x-btn {
+    filter: var(--text-svg); 
+}
+.search-form-home__button-desktop .ico-wrapper .ico {
+    filter: var(--text-svg); 
+}
+.search-form-home:not(.search-form-home--default):not(.search-form-home--blak):not(.search-form-home--nite):not(.search-form-home--dawn) .search-form-home__button-desktop .ico-wrapper .ico:hover, .search-form-home:not(.search-form-home--default):not(.search-form-home--blak):not(.search-form-home--nite):not(.search-form-home--dawn) .search-form-home__clear-button .x-btn:hover {
+    filter: var(--accent-svg);
+}
+.search-form-home:not(.search-form-home--default):not(.search-form-home--blak):not(.search-form-home--nite):not(.search-form-home--dawn) .search-form-home__clear-button {
+	border-right: 1px solid var(--text-alt);
+}
+.home:not(.home--default):not(.home--blak):not(.home--nite):not(.home--dawn) .headline a, .home:not(.home--default):not(.home--blak):not(.home--nite):not(.home--dawn) .subtitle, .home:not(.home--default):not(.home--blak):not(.home--nite):not(.home--dawn) .subtitle a {
+	color: var(--green); 
+}
+
+/* 4.1. Privacy Please */
+.privacy-please-menu-home__button {
+	color: var(--text);
+}
+.privacy-please-menu-home:not(.privacy-please-menu-home--default):not(.privacy-please-menu-home--blak):not(.privacy-please-menu-home--nite):not(.privacy-please-menu-home--dawn) .privacy-please-menu-home__button .privacy-please-text {
+	color: var(--accent);
+}
+.privacy-please-menu-home:not(.privacy-please-menu-home--default):not(.privacy-please-menu-home--blak):not(.privacy-please-menu-home--nite):not(.privacy-please-menu-home--dawn) .privacy-please-menu-home__button:hover {
+	background: none;
+}
+.privacy-please-menu-home:not(.privacy-please-menu-home--default):not(.privacy-please-menu-home--blak):not(.privacy-please-menu-home--nite):not(.privacy-please-menu-home--dawn) .privacy-please-menu-home__button .chevron, .privacy-please-menu-home:not(.privacy-please-menu-home--default):not(.privacy-please-menu-home--blak):not(.privacy-please-menu-home--nite):not(.privacy-please-menu-home--dawn) .privacy-please-menu-home__button .privacy-please-text {
+	filter: var(--text-svg); 
+}
+.privacy-please-menu-home:not(.privacy-please-menu-home--default):not(.privacy-please-menu-home--blak):not(.privacy-please-menu-home--nite):not(.privacy-please-menu-home--dawn) .privacy-please-menu-home__button .chevron-container {
+	background: none;
+}
+.privacy-please-menu-home:not(.privacy-please-menu-home--default):not(.privacy-please-menu-home--blak):not(.privacy-please-menu-home--nite):not(.privacy-please-menu-home--dawn) .privacy-please-menu-home__button:hover .chevron, .privacy-please-menu-home:not(.privacy-please-menu-home--default):not(.privacy-please-menu-home--blak):not(.privacy-please-menu-home--nite):not(.privacy-please-menu-home--dawn) .privacy-please-menu-home__button:hover .privacy-please-text {
+	filter: var(--accent-svg);
+}
+
+/* 4.2. Menu */
+.hamburger-menu-home:not(.hamburger-menu-home--default):not(.hamburger-menu-home--blak):not(.hamburger-menu-home--nite):not(.hamburger-menu-home--dawn) .hamburger-menu-home__button .icon {
+	filter: var(--text-svg);
+}
+.hamburger-menu-home:not(.hamburger-menu-home--default):not(.hamburger-menu-home--blak):not(.hamburger-menu-home--nite):not(.hamburger-menu-home--dawn) .hamburger-menu-home__button:hover .icon {
+	filter: var(--accent-svg);
+}
+.hamburger-menu-home:not(.hamburger-menu-home--default):not(.hamburger-menu-home--blak):not(.hamburger-menu-home--nite):not(.hamburger-menu-home--dawn) .hamburger-menu-home__button:hover {
+	background: none;
+}
+.hamburger-menu-home:not(.hamburger-menu-home--default):not(.hamburger-menu-home--blak):not(.hamburger-menu-home--nite):not(.hamburger-menu-home--dawn) .hamburger-menu-home__drawer {
+	background: var(--background);
+	color: var(--text); 
+	border: none
+}
+.hamburger-menu-home:not(.hamburger-menu-home--default):not(.hamburger-menu-home--blak):not(.hamburger-menu-home--nite):not(.hamburger-menu-home--dawn) .hamburger-menu-home__drawer .link-button, .hamburger-menu-home:not(.hamburger-menu-home--default):not(.hamburger-menu-home--blak):not(.hamburger-menu-home--nite):not(.hamburger-menu-home--dawn) .hamburger-menu-home__drawer a {
+	color: var(--accent);
+}
+.hamburger-menu-home:not(.hamburger-menu-home--default):not(.hamburger-menu-home--blak):not(.hamburger-menu-home--nite):not(.hamburger-menu-home--dawn) .hamburger-menu-home__drawer .link-button:hover, .hamburger-menu-home:not(.hamburger-menu-home--default):not(.hamburger-menu-home--blak):not(.hamburger-menu-home--nite):not(.hamburger-menu-home--dawn) .hamburger-menu-home__drawer a:hover {
+	color: var(--accent);
+    text-decoration: underline;
+}
+.hamburger-menu-home:not(.hamburger-menu-home--default):not(.hamburger-menu-home--blak):not(.hamburger-menu-home--nite):not(.hamburger-menu-home--dawn) .hamburger-menu-home__drawer__section:not(:last-child) {
+	border-bottom: 1px solid var(--text-alt);
+}
+.hamburger-menu-home:not(.hamburger-menu-home--default):not(.hamburger-menu-home--blak):not(.hamburger-menu-home--nite):not(.hamburger-menu-home--dawn) .hamburger-menu-home__drawer__nav-link--startmail::before {
+	filter: var(--accent-svg);
+}
+
+
+/* 4.3. Footer */
+.footer-home-above-fold:not(.footer-home-above-fold--default):not(.footer-home-above-fold--blak):not(.footer-home-above-fold--nite):not(.footer-home-above-fold--dawn) {
+	background: var(--background);
+}
+.footer-home-above-fold:not(.footer-home-above-fold--default):not(.footer-home-above-fold--blak):not(.footer-home-above-fold--nite):not(.footer-home-above-fold--dawn) .nav-link a {
+	color: var(--accent);
+}
+}
