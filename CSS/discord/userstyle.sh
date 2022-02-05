@@ -3,8 +3,6 @@
 TRANSPARENT=false
 GREASYFORK=false
 
-rm userstyle.css
-
 while getopts 'gtv:' opt; do
 	case "$opt" in
 		g)
@@ -70,3 +68,24 @@ then
 fi
 
 echo "}" >> userstyle.css
+
+cat userstyle.css | wl-copy
+
+if [ "$TRANSPARENT" = false ]
+then
+	if [ "$GREASYFORK" = true ]
+	then
+		xdg-open https://greasyfork.org/es/scripts/409172/versions/new
+	else 
+		xdg-open https://userstyles.world/edit/2849
+	fi
+else
+	if [ "$GREASYFORK" = true ]
+	then
+		xdg-open https://greasyfork.org/es/scripts/409171/versions/new
+	else 
+		xdg-open https://userstyles.world/edit/2848
+	fi
+fi
+
+rm userstyle.css

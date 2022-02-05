@@ -3,13 +3,8 @@
 TRANSPARENT=false
 GREASYFORK=false
 
-rm userstyle.css
-
-while getopts 'gs:v:' opt; do
+while getopts 's:v:' opt; do
 	case "$opt" in
-		g)
-			GREASYFORK=true
-			;;
 		s)
 			STYLE="$OPTARG"
 			;;
@@ -17,7 +12,7 @@ while getopts 'gs:v:' opt; do
 			VERSION="$OPTARG"
 			;;
 		?|h)
-			echo "Usage: $(basename $0) [-t] [-g] [-v version]"
+			echo "Usage: $(basename $0) [-s style] [-v version]"
 			exit 1
 	esac
 done
@@ -29,15 +24,10 @@ echo "/* ==UserStyle==
 @description    Cyberpunk Neon theme for Startpage" >> userstyle.css
 fi
 
-if [ "$GREASYFORK" = true ]
-then
-echo "@namespace      https://greasyfork.org/en/users/109012" >> userstyle.css
-else
-echo "@namespace      github.com/Roboron3042/Cyberpunk-Neon" >> userstyle.css
-fi
 
 echo \
-"@author         @Roboron3042 <robertoms258 at gmail dot com>
+"@namespace      github.com/Roboron3042/Cyberpunk-Neon
+@author         @Roboron3042 <robertoms258 at gmail dot com>
 @homepageURL    https://github.com/Roboron3042/Cyberpunk-Neon
 @supportURL     https://github.com/Roboron3042/Cyberpunk-Neon/issues
 @version        $VERSION
@@ -52,3 +42,11 @@ then
 fi
 
 echo "}" >> userstyle.css
+
+if [ "$STYLE" = "startpage" ]
+then
+	xdg-open https://greasyfork.org/es/scripts/439540/versions/new
+	xdg-open https://userstyles.world/edit/3074
+fi
+
+rm userstyle.css
