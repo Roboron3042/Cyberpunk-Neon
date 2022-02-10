@@ -28,6 +28,16 @@ Copy tilix/cyberpunk-neon.json into ~/.config/tilix/schemes
 
 Select it in Settings -> Profile -> Color
 
+### Kitty
+
+Copy cyberpunk-neon.conf into ~/.config/kitty/theme.conf
+
+`cp kitty/cyberpunk-neon.conf ~/.config/kitty/theme.conf`
+
+add in ~/.config/kitty/kitty.conf
+
+`include ./theme.conf`
+
 ### Other
 
 See terminal-palette file
