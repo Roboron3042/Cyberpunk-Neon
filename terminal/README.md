@@ -58,6 +58,11 @@ Set also 'termguicolors' for better integration:
 
 You can also modify and generate the theme easily with the [cyberpunkneon.erb](https://github.com/romainl/vim-rnb/) file in the resources folder.
 
+### Vim-airline 
+
+If you use the airline plugin, this theme will match [https://github.com/q/K-DE-Cyberpunk-Neon/blob/master/neovim/cyberpunk.vim](https://github.com/q/K-DE-Cyberpunk-Neon/blob/master/neovim/cyberpunk.vim)
+Just write the file to `~/.vim/plugged/vim-airline-themes/autoload/airline/themes/` and add `let g:airline_theme="cyberpunk"` to your vimrc
+
 ### ZSH
 
 Those cool prompts I have are a ZSH theme. Assuming you already installed ZSH and the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme for it, you only have to copy the contents of the /zsh/powerlevel9k file into your ~/.zshrc 
