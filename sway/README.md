@@ -12,3 +12,9 @@ Note: I only really need border for the current focused window, so the inactive 
 The waybar config & style.css are on the waybar folder. Simply copy them and restart sway to get the layout.
 
 `cp -r waybar ~/.config`
+
+## Mako notification
+
+If using mako for notifications on sway, this color match the popup, and add a nice box radius.
+
+`cp -r mako/config ~/.config/mako/config`
