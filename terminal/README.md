@@ -38,6 +38,10 @@ add in ~/.config/kitty/kitty.conf
 
 `include ./theme.conf`
 
+### Terminator
+
+Add the cyberpunk profile from `terminator/config` to your `~/.config/terminator/config`, append the file ! 
+
 ### Other
 
 See terminal-palette file
