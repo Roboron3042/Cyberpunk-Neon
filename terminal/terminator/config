@@ -1,0 +1,11 @@
+[[cyberpunk]]
+  background_color = "#000b1e"
+  background_darkness = 0.86
+  background_type = transparent
+  cursor_color = "#aaaaaa"
+  font = MesloLGM Nerd Font 10
+  foreground_color = "#0abdc6"
+  show_titlebar = False
+  scrollback_lines = 5000
+  palette = "#123e7c:#ff0000:#d300c4:#f57800:#123e7c:#711c91:#0abdc6:#d7d7d5:#1c61c2:#ff0000:#d300c4:#f57800:#00ff00:#711c91:    #0abdc6:#d7d7d5"
+  use_system_font = False

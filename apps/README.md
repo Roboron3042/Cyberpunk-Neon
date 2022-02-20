@@ -33,3 +33,17 @@ The file telegram/cyberpunk-neon.attheme file in this repository can also be use
 If you use Zim you can copy zim/style.conf into ~./config/zim
 
 `cp zim/style.conf ~./config/zim/`
+
+### Rofi launcher
+
+If you use rofi on i3, sway, etc.. You can add rofi/config to your existing ~/.config/rofi/config to match the colors of cyberpunk neon theme
+
+### Newsbeuter
+
+You can use this theme from h3xx [https://github.com/h3xx/newsbeuter-colors-neonwolf/blob/main/newsbeuter-colors-neonwolf-256.conf](https://github.com/h3xx/newsbeuter-colors-neonwolf/blob/main/newsbeuter-colors-neonwolf-256.conf)
+
+### Ranger file manager
+
+You can use the "jungle" theme that comes by default by adding this in your .config/ranger/rc.conf
+
+`set colorscheme jungle`

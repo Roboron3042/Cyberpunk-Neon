@@ -56,7 +56,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi PreProc ctermbg=NONE ctermfg=13 cterm=bold guibg=NONE guifg=#711c91 gui=bold
     hi Question ctermbg=NONE ctermfg=44 cterm=NONE guibg=NONE guifg=#0abdc6 gui=NONE
     hi Search ctermbg=201 ctermfg=233 cterm=bold guibg=#ea00d9 guifg=#000b1e gui=bold
-    hi SignColumn ctermbg=10 ctermfg=233 cterm=NONE guibg=#00ff00 guifg=#000b1e gui=NONE
+    hi SignColumn ctermbg=10 ctermfg=233 cterm=NONE guibg=clear guifg=#000b1e gui=NONE
     hi Special ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#711c91 gui=NONE
     hi SpecialKey ctermbg=NONE ctermfg=green cterm=NONE guibg=NONE guifg=green gui=NONE
     hi SpellBad ctermbg=9 ctermfg=233 cterm=NONE guibg=#ff0000 guifg=#000b1e gui=NONE

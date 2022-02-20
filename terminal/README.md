@@ -38,6 +38,10 @@ add in ~/.config/kitty/kitty.conf
 
 `include ./theme.conf`
 
+### Terminator
+
+Add the cyberpunk profile from `terminator/config` to your `~/.config/terminator/config`, append the file ! 
+
 ### Other
 
 See terminal-palette file
@@ -57,6 +61,11 @@ Set also 'termguicolors' for better integration:
 `set termguicolors`
 
 You can also modify and generate the theme easily with the [cyberpunkneon.erb](https://github.com/romainl/vim-rnb/) file in the resources folder.
+
+### Vim-airline 
+
+If you use the airline plugin, this theme will match [https://github.com/q/K-DE-Cyberpunk-Neon/blob/master/neovim/cyberpunk.vim](https://github.com/q/K-DE-Cyberpunk-Neon/blob/master/neovim/cyberpunk.vim)
+Just write the file to `~/.vim/plugged/vim-airline-themes/autoload/airline/themes/` and add `let g:airline_theme="cyberpunk"` to your vimrc
 
 ### ZSH
 
