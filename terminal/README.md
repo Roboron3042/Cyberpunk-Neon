@@ -38,6 +38,12 @@ add in ~/.config/kitty/kitty.conf
 
 `include ./theme.conf`
 
+### Termux
+
+copy cyberpunk-neon.properties into ~/.termux/colors.properties
+
+`cp termux/cyberpunk-neon.properties ~/.termux/colors.properties`
+
 ### Terminator
 
 Add the cyberpunk profile from `terminator/config` to your `~/.config/terminator/config`, append the file ! 
