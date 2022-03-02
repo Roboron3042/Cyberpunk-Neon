@@ -32,6 +32,8 @@
   - [Konsole](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#konsole)
   - [Termite](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#termite)
   - [Tilix](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#tilix)
+  - [kitty](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#kitty)
+  - [termux](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#termux)
   - [Other](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#other)
   - [Vim](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#vim)
   - [ZSH](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#zsh)
