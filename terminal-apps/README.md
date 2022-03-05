@@ -2,7 +2,9 @@
 
 ## Newsboat
 
-Also valid for Newsbeuter. You can use this theme from h3xx [https://github.com/h3xx/newsbeuter-colors-neonwolf/blob/main/newsbeuter-colors-neonwolf-256.conf](https://github.com/h3xx/newsbeuter-colors-neonwolf/blob/main/newsbeuter-colors-neonwolf-256.conf)
+Also valid for Newsbeuter. Append the contents of newsboat/config to ~/.newsboat/config
+
+`cat newsboat/config >> ~/.newsboat/config`
 
 ## Ranger file manager
 

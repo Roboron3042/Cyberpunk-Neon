@@ -1,0 +1,7 @@
+
+# Cyberpunk Neon Theme
+# This assumes that you have set a Cyberpunk-Neon terminal colourscheme.
+color listfocus           cyan    magenta   bold
+color listnormal_unread   green   default
+color listfocus_unread    green   magenta   bold
+color info                cyan    blue      bold 
