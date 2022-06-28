@@ -22,6 +22,12 @@ Copy konsole/cyberpunk-neon.colorscheme into ~/.local/share/konsole/
 
 `cp -r konsole ~/.local/share`
 
+## st
+
+`cd` into your st source directory and apply patch.
+
+`patch -p1 < ./st-cyberpunk-neon.diff`
+
 ## Terminator
 
 Append the contents of terminator/config to ~/.config/terminator/config and change to your linking.

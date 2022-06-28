@@ -42,6 +42,7 @@
   - [Alacritty](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#alacritty)
   - [Kitty](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#kitty)
   - [Konsole](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#konsole)
+  - [st](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#st)
   - [Terminator](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#terminator)
   - [Termite](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#termite)
   - [Tilix](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#tilix)
