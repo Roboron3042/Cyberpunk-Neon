@@ -54,8 +54,7 @@
  
  /*
   * Default colors (colorname index)
-- * foreground, background, cursor, reverse cursor
-+ * foreground, background, cursor
+  * foreground, background, cursor, reverse cursor
   */
 -unsigned int defaultfg = 258;
 -unsigned int defaultbg = 259;
