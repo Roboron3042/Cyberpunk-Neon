@@ -24,9 +24,7 @@ Copy konsole/cyberpunk-neon.colorscheme into ~/.local/share/konsole/
 
 ## st
 
-`cd` into your st source directory and apply patch.
-
-`patch -p1 < ./st-cyberpunk-neon.diff`
+Replace the color settings in your config.h with the contents of st/config.def.h
 
 ## Terminator
 
