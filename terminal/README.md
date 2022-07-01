@@ -22,6 +22,10 @@ Copy konsole/cyberpunk-neon.colorscheme into ~/.local/share/konsole/
 
 `cp -r konsole ~/.local/share`
 
+## st
+
+Replace the color settings in your config.h with the contents of st/config.def.h
+
 ## Terminator
 
 Append the contents of terminator/config to ~/.config/terminator/config and change to your linking.
