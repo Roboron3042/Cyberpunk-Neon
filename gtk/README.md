@@ -9,9 +9,9 @@ Choose your favourite!
 
 ### Instructions
 
-Extract theme-cyberpunk-neon.zip into ~/.themes/
+Extract theme-cyberpunk-neon.zip into ~/.local/share/themes/
 
-`tar xzf theme-cyberpunk-neon.zip -C ~/.themes/`
+`tar xzf theme-cyberpunk-neon.zip -C ~/.local/share/themes/`
 
 An apply the theme via settings (KDE: Settings -> Appearance - Application Style)
 
