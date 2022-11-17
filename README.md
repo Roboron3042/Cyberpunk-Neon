@@ -35,6 +35,7 @@
   - [Rofi](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/sway#rofi)
   - [Waybar](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/sway#waybar)
 - [Terminal Apps](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal-apps#terminal-apps)
+  - [ncspot](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal-apps#ncspot)
   - [Newsboat (or Newsbeuter)](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal-apps#newsboat)
   - [Vim](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal-apps#vim)
   - [ZSH](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal-apps#zsh)

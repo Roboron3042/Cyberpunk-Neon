@@ -1,0 +1,20 @@
+# vim: ft=cfg
+[theme]
+
+background = "#091833"
+primary = "#0abdc6"
+secondary = "#133e7c"
+title = "#ea00d9"
+playing = "#ea00d9"
+playing_bg = "#321959"
+highlight = "#ea00d9"
+highlight_bg = "#133e7c"
+error = "#091833"
+error_bg = "#ff0000"
+statusbar = "#ea00d9"
+statusbar_progress = "#ea00d9"
+statusbar_bg = "#321959"
+cmdline = "#00ff00"
+cmdline_bg = "#000b1e"
+search = "#0abdc6"
+search_match = "#ea00d9"
