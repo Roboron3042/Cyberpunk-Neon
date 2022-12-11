@@ -1,6 +1,6 @@
 ## CSS Themes
 
-I've applied the Cyberpunk-Neon color scheme to some websites. You can install and manage them directly via greasyfork.org. Currently available websites are:
+I've applied the Cyberpunk-Neon color scheme to some websites. You can install and manage them directly via Stylus ([Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Firefox](https://addons.mozilla.org/en/firefox/addon/styl-us/)). Currently available websites are:
 
 * Mastodon (classic):
 	* [UserStyles.world](https://userstyles.world/style/2850/mastodon-cyberpunk-neon)
