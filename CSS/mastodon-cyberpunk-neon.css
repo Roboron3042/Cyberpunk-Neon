@@ -28,6 +28,7 @@ html {
     --text: #0abdc6;
     --text-svg: invert(50%) sepia(85%) saturate(1552%) hue-rotate(144deg) brightness(101%) contrast(92%); 
     --text-alt: rgba(10, 189, 198, .6);
+    --border: rgba(10, 189, 198, .2);
     --accent: #ea00d9;
     --accent-svg: invert(17%) sepia(98%) saturate(7408%) hue-rotate(299deg) brightness(106%) contrast(108%);
     --accent-alt: #8c038e;
@@ -1066,11 +1067,11 @@ a.status-card.compact:hover {
 /* 15. Mobile View */
 .ui__header {
 	background: var(--background-text);
-	border-bottom: 1px solid var(--text-alt);
+	border-bottom: 1px solid var(--border);
 }
 .columns-area__panels__pane--navigational .navigation-panel {
 	background: var(--background-text);
-	border-left: 1px solid var(--text-alt);
+	border-left: 1px solid var(--border);
 }
 
 /* 14. Settings */
