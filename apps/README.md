@@ -35,4 +35,8 @@ If you use Zim you can copy zim/style.conf into ~./config/zim
 
 `cp -r zim ~/.config`
 
+## IntelliJ IDEA
 
+IntelliJ IDEA theme can be installed via File -> Settings -> Plugins -> type "Cyberpunk Neon Theme" in the search field
+
+[JetBrains plugin repo](https://plugins.jetbrains.com/plugin/21120-cyberpunk-neon-theme) | [Github](https://github.com/SIDSSIDS/jetbrains-cyberpunk-neon-theme)

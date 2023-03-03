@@ -16,6 +16,7 @@
   - [Tabletop Simulator](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/apps#tabletop-simulator)
   - [Telegram](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/apps#telegram-desktop)
   - [Zim](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/apps#zim)
+  - [IntelliJ IDEA](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/apps#intellij-idea)
 - [CSS Themes](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/CSS#css-themes)
   - [Discord](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/CSS/discord#discord-cyberpunk-neon)
   - [Mastodon](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/CSS#css-themes)
