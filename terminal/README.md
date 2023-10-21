@@ -14,7 +14,7 @@ Replace your current colorscheme on .config/alacritty/alacritty.yml with the con
 
 2. Add in ~/.config/kitty/kitty.conf
 
-`include ./theme.conf`
+`include ./cyberpunk-neon.conf`
 
 ## Konsole
 
