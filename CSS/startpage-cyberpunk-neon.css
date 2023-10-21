@@ -7,7 +7,7 @@
 
 /* 0. Colorscheme */
 
-html {
+:root {
     --background: #000b1e;
     --background-text: #091833;
     --button: #133e7c;
