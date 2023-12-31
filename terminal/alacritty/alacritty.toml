@@ -1,0 +1,41 @@
+colors.draw_bold_text_with_bright_colors = true
+
+# Cyberpunk-Neon colours
+[colors.primary]
+background = '0x000b1e'
+foreground = '0x0abdc6'
+
+# Uncomment the following block if you want to specify cursor colors
+# [colors.cursor]
+# text = '0x2e2e2d'
+# cursor = '0xffffff'
+
+[colors.normal]
+black = '0x123e7c'
+red = '0xff0000'
+green = '0xd300c4'
+yellow = '0xf57800'
+blue = '0x123e7c'
+magenta = '0x711c91'
+cyan = '0x0abdc6'
+white = '0xd7d7d5'
+
+[colors.bright]
+black = '0x1c61c2'
+red = '0xff0000'
+green = '0xd300c4'
+yellow = '0xf57800'
+blue = '0x00ff00'
+magenta = '0x711c91'
+cyan = '0x0abdc6'
+white = '0xd7d7d5'
+
+[colors.dim]
+black = '0x1c61c2'
+red = '0xff0000'
+green = '0xd300c4'
+yellow = '0xf57800'
+blue = '0x123e7c'
+magenta = '0x711c91'
+cyan = '0x0abdc6'
+white = '0xd7d7d5'
