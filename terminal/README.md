@@ -4,7 +4,7 @@ In this folder you will find colorschemes for different terminal emulators and a
 
 ## Alacritty
 
-Replace your current colorscheme on .config/alacritty/alacritty.yml with the contents of alacritty/alacritty.yml
+Replace your current colorscheme on .config/alacritty/alacritty.toml with the contents of alacritty/alacritty.toml
 
 ## Kitty
 
