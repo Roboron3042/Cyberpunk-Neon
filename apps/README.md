@@ -11,7 +11,7 @@ Cyberpunk Neon Fedilab theme is featured on [https://fedilab.app/themes/](https:
 
 ## Firefox
 
-The official theme of Cyberpunk Neon is available in [Firefox Addons](https://addons.mozilla.org/es/firefox/addon/cyberpunk-neon/) (by Thomas Leon Highbaugh).
+The official theme of Cyberpunk Neon is available in [Firefox Addons](https://addons.mozilla.org/es/firefox/addon/cyberpunk-neon-v2). Please use the "v2" version, as the previous one is not made by me and has some contrast issues.
 
 ## Tabletop Simulator
 

@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "version": "2.0",
+  "name": "Cyberpunk Neon",
+  "theme": {
+    "images": {},
+    "properties": {},
+    "colors": {
+      "toolbar": "rgb(9, 24, 51)",
+      "toolbar_text": "rgb(10, 189, 198)",
+      "frame": "rgb(0, 11, 30)",
+      "tab_background_text": "rgb(234, 0, 217)",
+      "toolbar_field": "rgb(11, 41, 86)",
+      "toolbar_field_text": "rgb(10, 189, 198)",
+      "tab_line": "rgb(234, 0, 217)",
+      "popup": "rgb(9, 24, 51)",
+      "popup_text": "rgb(10, 189, 198)",
+      "button_background_active": "rgb(50, 25, 89)",
+      "button_background_hover": "rgb(11, 41, 86)",
+      "popup_border": "rgb(5, 117, 131)",
+      "popup_highlight_text": "rgb(234, 0, 217)",
+      "popup_highlight": "rgb(50, 25, 89)",
+      "sidebar_border": "rgb(1, 47, 63)",
+      "sidebar_highlight_text": "rgb(234, 0, 217)",
+      "sidebar_highlight": "rgb(140, 3, 142)",
+      "sidebar_text": "rgb(10, 189, 198)",
+      "sidebar": "rgb(9, 24, 51)",
+      "tab_loading": "rgb(245, 120, 0)",
+      "tab_text": "rgb(234, 0, 217)",
+      "toolbar_field_border": "rgb(5, 117, 131)",
+      "ntp_background": "rgb(0, 11, 30)",
+      "ntp_card_background": "rgb(11, 41, 86)",
+      "ntp_text": "rgb(10, 189, 198)"
+    }
+  }
+}
