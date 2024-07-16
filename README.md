@@ -47,6 +47,7 @@
   - [Terminator](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#terminator)
   - [Termite](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#termite)
   - [Tilix](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#tilix)
+  - [Iterm2](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#iterm2)
   - [Other](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/terminal#other)
 - [Window Manager](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/window-manager#window-manager)
   - [dwm](https://github.com/Roboron3042/Cyberpunk-Neon/tree/master/window-manager#dwm)

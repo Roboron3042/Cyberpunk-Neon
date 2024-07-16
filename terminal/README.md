@@ -52,6 +52,10 @@ Copy tilix/cyberpunk-neon.json into ~/.config/tilix/schemes
 
 Select it in Settings -> Profile -> Color
 
+## Iterm2
+
+Open Preferences -> Profiles -> Color and import the iterm2/CyberpunkNeon.itemcolors preset.
+
 ## Other
 
 See [terminal-palette](./terminal-palette) file.
