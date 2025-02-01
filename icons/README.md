@@ -19,7 +19,7 @@ Apply the icons (Papirus-Dark) in system settings (KDE = Settings -> Appearance-
 
 ### Linebit
 
-Icons at the left of the screenshots are extracted from [Linebit Android Icon Pack](https://play.google.com/store/apps/details?id=com.edzondm.linebit) and then customized one-by-one via KDE Plasma "Edit applications". If you need help with those, you can contact me directly for more info at robertoms258@gmail.com 
+Icons at the left of the screenshots are extracted from [Linebit Android Icon Pack](https://play.google.com/store/apps/details?id=com.edzondm.linebit) and then customized one-by-one via KDE Plasma "Edit applications".
 
 ### Candy
 
