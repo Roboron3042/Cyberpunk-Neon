@@ -1,4 +1,4 @@
-//META{"name":"Discord Cyberpunk Neon","description":"An outrun/cyberpunk theme, based on Cyberpunk Neon color scheme","author":"Roboron","version":"3"}*//
+//META{"name":"Discord Cyberpunk Neon","description":"An outrun/cyberpunk theme, based on Cyberpunk Neon color scheme","author":"Roboron","version":"4"}*//
 
 @import url("https://roboron3042.github.io/Cyberpunk-Neon/CSS/discord/base.css");
 
@@ -8,26 +8,5 @@
 	Upstream URL / Report issues: https://github.com/Roboron3042/Cyberpunk-Neon
 	License: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
 */
-
-/* Web scrollbars 
-    This section is only necessary if you are going to use Discord in a web browser (with Stylus)   */
-
-.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scrollbar-2rkZSL .thumb-2JwNFC {
-    background-color: #0abdc6;
-}
-.scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL, .scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL .pad-29zQak, .theme-dark .scrollerWrap-2lJEkd .scrollbar-2rkZSL, .theme-dark .scrollerWrap-2lJEkd .scrollbar-2rkZSL .pad-29zQak, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL .pad-29zQak {
-    background-color: #000b1e !important;
-}
-.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scrollbar-2rkZSL .thumb-2JwNFC {
-    background-color: #0abdc6;
-}
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scrollbar-2rkZSL .track-1JN30G {
-    background-color: #000b1e;
-    border: none;
-}
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scrollbar-2rkZSL .thumb-2JwNFC {
-    background-color: #0abdc6;
-    border: 3px solid #000b1e;
-}
 
 /* Custom CSS goes here */
